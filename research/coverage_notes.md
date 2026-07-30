@@ -43,6 +43,30 @@ monitoring data proves attribution, or that any source settles disputed events.
     surveillance attribution, and constitutional conclusions when sources
     differed, were preliminary, or lacked independent corroboration.
 
+## Structural limitation: the corpus is entirely English
+
+Every one of the 61 records has `language: "English"`. This is not a marginal
+diversity gap; it is a structural boundary on what the inventory can support.
+
+The cases span Nepal, Indonesia, Iran, Sudan, Morocco, Serbia, Bangladesh,
+Kenya, Sri Lanka, and Madagascar. For each, the corpus reflects what
+international organisations, anglophone media, and English-publishing academics
+recorded — not what local journalists, domestic courts, national human-rights
+institutions, or local civil society recorded in Bengali, Nepali, Bahasa
+Indonesia, Persian, Arabic, Serbian, Swahili, Sinhala, Tamil, or Malagasy.
+
+Consequences to carry forward:
+
+1. Domestic legal analysis is absent. The international layer cannot substitute
+   for constitutions, statutes, emergency orders, and national case law.
+2. Local contestation of contested events is under-represented, which
+   systematically favours the framing of large international publishers.
+3. Publisher-concentration risk is amplified: Amnesty International is the modal
+   organisation in the corpus at 7 records.
+
+The site states this limitation on its overview rather than leaving it in this
+file. Sourcing in local languages is the highest-value next addition.
+
 ## Coverage counts
 
 - 61 source records total: 41 `verified`, 19 `partially_verified`, and 1
@@ -159,11 +183,31 @@ uses every element in the same way.
   every device, deployment, or operator.
 - **Do not carry forward without fresh verification:** numerical assertions such as global protest counts, shutdown totals, death totals, detention totals, alleged surveillance systems, and election/transition outcomes. The inventory uses only bounded claims that the reviewed source records directly support.
 
+## Maintenance
+
+`last_checked` is a single batch stamp (2026-07-29) across all 61 records, not a
+per-source verification date. Freshness is therefore a property of this pass.
+Two mechanisms now hold it accountable:
+
+- `pnpm check:links` requests every canonical URL, archived snapshot, and
+  visual-archive context source and reports what is unreachable or has moved. A
+  weekly workflow runs it and files a report. It never edits records: promoting
+  a failure into `verification_status` stays a human decision.
+- The site marks the corpus stale once `last_checked` passes 180 days and tells
+  readers to verify against the publisher before citing.
+
+`identifiers.archived_url` is defined by the contract and currently unused —
+zero records carry a snapshot. For a corpus about protest and state repression,
+where takedowns are a predictable failure mode, filling it is the single change
+that most extends the inventory's shelf life. Treat it as required before a
+record is promoted to `verified` in the next pass.
+
 ## Recommended next research pass
 
 1. Add independent local and non-Amnesty sources for Morocco; strengthen local
    source diversity for Indonesia; and obtain a second independent source for
-   the India watchlist.
+   the India watchlist. Prioritise local-language material throughout — see the
+   structural limitation above.
 2. Add domestic constitutions, statutes, emergency orders, court decisions, and
    national human-rights-institution material case by case. The international
    layer cannot substitute for domestic legal analysis.

@@ -1,0 +1,71 @@
+# Data and research licensing
+
+This repository has three distinct licensing layers. They do not merge.
+
+## 1. Application code — MIT
+
+Everything under `src/`, `scripts/`, `worker/`, `tests/`, and the build
+configuration. See `LICENSE`.
+
+## 2. Research dataset and prose — CC BY 4.0
+
+Covers:
+
+- `src/data/verified_sources.json`
+- `src/data/case_summaries.json`
+- the descriptive fields of `src/data/visual_archive.json` (context notes,
+  verification notes, safety notes) — but not the photographs themselves
+- `research/coverage_notes.md`
+- `agent-reference/`
+
+Licensed under the Creative Commons Attribution 4.0 International License:
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this material, including commercially, provided you
+give appropriate credit, link to the license, and indicate if changes were
+made.
+
+**Attribution string:**
+
+> Gen Z Protest Atlas (meowmeow), by Omar Zafar, CC BY 4.0.
+
+**What attribution does not transfer.** The dataset records what reviewed
+sources support and, deliberately, what they do not. Verification status,
+claim status, corroboration notes, and the stated limitations are part of the
+record. Reusing a summary while dropping its `verification_status`,
+`limitations`, or `corroboration_note` misrepresents the underlying research,
+even though the license permits adaptation.
+
+**The dataset is not the sources.** Each record points to material owned by its
+publisher — treaty bodies, courts, rights organisations, measurement projects,
+academic publishers. CC BY 4.0 applies to this compilation and its descriptive
+text, never to the linked documents.
+
+## 3. Photographs — original terms only
+
+The images in `public/visual-archive/` retain the CC0 or Creative Commons terms
+they carried at their source. They are **not** relicensed by MIT or CC BY 4.0.
+
+Every record in `src/data/visual_archive.json` preserves:
+
+- `photographer` and `photographer_url`
+- `origin_title` and `origin_url` (the source record)
+- `license_code`, `license_name`, `license_url`
+- `attribution` — the attribution string to reproduce
+- `transformation_note` — any change made for display
+- `sha256` — the digest of the archival original
+
+Several are ShareAlike (`CC-BY-SA-4.0`, `CC-BY-SA-2.0`). If you redistribute an
+adapted version of one of those photographs, the ShareAlike obligation attaches
+to your adaptation of the photograph. It does not extend to this repository's
+code or dataset, which are separate works.
+
+The generated files in `public/visual-archive/derived/` are resized copies of
+the originals and carry the same terms as the image they derive from.
+
+## Participant safety
+
+Independent of licensing: these are photographs of identifiable people at
+public protests. Visibility at a public event is not consent to profiling. Do
+not use this material to identify, locate, or build a dataset about
+participants. See the safety notes on each record.

@@ -15,10 +15,12 @@ import {
   ShieldCheck,
   WarningCircle,
 } from "@phosphor-icons/react";
+import imageWidths from "./data/image-widths.json";
 import {
   featuredVisualRecord,
   supportingVisualRecords,
   visualArchive,
+  visualArchiveCaseCount,
   visualArchiveRecords,
   type VisualArchiveRecord,
 } from "./visualArchiveData";
@@ -32,6 +34,25 @@ function formatDate(value: string | null): string {
     timeZone: "UTC",
     year: "numeric",
   }).format(new Date(`${value}T00:00:00Z`));
+}
+
+/**
+ * Builds a srcset from the derivatives emitted by `scripts/build-images.mjs`.
+ * The archival original is kept as the final candidate and as the `src`
+ * fallback, so a browser without srcset support still gets a working image and
+ * the digest-attested file stays reachable.
+ */
+function derivativeSrcSet(record: VisualArchiveRecord, extension: "webp" | "jpg"): string {
+  const widths = (imageWidths as number[]).filter((width) => width < record.image.width);
+  const candidates = widths.map(
+    (width) => `/visual-archive/derived/${record.id}-${width}.${extension} ${width}w`,
+  );
+
+  if (extension === "jpg") {
+    candidates.push(`${record.image.src} ${record.image.width}w`);
+  }
+
+  return candidates.join(", ");
 }
 
 function ArchiveImage({
@@ -56,17 +77,24 @@ function ArchiveImage({
     );
   }
 
+  const sizes = featured ? "(max-width: 900px) 100vw, 55vw" : "(max-width: 900px) 100vw, 30vw";
+
   return (
-    <img
-      alt={record.image.alt}
-      decoding="async"
-      fetchPriority={featured ? "high" : "auto"}
-      height={record.image.height}
-      loading={featured ? "eager" : "lazy"}
-      onError={() => setFailed(true)}
-      src={record.image.src}
-      width={record.image.width}
-    />
+    <picture>
+      <source sizes={sizes} srcSet={derivativeSrcSet(record, "webp")} type="image/webp" />
+      <img
+        alt={record.image.alt}
+        decoding="async"
+        fetchPriority={featured ? "high" : "auto"}
+        height={record.image.height}
+        loading={featured ? "eager" : "lazy"}
+        onError={() => setFailed(true)}
+        sizes={sizes}
+        src={record.image.src}
+        srcSet={derivativeSrcSet(record, "jpg")}
+        width={record.image.width}
+      />
+    </picture>
   );
 }
 
@@ -252,7 +280,7 @@ export function VisualArchivePage() {
               </div>
               <div>
                 <dt>Movements</dt>
-                <dd>{new Set(visualArchiveRecords.map((record) => record.related_case_id)).size}</dd>
+                <dd>{visualArchiveCaseCount}</dd>
               </div>
               <div>
                 <dt>Remote hotlinks</dt>
@@ -313,7 +341,8 @@ export function VisualArchivePage() {
               <div>
                 <p className="archive-kicker">
                   <GlobeHemisphereWest aria-hidden="true" size={17} weight="bold" />
-                  Seven more records
+                  {supportingVisualRecords.length} more{" "}
+                  {supportingVisualRecords.length === 1 ? "record" : "records"}
                 </p>
                 <h2 id="archive-index-heading">Scenes, symbols, and sites</h2>
               </div>

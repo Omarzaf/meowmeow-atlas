@@ -18,7 +18,10 @@ export default defineConfig({
   },
   plugins: [react(), tailwindcss()],
   test: {
-    environment: "node",
-    include: ["src/**/*.test.ts"],
+    // jsdom for the component tests; the data and corpus tests still use Node
+    // built-ins (fs, crypto), which work unchanged under this environment.
+    environment: "jsdom",
+    include: ["src/**/*.test.ts", "src/**/*.test.tsx"],
+    setupFiles: ["./src/testSetup.ts"],
   },
 });

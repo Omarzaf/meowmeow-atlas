@@ -1,0 +1,45 @@
+name: Link check
+
+# Source rot is the predictable failure mode for this corpus. This reports it;
+# it never edits records. Promoting a failure into `verification_status` or
+# recording an `archived_url` stays a human decision.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Enable corepack
+        run: corepack enable
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Check every canonical and context URL
+        id: check
+        continue-on-error: true
+        run: pnpm check:links | tee link-report.txt
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: link-report.txt
+          retention-days: 30
+
+      - name: Flag unreachable sources
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "::warning::One or more corpus links are unreachable. See the link-report artifact."
+          exit 1
