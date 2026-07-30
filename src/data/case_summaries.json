@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "bangladesh-2024",
+    "case_name": "Bangladesh quota-reform protests",
+    "period": "2024",
+    "geography": "Bangladesh",
+    "summary": "Student protests began around the reinstatement of a quota reserving 30 percent of government jobs for descendants of 1971 independence-war veterans. Amnesty reports that the Supreme Court reduced the quota to 5 percent on 21 July 2024 amid a curfew and nationwide internet shutdown; the protest cycle then broadened beyond the original quota demand. The comparative literature treats Bangladesh as a consequential youth-mobilization and transition case.",
+    "source_ids": ["case-bangladesh-amnesty-2024", "theory-carnegie-asia-genz-2026", "theory-chenoweth-cebul-2026"],
+    "corroboration_note": "The quota trigger, shutdown, and court change are directly supported by Amnesty; later political significance is corroborated in Carnegie and Journal of Democracy analysis. Death and arrest totals vary by source and are intentionally omitted."
+  },
+  {
+    "case_id": "kenya-2024",
+    "case_name": "Kenya anti-Finance Bill protests",
+    "period": "2024-2025",
+    "geography": "Kenya",
+    "summary": "The proposed Finance Bill 2024 helped trigger youth-led protests against taxes and the cost of living. Human Rights Watch reports that the bill was withdrawn on 26 June 2024 and documents subsequent alleged arbitrary arrests, abductions, torture, and killings of perceived protest leaders. The broader Gen Z literature identifies the case as an example of digitally mediated youth mobilization confronting coercive state response.",
+    "source_ids": ["case-kenya-hrw-2024", "theory-chenoweth-cebul-2026", "rights-amnesty-streets-screens-2026"],
+    "corroboration_note": "The rights allegations remain attributed to HRW; this summary does not assert unverified platform-specific tactics or disputed casualty counts."
+  },
+  {
+    "case_id": "nepal-2025",
+    "case_name": "Nepal Gen Z protests and interim transition",
+    "period": "2025-2026",
+    "geography": "Nepal",
+    "summary": "Nepal's 2025 youth protests emerged amid anger about corruption, inequality, political exclusion, and restrictions on social-media platforms. Carnegie reports that Discord was among the blocked services and describes an online vote in a youth Discord channel during the post-protest political vacuum. Both Carnegie and Journal of Democracy treat Nepal as a case in which fast mobilization made the transition process, rather than the initial protest, the central analytical question.",
+    "source_ids": ["case-nepal-carnegie-2025", "theory-carnegie-asia-genz-2026", "theory-chenoweth-cebul-2026"],
+    "corroboration_note": "The online-vote detail is Carnegie's reporting; it should not be read as evidence that an online channel alone had constitutional authority."
+  },
+  {
+    "case_id": "serbia-2024-2025",
+    "case_name": "Serbia student protests",
+    "period": "2024-2026",
+    "geography": "Serbia",
+    "summary": "The collapse of the Novi Sad railway-station canopy on 1 November 2024, which killed 16 people, catalyzed a sustained student-led movement focused on accountability. Journal of Democracy documents assemblies, public minutes, working groups, legal support, and coalition-building; Amnesty and Civil Rights Defenders separately reported arrests and alleged unlawful use of force during the movement. The case demonstrates that digital communication operated alongside substantial physical organization.",
+    "source_ids": ["case-serbia-jod-2025", "case-serbia-amnesty-2025"],
+    "corroboration_note": "The movement's organizational description comes from the Journal of Democracy analysis; allegations concerning force and arrest remain attributed to the joint rights statement."
+  },
+  {
+    "case_id": "morocco-2025",
+    "case_name": "Morocco GenZ 212 protests",
+    "period": "2025-2026",
+    "geography": "Morocco",
+    "summary": "A decentralized youth movement identifying as GenZ 212 mobilized in late September 2025 around public services, unemployment, corruption, and spending priorities. Amnesty reports that participants used platforms including TikTok, Instagram, and Discord, and documents arrests and allegations of excessive force. The current Amnesty youth-activism report situates Morocco within a wider pattern of digital and physical pressure on Gen Z activism.",
+    "source_ids": ["case-morocco-amnesty-2025", "rights-amnesty-streets-screens-2026"],
+    "corroboration_note": "The two sources have the same institutional publisher; a third independent country source should be added before drawing causal conclusions about movement outcomes."
+  },
+  {
+    "case_id": "madagascar-2025-2026",
+    "case_name": "Madagascar youth-led protests, military takeover, and repression",
+    "period": "2025-2026",
+    "geography": "Madagascar",
+    "summary": "Protests beginning in late September 2025 were driven in part by water and electricity outages and widened to governance, economic, and corruption grievances. SWP describes a three-week nationwide protest cycle ending in the exile of President Andry Rajoelina and installation of a military-led transition. Amnesty subsequently reported repression of Gen Z activists, including use of broad security-related accusations. This case warrants a strict distinction between regime displacement and democratic transition.",
+    "source_ids": ["case-madagascar-swp-2025", "case-madagascar-amnesty-2026"],
+    "corroboration_note": "The sources independently corroborate the 2025 protest and military-transition context; post-coup rights allegations are attributed to Amnesty."
+  },
+  {
+    "case_id": "indonesia-2025",
+    "case_name": "Indonesia nationwide protests",
+    "period": "2025-2026",
+    "geography": "Indonesia",
+    "summary": "Nationwide demonstrations beginning on 25 August 2025 were associated with grievances about low wages, tax hikes, and lawmakers' pay. Amnesty documented prosecutions of activists for protest participation or social-media support, and later reported video- and interview-based findings of unlawful police force and mass arrests during demonstrations from 25 August to 1 September. The record supports analyzing both street action and online expression as sites of risk.",
+    "source_ids": ["case-indonesia-amnesty-2025", "case-indonesia-amnesty-investigation-2025", "theory-carnegie-asia-genz-2026"],
+    "corroboration_note": "Two Amnesty documents and Carnegie's regional account support the basic chronology; counts and legal claims are attributed to the cited investigations."
+  },
+  {
+    "case_id": "iran-2022-2026",
+    "case_name": "Iran's Woman, Life, Freedom movement and connectivity restrictions",
+    "period": "2022-2026",
+    "geography": "Iran",
+    "summary": "The Woman, Life, Freedom uprising began in September 2022. ARTICLE 19's discussion of the UN Fact-Finding Mission identifies internet shutdowns, censorship, surveillance, and criminalization of online expression as part of the digital-rights context. HRW separately reported a near-complete nationwide connectivity blackout in February 2026 during armed conflict and distinguishes that episode from the localized and short-term restrictions used during the 2022 protest repression.",
+    "source_ids": ["case-iran-article19-2024", "case-iran-hrw-2026"],
+    "corroboration_note": "The 2026 shutdown must not be conflated with the 2022 protest episode; it is included only as later evidence of recurring connectivity controls."
+  },
+  {
+    "case_id": "sri-lanka-2022-onward",
+    "case_name": "Sri Lanka Aragalaya",
+    "period": "2022 onward",
+    "geography": "Sri Lanka",
+    "summary": "Aragalaya grew during Sri Lanka's economic crisis and became a broad protest movement that forced major political change. CPA provides survey-based evidence on participants and public perceptions, while Carnegie's retrospective analysis describes the movement's four-month core cycle, its use of social media, broad coalition, and the institutional opening that later contributed to electoral change. The case is best treated as a long-horizon transition story rather than a simple leadership-removal narrative.",
+    "source_ids": ["case-sri-lanka-cpa-2023", "case-sri-lanka-carnegie-2025"],
+    "corroboration_note": "CPA and Carnegie support the general movement and aftermath framing; neither source should be used alone for precise casualty or participation totals."
+  },
+  {
+    "case_id": "sudan-resistance-committees",
+    "case_name": "Sudanese resistance committees",
+    "period": "2021 onward",
+    "geography": "Sudan",
+    "summary": "Sudan's neighborhood resistance committees have played a major role in nonviolent resistance since the October 2021 coup and, after conflict began in April 2023, in social protection and humanitarian relief. Their importance to this atlas is organizational: locally embedded relationships, not a single platform, enabled coordination and care. The case predates the current Gen Z wave and should not be presented as a direct equivalent.",
+    "source_ids": ["case-sudan-peacerep-2023", "case-sudan-timep-2021"],
+    "corroboration_note": "TIMEP corroborates the committees' decentralized anti-coup protest role; PeaceRep supports their later social-protection and humanitarian-relief role. The case remains intentionally distinct from the Gen Z label."
+  }
+]

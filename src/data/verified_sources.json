@@ -1,0 +1,4500 @@
+[
+  {
+    "schema_version": 3,
+    "id": "theory-chenoweth-cebul-2026",
+    "title": "Why Gen-Z Is Rising",
+    "url": "https://www.journalofdemocracy.org/articles/why-gen-z-is-rising/",
+    "publisher": "Journal of Democracy",
+    "authors": [
+      "Erica Chenoweth",
+      "Matthew Cebul"
+    ],
+    "published_date": null,
+    "year": 2026,
+    "resource_type": "article",
+    "access": "partial",
+    "geographies": [
+      "global"
+    ],
+    "cases": [
+      "Bangladesh",
+      "Nepal",
+      "Indonesia",
+      "Serbia",
+      "Madagascar",
+      "Sri Lanka"
+    ],
+    "themes": [
+      "youth protest",
+      "corruption",
+      "decentralized organization",
+      "political transition"
+    ],
+    "summary": "Comparative account of the recent Gen Z protest wave, its recurring drivers, organizational strengths, repression, and transition problem.",
+    "relevance": "Core conceptual source for the atlas introduction and cross-case comparisons.",
+    "verification_status": "verified",
+    "verification_notes": "Live page identifies both authors, January 2026 issue date, scope, and cases discussed.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "bangladesh-2024",
+      "kenya-2024",
+      "nepal-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "movement_theory",
+      "topics": [
+        "movement_theory",
+        "political_transition"
+      ]
+    },
+    "authority": {
+      "source_class": "academic",
+      "organization_id": "journal-of-democracy",
+      "independence_group": "journal-of-democracy",
+      "material_role": "comparative_analysis"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "theory-carnegie-asia-genz-2026",
+    "title": "Gen Z Protests Across Asia Offer a Delicate but Renewed Democratic Order",
+    "url": "https://carnegieendowment.org/research/2026/03/gen-z-protests-across-asia",
+    "publisher": "Carnegie Endowment for International Peace",
+    "authors": [
+      "Usama Khilji"
+    ],
+    "published_date": "2026-03-24",
+    "year": 2026,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Asia",
+      "Bangladesh",
+      "Nepal",
+      "Indonesia",
+      "Sri Lanka",
+      "Philippines"
+    ],
+    "cases": [
+      "Bangladesh",
+      "Nepal",
+      "Indonesia",
+      "Sri Lanka"
+    ],
+    "themes": [
+      "youth protest",
+      "inequality",
+      "digital repression",
+      "elections",
+      "political transition"
+    ],
+    "summary": "Compares Asian youth mobilizations and asks whether their energy reaches electoral and institutional change.",
+    "relevance": "Cross-case corroboration for several Asian atlas entries; it should be read as an analysis, not a primary event record.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms author, date, title, and the article's comparative focus.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "bangladesh-2024",
+      "nepal-2025",
+      "indonesia-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "movement_theory",
+      "topics": [
+        "movement_theory",
+        "case_research",
+        "digital_repression",
+        "political_transition"
+      ]
+    },
+    "authority": {
+      "source_class": "think_tank",
+      "organization_id": "carnegie-endowment",
+      "independence_group": "carnegie-endowment",
+      "material_role": "comparative_analysis"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "theory-tufekci-twitter-tear-gas-2017",
+    "title": "Twitter and Tear Gas: The Power and Fragility of Networked Protest",
+    "url": "https://www.twitterandteargas.org/downloads/twitter-and-tear-gas-by-zeynep-tufekci.pdf",
+    "publisher": "Yale University Press / author companion site",
+    "authors": [
+      "Zeynep Tufekci"
+    ],
+    "published_date": null,
+    "year": 2017,
+    "resource_type": "book",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "networked protest",
+      "organizational capacity",
+      "algorithms",
+      "digital visibility"
+    ],
+    "summary": "Explains why digital networks can rapidly create public attention while leaving movements weak at collective decision-making and negotiation.",
+    "relevance": "Foundational theory for separating visibility from durable political capacity.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Book metadata is established; the outline's PDF URL was retained but not independently fetched in this pass.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "movement_theory",
+      "topics": [
+        "movement_theory",
+        "platform_governance"
+      ]
+    },
+    "authority": {
+      "source_class": "academic",
+      "organization_id": "zeynep-tufekci",
+      "independence_group": "zeynep-tufekci",
+      "material_role": "research_synthesis"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "theory-bennett-segerberg-2012",
+    "title": "The Logic of Connective Action: Digital Media and the Personalization of Contentious Politics",
+    "url": "https://myjcu.johncabot.edu/public/course/msg/130102/BennettSegerberg-LogicofConnectiveAction.pdf",
+    "publisher": "Cambridge University Press; copy hosted by John Cabot University",
+    "authors": [
+      "W. Lance Bennett",
+      "Alexandra Segerberg"
+    ],
+    "published_date": null,
+    "year": 2012,
+    "resource_type": "book",
+    "access": "partial",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "connective action",
+      "digital media",
+      "personalized sharing",
+      "organization"
+    ],
+    "summary": "Develops the concept of connective action: personalized digital sharing can organize participation without conventional membership structures.",
+    "relevance": "Useful vocabulary for explaining hashtag, meme, and platform-mediated mobilization without assuming it replaces institutions.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Bibliographic metadata is established; hosting URL requires a fresh access check before public publication.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "movement_theory",
+      "topics": [
+        "movement_theory",
+        "platform_governance"
+      ]
+    },
+    "authority": {
+      "source_class": "academic",
+      "organization_id": "cambridge-university-press",
+      "independence_group": "bennett-segerberg",
+      "material_role": "research_synthesis"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "strategy-chenoweth-stephan-2011",
+    "title": "Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict",
+    "url": "https://www.nonviolent-conflict.org/wp-content/uploads/2016/02/Why-Civil-Resistance-Works-Article.pdf",
+    "publisher": "International Security; PDF hosted by the International Center on Nonviolent Conflict",
+    "authors": [
+      "Erica Chenoweth",
+      "Maria J. Stephan"
+    ],
+    "published_date": null,
+    "year": 2011,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "civil resistance",
+      "nonviolence",
+      "participation",
+      "defections",
+      "strategy"
+    ],
+    "summary": "Empirical study comparing violent and nonviolent maximalist campaigns and identifying participation and defections as important mechanisms.",
+    "relevance": "Historical framework for the peaceful-strategy section; do not reduce its findings to a mechanical participation threshold.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Citation is well-established; specific hosted PDF access not independently tested in this pass.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "civil_resistance",
+      "topics": [
+        "civil_resistance",
+        "movement_theory"
+      ]
+    },
+    "authority": {
+      "source_class": "academic",
+      "organization_id": "international-security",
+      "independence_group": "chenoweth-stephan",
+      "material_role": "research_synthesis"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "strategy-icnc-first-look-2018",
+    "title": "Civil Resistance: A First Look",
+    "url": "https://www.nonviolent-conflict.org/resource/civil-resistance-a-first-look/",
+    "publisher": "International Center on Nonviolent Conflict",
+    "authors": [],
+    "published_date": null,
+    "year": 2018,
+    "resource_type": "guide",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "civil resistance",
+      "noncooperation",
+      "pillars of support",
+      "repression"
+    ],
+    "summary": "Introductory guide to methods and mechanisms of civil resistance.",
+    "relevance": "A practical, non-case-specific reference for the strategy and study-plan sections.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Current ICNC resource URL derived from the outline's corrected reference; page was not opened during this pass.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "civil_resistance",
+      "topics": [
+        "civil_resistance",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "think_tank",
+      "organization_id": "icnc",
+      "independence_group": "icnc",
+      "material_role": "safety_guidance"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "rights-amnesty-streets-screens-2026",
+    "title": "From Streets to Screens: Gen Z Activism Under Pressure",
+    "url": "https://www.amnesty.org/en/documents/ior40/1118/2026/en/",
+    "publisher": "Amnesty International",
+    "authors": [],
+    "published_date": "2026-06-05",
+    "year": 2026,
+    "resource_type": "report",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [
+      "Kenya",
+      "Morocco",
+      "Indonesia",
+      "Madagascar"
+    ],
+    "themes": [
+      "youth activism",
+      "digital repression",
+      "surveillance",
+      "platform governance",
+      "assembly rights"
+    ],
+    "summary": "Amnesty submission centering youth activism and the interaction of online intimidation, digital restrictions, and physical repression.",
+    "relevance": "Current rights-focused anchor for the digital-repression and Gen Z sections.",
+    "verification_status": "verified",
+    "verification_notes": "Live Amnesty record confirms exact title, index number IOR 40/1118/2026, and 5 June 2026 date. The outline's upload URL was replaced with the canonical record.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "kenya-2024",
+      "morocco-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "digital_repression",
+      "topics": [
+        "digital_repression",
+        "digital_rights",
+        "platform_governance",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-international",
+      "independence_group": "amnesty-international",
+      "material_role": "comparative_analysis"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "rights-freedom-house-fotn-2025",
+    "title": "Freedom on the Net 2025: An Uncertain Future for the Global Internet",
+    "url": "https://freedomhouse.org/sites/default/files/2025-12/FOTN%202025_final_digital_120525.pdf",
+    "publisher": "Freedom House",
+    "authors": [],
+    "published_date": "2025-12-05",
+    "year": 2025,
+    "resource_type": "report",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "internet freedom",
+      "censorship",
+      "surveillance",
+      "digital rights",
+      "methodology"
+    ],
+    "summary": "Annual comparative assessment of internet freedom covering access, content controls, and user-rights violations.",
+    "relevance": "Provides a comparative, methodology-based context for country-level digital repression claims.",
+    "verification_status": "verified",
+    "verification_notes": "Live Freedom House search result confirmed the 2025 edition and report scope; canonical PDF differs from the outline's older file path.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "digital_rights",
+      "topics": [
+        "digital_rights",
+        "digital_repression",
+        "connectivity_monitoring"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "freedom-house",
+      "independence_group": "freedom-house",
+      "material_role": "monitoring"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "safety-eff-attending-protest-2026",
+    "title": "Attending a Protest",
+    "url": "https://ssd.eff.org/module/attending-protest",
+    "publisher": "Electronic Frontier Foundation, Surveillance Self-Defense",
+    "authors": [],
+    "published_date": "2026-06-26",
+    "year": 2026,
+    "resource_type": "guide",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "threat modeling",
+      "protest safety",
+      "phone security",
+      "privacy",
+      "documentation"
+    ],
+    "summary": "Threat-model-based guidance for preparing devices, accounts, and personal data around protest participation.",
+    "relevance": "Safety source for the atlas; it is guidance, not a guarantee of safety in any particular setting.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Outline reports a 26 June 2026 update; URL and publisher are credible but the page date was not independently opened here.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "safety_ethics",
+      "topics": [
+        "safety_ethics",
+        "digital_rights",
+        "secure_communications"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "electronic-frontier-foundation",
+      "independence_group": "electronic-frontier-foundation",
+      "material_role": "safety_guidance"
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "evasion_instructions"
+      ],
+      "display_note": "General threat-model guidance is not individualized legal or security advice; local law, device state, and adversary capability can change the risk."
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "documentation-witness-field-guide",
+    "title": "Video as Evidence Field Guide",
+    "url": "https://vae.witness.org/video-as-evidence-field-guide/",
+    "publisher": "WITNESS",
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "resource_type": "guide",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "video evidence",
+      "consent",
+      "verification",
+      "preservation",
+      "redaction"
+    ],
+    "summary": "Practical guide to filming, preserving, verifying, and publishing video evidence with attention to safety and consent.",
+    "relevance": "Primary practical reference for the atlas evidence-protocol section.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Organization and URL were retained from the outline; publication date is not supplied rather than guessed.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "osint_evidence",
+      "topics": [
+        "osint_evidence",
+        "media_verification",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "witness",
+      "independence_group": "witness",
+      "material_role": "methodology"
+    },
+    "evidence_profile": {
+      "role": "methodology",
+      "methods": [
+        "metadata_review",
+        "cross_source_corroboration",
+        "archive_capture"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved",
+        "archived_copy"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "A recording can preserve an observation without proving context, identity, intent, or legal responsibility."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "unredacted_sensitive_media",
+        "device_or_account_identifier"
+      ],
+      "display_note": "Preserve originals separately from public copies and review consent, identity, and location risk before publication."
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "documentation-berkeley-protocol-2022",
+    "title": "Berkeley Protocol on Digital Open Source Investigations",
+    "url": "https://humanrights.berkeley.edu/publications/berkeley-protocol-on-digital-open-source-investigations/",
+    "publisher": "University of California, Berkeley Human Rights Center and Office of the United Nations High Commissioner for Human Rights",
+    "authors": [],
+    "published_date": null,
+    "year": 2022,
+    "resource_type": "legal_standard",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "open-source investigations",
+      "human rights",
+      "verification",
+      "ethics",
+      "digital evidence"
+    ],
+    "summary": "Professional protocol addressing legal, ethical, security, and methodological issues in digital open-source human-rights investigations.",
+    "relevance": "Standards source for disciplined documentation and investigation.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Institutional page and co-publisher metadata are established; no unsupported page-specific date has been added.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "osint_evidence",
+      "topics": [
+        "osint_evidence",
+        "media_verification",
+        "legal_rights",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "university",
+      "organization_id": "berkeley-human-rights-center-ohchr",
+      "independence_group": "berkeley-human-rights-center-ohchr",
+      "material_role": "methodology"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "non_binding_guidance",
+      "instruments": [
+        "Berkeley Protocol on Digital Open Source Investigations"
+      ],
+      "applies_to": [
+        "Human-rights investigators and accountability bodies"
+      ],
+      "rights": [
+        "privacy",
+        "due_process",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "necessity",
+        "proportionality",
+        "non_discrimination",
+        "accountability"
+      ],
+      "remedies": [
+        "Reliable preservation and presentation of digital material for accountability processes"
+      ],
+      "caveats": [
+        "The protocol is professional guidance; compliance does not make evidence automatically admissible or prove a disputed event."
+      ]
+    },
+    "evidence_profile": {
+      "role": "methodology",
+      "methods": [
+        "source_discovery",
+        "cross_source_corroboration",
+        "metadata_review",
+        "geolocation",
+        "chronolocation",
+        "visual_comparison",
+        "satellite_imagery",
+        "document_authentication",
+        "archive_capture"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved",
+        "hash_recorded",
+        "archived_copy",
+        "chain_of_custody_documented"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "normative_standard",
+      "limitations": [
+        "Methodological compliance supports reliability but does not replace corroboration, jurisdiction-specific admissibility rules, or legal review."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier",
+        "unredacted_sensitive_media"
+      ],
+      "display_note": "Open-source investigation can expose victims, witnesses, investigators, and sensitive locations; necessity and do-no-harm review come before publication."
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "legal-ohchr-general-comment-37-2020",
+    "title": "General Comment No. 37 on Article 21: Right of Peaceful Assembly",
+    "url": "https://www.ohchr.org/en/documents/general-comments-and-recommendations/general-comment-no-37-article-21-right-peaceful",
+    "publisher": "United Nations Human Rights Committee / OHCHR",
+    "authors": [],
+    "published_date": "2020-09-17",
+    "year": 2020,
+    "resource_type": "legal_standard",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "peaceful assembly",
+      "international law",
+      "state obligations",
+      "restrictions",
+      "accountability"
+    ],
+    "summary": "Authoritative interpretation of Article 21 of the ICCPR, including duties to respect, protect, and facilitate peaceful assembly.",
+    "relevance": "Legal baseline for evaluating protest restrictions and state response across all cases.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Official OHCHR URL and adoption date are established; page content was not opened in this pass.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "treaty_body",
+      "organization_id": "un-human-rights-committee",
+      "independence_group": "un-human-rights-committee",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "CCPR/C/GC/37"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "authoritative_interpretation",
+      "instruments": [
+        "ICCPR Article 21",
+        "CCPR/C/GC/37"
+      ],
+      "applies_to": [
+        "States parties to the ICCPR"
+      ],
+      "rights": [
+        "peaceful_assembly",
+        "freedom_of_expression",
+        "freedom_of_association",
+        "privacy",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "least_intrusive_means",
+        "non_discrimination",
+        "accountability"
+      ],
+      "remedies": [
+        "Independent investigation",
+        "Effective remedy for violations"
+      ],
+      "caveats": [
+        "The General Comment authoritatively interprets the Covenant but is not itself a treaty or a case-specific judgment."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "tool-signal-privacy-usernames",
+    "title": "Phone Number Privacy and Usernames",
+    "url": "https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames",
+    "publisher": "Signal Messenger",
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "resource_type": "tool",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "encrypted messaging",
+      "privacy",
+      "usernames",
+      "contact discovery"
+    ],
+    "summary": "Official Signal support documentation on usernames and phone-number privacy controls.",
+    "relevance": "Tool-specific source; neither a general-security endorsement nor a substitute for threat modeling.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Official support URL was retained; no version date was visible in the outline, so none is asserted.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "secure_communications",
+      "topics": [
+        "secure_communications",
+        "digital_rights",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "tool_developer",
+      "organization_id": "signal",
+      "independence_group": "signal",
+      "material_role": "tool_documentation"
+    },
+    "technical_profile": {
+      "system_type": "secure_communications",
+      "methods": [
+        "End-to-end encrypted messaging",
+        "Username-based contact initiation"
+      ],
+      "technical_layers": [
+        "application_layer",
+        "device"
+      ],
+      "collection_modes": [
+        "not_applicable"
+      ],
+      "signals": [
+        "Documented account-discovery and phone-number privacy behavior"
+      ],
+      "cadence": "static",
+      "geographic_resolution": null,
+      "temporal_resolution": null,
+      "data_access": [
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Check current official documentation and app version before describing behavior."
+      ],
+      "limitations": [
+        "Usernames do not make an account anonymous, hide all metadata, or protect a compromised endpoint."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier"
+      ],
+      "display_note": "Documented privacy features reduce specific exposure paths but do not remove endpoint, metadata, social-engineering, or legal risk."
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "tool-briar-how-it-works",
+    "title": "How Briar Works",
+    "url": "https://briarproject.org/how-it-works/",
+    "publisher": "Briar Project",
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "resource_type": "tool",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "offline communication",
+      "Bluetooth",
+      "Wi-Fi",
+      "Tor",
+      "encrypted messaging"
+    ],
+    "summary": "Official overview of Briar's peer-to-peer messaging and synchronization options.",
+    "relevance": "Supports the communication-ladder section, with range, device, battery, and risk limitations retained.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Official URL retained; do not claim its July 2026 maintenance-mode status without separately checking the announcement.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "secure_communications",
+      "topics": [
+        "secure_communications",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "tool_developer",
+      "organization_id": "briar-project",
+      "independence_group": "briar-project",
+      "material_role": "tool_documentation"
+    },
+    "technical_profile": {
+      "system_type": "secure_communications",
+      "methods": [
+        "End-to-end encrypted messaging",
+        "Bluetooth and Wi-Fi peer transport",
+        "Tor-based internet transport"
+      ],
+      "technical_layers": [
+        "application_layer",
+        "device",
+        "tcp_ip"
+      ],
+      "collection_modes": [
+        "not_applicable"
+      ],
+      "signals": [
+        "Documented transport and synchronization modes"
+      ],
+      "cadence": "static",
+      "geographic_resolution": null,
+      "temporal_resolution": null,
+      "data_access": [
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Check platform support, transport availability, and current official threat documentation."
+      ],
+      "limitations": [
+        "Offline range, device compromise, contact trust, and local legal conditions remain material constraints."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier",
+        "evasion_instructions"
+      ],
+      "display_note": "Offline transport is not invisibility; discovery, device seizure, proximity, and contact-graph risks require local threat modelling."
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "tool-ceno-faq",
+    "title": "Ceno Browser FAQ",
+    "url": "https://ceno.app/faq/",
+    "publisher": "Ceno Browser Project",
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "resource_type": "tool",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [],
+    "themes": [
+      "censorship circumvention",
+      "peer-to-peer caching",
+      "privacy",
+      "shutdown resilience"
+    ],
+    "summary": "Official explanation of Ceno Browser modes and privacy tradeoffs.",
+    "relevance": "Use for public-content access scenarios only; it is not evidence of anonymity or safety in high-risk contexts.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Official URL retained; claims must be verified against current application documentation before implementation guidance.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "secure_communications",
+      "topics": [
+        "secure_communications",
+        "connectivity_monitoring",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "tool_developer",
+      "organization_id": "ceno",
+      "independence_group": "ceno",
+      "material_role": "tool_documentation"
+    },
+    "technical_profile": {
+      "system_type": "censorship_circumvention",
+      "methods": [
+        "Peer-to-peer web content distribution",
+        "Content caching",
+        "Bridged access"
+      ],
+      "technical_layers": [
+        "application_layer",
+        "tcp_ip"
+      ],
+      "collection_modes": [
+        "not_applicable"
+      ],
+      "signals": [
+        "Documented public and personal browsing modes",
+        "Cache and peer behavior"
+      ],
+      "cadence": "static",
+      "geographic_resolution": null,
+      "temporal_resolution": null,
+      "data_access": [
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Review current mode-specific privacy documentation and test under the relevant network conditions."
+      ],
+      "limitations": [
+        "Public-mode requests and cached content have different privacy properties; no mode is universally safe."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier",
+        "evasion_instructions"
+      ],
+      "display_note": "Ceno modes expose different information to peers and infrastructure; describe tradeoffs without giving individualized evasion instructions."
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "tool-ooni-reports",
+    "title": "OONI Reports",
+    "url": "https://ooni.org/reports/",
+    "publisher": "Open Observatory of Network Interference",
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "resource_type": "monitor",
+    "access": "open",
+    "geographies": [
+      "global"
+    ],
+    "cases": [
+      "Bangladesh",
+      "Iran",
+      "India"
+    ],
+    "themes": [
+      "internet censorship",
+      "network measurement",
+      "shutdowns",
+      "verification"
+    ],
+    "summary": "Archive of measurement-based reports on blocking, interference, and network conditions.",
+    "relevance": "Useful for distinguishing reported outage claims from measured network interference; testing can itself carry risk.",
+    "verification_status": "partially_verified",
+    "verification_notes": "Official project URL retained; case-specific measurements must be selected and checked separately.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "connectivity_monitoring",
+      "topics": [
+        "connectivity_monitoring",
+        "digital_repression",
+        "digital_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "network_measurement_project",
+      "organization_id": "ooni",
+      "independence_group": "ooni",
+      "material_role": "monitoring"
+    },
+    "technical_profile": {
+      "system_type": "network_measurement",
+      "methods": [
+        "Web Connectivity",
+        "Messaging-app tests",
+        "Circumvention-tool tests"
+      ],
+      "technical_layers": [
+        "dns",
+        "tcp_ip",
+        "tls",
+        "http",
+        "application_layer"
+      ],
+      "collection_modes": [
+        "volunteer_measurement",
+        "active_measurement"
+      ],
+      "signals": [
+        "DNS anomalies",
+        "TCP connection failures",
+        "TLS and HTTP anomalies",
+        "Known block-page fingerprints"
+      ],
+      "cadence": "event_driven",
+      "geographic_resolution": "Measurement, country, and network/ASN where coverage exists",
+      "temporal_resolution": "Per measurement with aggregated reporting windows",
+      "data_access": [
+        "open_data",
+        "download"
+      ],
+      "validation_requirements": [
+        "Inspect raw measurements, failure types, repeated patterns, network diversity, and contextual evidence."
+      ],
+      "limitations": [
+        "Volunteer and test-list coverage is uneven; anomalous measurements can be false positives and do not attribute intent."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-bangladesh-amnesty-2024",
+    "title": "What is happening at the quota-reform protests in Bangladesh?",
+    "url": "https://www.amnesty.org/en/latest/news/2024/07/what-is-happening-at-the-quota-reform-protests-in-bangladesh/",
+    "publisher": "Amnesty International",
+    "authors": [
+      "Harindrini Corea",
+      "Nazia Erum"
+    ],
+    "published_date": "2024-07-29",
+    "year": 2024,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Bangladesh"
+    ],
+    "cases": [
+      "Bangladesh quota-reform protests, 2024"
+    ],
+    "themes": [
+      "student protest",
+      "public-sector quotas",
+      "internet shutdown",
+      "state violence",
+      "arbitrary detention"
+    ],
+    "summary": "Contemporary account of the quota-reform protests, violence, arrests, curfew, and nationwide internet shutdown.",
+    "relevance": "Primary rights-monitoring source for the Bangladesh entry.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms authors, 29 July 2024 publication date, student trigger, Supreme Court quota change, and shutdown chronology.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "bangladesh-2024"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "digital_repression",
+        "connectivity_monitoring",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-international",
+      "independence_group": "amnesty-international",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-kenya-hrw-2024",
+    "title": "Kenya: Security Forces Abducted, Killed Protesters",
+    "url": "https://www.hrw.org/news/2024/11/06/kenya-security-forces-abducted-killed-protesters",
+    "publisher": "Human Rights Watch",
+    "authors": [],
+    "published_date": "2024-11-06",
+    "year": 2024,
+    "resource_type": "report",
+    "access": "open",
+    "geographies": [
+      "Kenya"
+    ],
+    "cases": [
+      "Kenya anti-Finance Bill protests, 2024"
+    ],
+    "themes": [
+      "youth protest",
+      "tax policy",
+      "police violence",
+      "abduction",
+      "enforced disappearance"
+    ],
+    "summary": "HRW investigation into the anti-Finance Bill protests and alleged abductions, arbitrary arrests, torture, and killings.",
+    "relevance": "Core independent rights-monitoring source for Kenya's state-response component.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms date, title, event trigger, youth participation, Finance Bill withdrawal, and investigation basis.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "kenya-2024"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "digital_repression",
+        "legal_rights",
+        "legal_remedies"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "human-rights-watch",
+      "independence_group": "human-rights-watch",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-nepal-carnegie-2025",
+    "title": "From Streets to Discord: How Nepal’s Gen Z Toppled a Government",
+    "url": "https://carnegieendowment.org/research/2025/09/nepal-gen-z-topple-government",
+    "publisher": "Carnegie Endowment for International Peace",
+    "authors": [],
+    "published_date": null,
+    "year": 2025,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Nepal"
+    ],
+    "cases": [
+      "Nepal Gen Z protests, 2025"
+    ],
+    "themes": [
+      "youth protest",
+      "corruption",
+      "social-media restrictions",
+      "Discord",
+      "interim transition"
+    ],
+    "summary": "Analysis of Nepal's 2025 protests, platform restrictions, online deliberation, and the political opening after the government's collapse.",
+    "relevance": "Detailed case source on digital coordination and transition; claims should be paired with rights reporting.",
+    "verification_status": "verified",
+    "verification_notes": "Live Carnegie result confirms exact title, 2025 publication, Discord vote account, and social-platform ban context; the page did not expose a precise day in the retrieved result.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "nepal-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "platform_governance",
+        "political_transition"
+      ]
+    },
+    "authority": {
+      "source_class": "think_tank",
+      "organization_id": "carnegie-endowment",
+      "independence_group": "carnegie-endowment",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-serbia-jod-2025",
+    "title": "How Serbian Students Created the Largest Protest Movement in Decades",
+    "url": "https://www.journalofdemocracy.org/online-exclusive/how-serbian-students-created-the-largest-protest-movement-in-decades/",
+    "publisher": "Journal of Democracy",
+    "authors": [
+      "Breza Race Maksimovic",
+      "Srdja Popovic"
+    ],
+    "published_date": null,
+    "year": 2025,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Serbia"
+    ],
+    "cases": [
+      "Serbia student protests, 2024-2025"
+    ],
+    "themes": [
+      "student assemblies",
+      "nonviolence",
+      "coalitions",
+      "legal aid",
+      "distributed leadership"
+    ],
+    "summary": "Account of how Serbian students built decentralized assemblies, working groups, public transparency, and broad civic coalitions after the Novi Sad canopy collapse.",
+    "relevance": "Key organizational counterpoint to platform-only explanations of Gen Z protest.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms title, August 2025 date, authors, trigger, assembly model, and movement infrastructure described.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "serbia-2024-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "civil_resistance",
+        "political_transition"
+      ]
+    },
+    "authority": {
+      "source_class": "academic",
+      "organization_id": "journal-of-democracy",
+      "independence_group": "journal-of-democracy",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-serbia-amnesty-2025",
+    "title": "Serbia: Authorities must end unlawful use of force against protesters and investigate reports of police violence",
+    "url": "https://www.amnesty.org/en/latest/news/2025/07/serbia-authorities-must-end-unlawful-use-of-force-against-protesters-and-investigate-reports-of-police-violence/",
+    "publisher": "Amnesty International and Civil Rights Defenders",
+    "authors": [],
+    "published_date": "2025-07-04",
+    "year": 2025,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Serbia"
+    ],
+    "cases": [
+      "Serbia student protests, 2024-2025"
+    ],
+    "themes": [
+      "police violence",
+      "assembly rights",
+      "arrests",
+      "student protest",
+      "accountability"
+    ],
+    "summary": "Joint rights statement on reported unlawful force, arrests, and pressure during sustained student-led civic actions.",
+    "relevance": "Corroborates the Serbian entry's state-response component with a rights-monitoring source.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms date, joint publisher, eight-month protest period, 2024 Novi Sad trigger, and reported crackdown.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "serbia-2024-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "legal_rights",
+        "legal_remedies"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-international",
+      "independence_group": "amnesty-international",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-morocco-amnesty-2025",
+    "title": "Morocco: Halt use of excessive force following crackdown on youth protests",
+    "url": "https://www.amnesty.org/en/latest/news/2025/10/morocco-halt-use-of-excessive-force-following-crackdown-on-youth-protests/",
+    "publisher": "Amnesty International",
+    "authors": [],
+    "published_date": "2025-10-03",
+    "year": 2025,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Morocco"
+    ],
+    "cases": [
+      "Morocco GenZ 212 protests, 2025"
+    ],
+    "themes": [
+      "GenZ 212",
+      "public services",
+      "unemployment",
+      "social media",
+      "excessive force",
+      "arrests"
+    ],
+    "summary": "Rights report on decentralized GenZ 212 protests, their public-service and economic grievances, and the security response.",
+    "relevance": "Primary rights-monitoring source for the Morocco entry.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms title, 3 October 2025 date, GenZ 212 self-identification, stated platforms, grievances, and reported arrests/use of force.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "morocco-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "digital_rights",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-international",
+      "independence_group": "amnesty-international",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-madagascar-swp-2025",
+    "title": "Gen Z, Digital Activism, and Regime Change in Madagascar",
+    "url": "https://www.swp-berlin.org/en/publication/mta-spotlight-61-gen-z-digital-activism-and-regime-change-in-madagascar",
+    "publisher": "Stiftung Wissenschaft und Politik",
+    "authors": [
+      "Xuefei Shi"
+    ],
+    "published_date": "2025-10-29",
+    "year": 2025,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Madagascar"
+    ],
+    "cases": [
+      "Madagascar youth-led protests and regime change, 2025"
+    ],
+    "themes": [
+      "digital activism",
+      "water and electricity",
+      "economic conditions",
+      "leaderless coordination",
+      "military transition"
+    ],
+    "summary": "Analysis of the 2025 protests, digital coordination, widening social participation, regime collapse, and military-led transition.",
+    "relevance": "Independent analytical source for the Madagascar case and transition risks.",
+    "verification_status": "verified",
+    "verification_notes": "Live SWP page confirms author, date, three-week protest period, catalysts, and military-led transitional outcome.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "madagascar-2025-2026"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "political_transition",
+        "movement_theory"
+      ]
+    },
+    "authority": {
+      "source_class": "think_tank",
+      "organization_id": "swp-berlin",
+      "independence_group": "swp-berlin",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-madagascar-amnesty-2026",
+    "title": "Madagascar: Immediately end repression of Gen Z activists and protect right to protest",
+    "url": "https://www.amnesty.org/en/latest/news/2026/04/madagascar-immediately-end-repression-of-gen-z-activists-and-protect-right-to-protest/",
+    "publisher": "Amnesty International",
+    "authors": [],
+    "published_date": "2026-04-17",
+    "year": 2026,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Madagascar"
+    ],
+    "cases": [
+      "Madagascar youth-led protests and regime change, 2025",
+      "Madagascar post-coup repression, 2026"
+    ],
+    "themes": [
+      "Gen Z activism",
+      "military authorities",
+      "arbitrary detention",
+      "enforced disappearance",
+      "assembly rights"
+    ],
+    "summary": "Amnesty statement on repression of Gen Z activists after the October 2025 military takeover.",
+    "relevance": "Current rights-monitoring source for the post-rupture phase of Madagascar's case.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms date, post-coup context, youth-led protest origins, service-delivery demands, and reported repressive practices.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "madagascar-2025-2026"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "legal_rights",
+        "legal_remedies",
+        "political_transition"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-international",
+      "independence_group": "amnesty-international",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-indonesia-amnesty-2025",
+    "title": "Indonesia: Activists face criminal charges for peaceful protests",
+    "url": "https://www.amnesty.org/en/documents/asa21/0391/2025/en/",
+    "publisher": "Amnesty International",
+    "authors": [],
+    "published_date": "2025-10-10",
+    "year": 2025,
+    "resource_type": "report",
+    "access": "open",
+    "geographies": [
+      "Indonesia"
+    ],
+    "cases": [
+      "Indonesia nationwide protests, 2025"
+    ],
+    "themes": [
+      "peaceful protest",
+      "social media",
+      "criminalization",
+      "arbitrary arrest",
+      "police response"
+    ],
+    "summary": "Urgent action documenting criminal charges against eight people in connection with protest participation or online support for 2025 demonstrations.",
+    "relevance": "Case-specific evidence that online support and physical protest were jointly targeted.",
+    "verification_status": "verified",
+    "verification_notes": "Live Amnesty record confirms title, index number ASA 21/0391/2025, date, names, and the 25 August 2025 protest onset.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "indonesia-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "digital_rights",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-international",
+      "independence_group": "amnesty-international",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-indonesia-amnesty-investigation-2025",
+    "title": "Indonesia: Police beat protesters and unlawfully used tear gas to crush protests – new investigation",
+    "url": "https://www.amnesty.org/en/latest/news/2025/12/indonesia-police-beat-protesters-and-unlawfully-used-tear-gas-to-crush-protests-new-investigation/",
+    "publisher": "Amnesty International",
+    "authors": [],
+    "published_date": "2025-12-09",
+    "year": 2025,
+    "resource_type": "report",
+    "access": "open",
+    "geographies": [
+      "Indonesia"
+    ],
+    "cases": [
+      "Indonesia nationwide protests, 2025"
+    ],
+    "themes": [
+      "police violence",
+      "video verification",
+      "arrests",
+      "low wages",
+      "taxes",
+      "lawmakers' pay"
+    ],
+    "summary": "Video- and interview-based investigation of police conduct during nationwide demonstrations from 25 August to 1 September 2025.",
+    "relevance": "Corroborates the Indonesia entry's timeline, scale of policing concerns, and material grievances.",
+    "verification_status": "verified",
+    "verification_notes": "Live page confirms date, evidence basis, event dates, and the grievance framing; numerical claims remain attributed to Amnesty's investigation.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "indonesia-2025"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "osint_evidence",
+        "media_verification",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-international",
+      "independence_group": "amnesty-international",
+      "material_role": "case_reporting"
+    },
+    "evidence_profile": {
+      "role": "investigation",
+      "methods": [
+        "cross_source_corroboration",
+        "metadata_review",
+        "geolocation",
+        "chronolocation",
+        "visual_comparison"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved"
+      ],
+      "privacy_practices": [
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "publisher_observation",
+      "limitations": [
+        "The atlas records the publisher's investigation; it does not independently reproduce every media-verification step."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-iran-article19-2024",
+    "title": "Iran: Digital freedom and protest in the UN’s Fact-Finding Mission report",
+    "url": "https://www.article19.org/resources/iran-digital-freedom-protest-un-fact-finding-mission-report/",
+    "publisher": "ARTICLE 19",
+    "authors": [],
+    "published_date": "2024-04-02",
+    "year": 2024,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Iran"
+    ],
+    "cases": [
+      "Woman, Life, Freedom movement, 2022 onward"
+    ],
+    "themes": [
+      "digital repression",
+      "internet shutdowns",
+      "surveillance",
+      "censorship",
+      "online expression"
+    ],
+    "summary": "Explains how the UN Fact-Finding Mission addressed government restrictions on digital freedoms during the Woman, Life, Freedom uprising.",
+    "relevance": "Connects Iran's protest case to evidence on connectivity controls and digital surveillance.",
+    "verification_status": "verified",
+    "verification_notes": "Live ARTICLE 19 page confirms title, 2 April 2024 publication date, and focus on shutdowns, censorship, surveillance, and criminalization.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "iran-2022-2026"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "digital_repression",
+        "connectivity_monitoring",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "article-19",
+      "independence_group": "article-19",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-iran-hrw-2026",
+    "title": "Iran: Internet Shutdown Violates Rights, Escalates Risks to Civilians",
+    "url": "https://www.hrw.org/news/2026/03/06/iran-internet-shutdown-violates-rights-escalates-risks-to-civilians",
+    "publisher": "Human Rights Watch",
+    "authors": [],
+    "published_date": "2026-03-06",
+    "year": 2026,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Iran"
+    ],
+    "cases": [
+      "Iran connectivity restrictions, 2026",
+      "Woman, Life, Freedom movement, 2022 onward"
+    ],
+    "themes": [
+      "internet shutdown",
+      "civilian protection",
+      "conflict",
+      "information access",
+      "documentation"
+    ],
+    "summary": "Rights analysis of Iran's 2026 connectivity shutdown during armed conflict, with contextual reference to 2022 protest restrictions.",
+    "relevance": "Use for the 2026 connectivity episode and as contextual—not sole—evidence for the 2022 movement.",
+    "verification_status": "verified",
+    "verification_notes": "Live HRW page confirms date, near-complete 28 February traffic drop attribution, and explicit distinction between 2026 conflict context and 2022 protest restrictions.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "iran-2022-2026"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "connectivity_monitoring",
+        "digital_rights",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "human-rights-watch",
+      "independence_group": "human-rights-watch",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-sri-lanka-cpa-2023",
+    "title": "A Brief Analysis of the Aragalaya",
+    "url": "https://www.cpalanka.org/a-brief-analysis-of-the-aragalaya/",
+    "publisher": "Centre for Policy Alternatives, Social Indicator",
+    "authors": [],
+    "published_date": "2023-05-14",
+    "year": 2023,
+    "resource_type": "report",
+    "access": "open",
+    "geographies": [
+      "Sri Lanka"
+    ],
+    "cases": [
+      "Sri Lanka Aragalaya, 2022 onward"
+    ],
+    "themes": [
+      "economic crisis",
+      "protest participation",
+      "public perception",
+      "political change"
+    ],
+    "summary": "Survey-based analysis of Aragalaya participants and public perceptions.",
+    "relevance": "Sri Lanka-based empirical resource that complements retrospective international analysis.",
+    "verification_status": "verified",
+    "verification_notes": "Live CPA page confirms title, 14 May 2023 page date, survey basis, and publisher unit.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "sri-lanka-2022-onward"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "political_transition",
+        "movement_theory"
+      ]
+    },
+    "authority": {
+      "source_class": "local_civil_society",
+      "organization_id": "centre-for-policy-alternatives",
+      "independence_group": "centre-for-policy-alternatives",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-sri-lanka-carnegie-2025",
+    "title": "The Aragalaya Protest Movement and the Struggle for Political Change in Sri Lanka",
+    "url": "https://carnegieendowment.org/research/2025/08/sri-lanka-aragalaya-protest-movement-oust-wickremesinghe-rajapaksa",
+    "publisher": "Carnegie Endowment for International Peace",
+    "authors": [],
+    "published_date": null,
+    "year": 2025,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Sri Lanka"
+    ],
+    "cases": [
+      "Sri Lanka Aragalaya, 2022 onward"
+    ],
+    "themes": [
+      "economic crisis",
+      "social media",
+      "nonviolent protest",
+      "political transition",
+      "coalitions"
+    ],
+    "summary": "Long-form retrospective analysis of Aragalaya's mobilization, social-media dynamics, political effects, and limitations.",
+    "relevance": "Strong source for the atlas's outcome and institutional-aftermath discussion.",
+    "verification_status": "verified",
+    "verification_notes": "Live Carnegie result confirms title, 2025 publication, four-month duration, economic-crisis context, social-media role, and later electoral opening.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "sri-lanka-2022-onward"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "political_transition",
+        "civil_resistance"
+      ]
+    },
+    "authority": {
+      "source_class": "think_tank",
+      "organization_id": "carnegie-endowment",
+      "independence_group": "carnegie-endowment",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-sudan-peacerep-2023",
+    "title": "Resistance Committees and Sudan’s Political Future",
+    "url": "https://peacerep.org/publication/resistance-committees-sudans-political-future/",
+    "publisher": "PeaceRep, University of Edinburgh",
+    "authors": [
+      "Aida Abbashar"
+    ],
+    "published_date": "2023-07-05",
+    "year": 2023,
+    "resource_type": "report",
+    "access": "open",
+    "geographies": [
+      "Sudan"
+    ],
+    "cases": [
+      "Sudanese resistance committees, 2021 onward"
+    ],
+    "themes": [
+      "neighborhood organization",
+      "nonviolent resistance",
+      "mutual aid",
+      "humanitarian relief",
+      "political inclusion"
+    ],
+    "summary": "Policy brief on Sudan's resistance committees, their protest role, social-protection work, and exclusion from political processes.",
+    "relevance": "Core source for the offline-infrastructure comparison; the case should not be collapsed into the Gen Z label.",
+    "verification_status": "verified",
+    "verification_notes": "Live PeaceRep page confirms author, 5 July 2023 date, updated date, post-2021-coup role, and humanitarian work after April 2023 conflict.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "sudan-resistance-committees"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "civil_resistance",
+        "political_transition"
+      ]
+    },
+    "authority": {
+      "source_class": "academic",
+      "organization_id": "peacerep",
+      "independence_group": "peacerep",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-sudan-timep-2021",
+    "title": "Resistance Committees: The Specters Organizing Sudan’s Protests",
+    "url": "https://timep.org/2021/11/26/resistance-committees-the-specters-organizing-sudans-protests/",
+    "publisher": "The Tahrir Institute for Middle East Policy",
+    "authors": [
+      "Muzan Alneel"
+    ],
+    "published_date": "2021-11-26",
+    "year": 2021,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "Sudan"
+    ],
+    "cases": [
+      "Sudanese resistance committees, 2021 onward"
+    ],
+    "themes": [
+      "neighborhood organization",
+      "anti-coup protest",
+      "decentralization",
+      "internet shutdowns",
+      "youth participation"
+    ],
+    "summary": "Contemporary analysis of Sudanese neighborhood resistance committees, their anti-coup mobilization, decentralized coordination, and resilience during the 2021 shutdown.",
+    "relevance": "Independent corroborating source for the committees' organizational role before the later humanitarian-relief phase covered by PeaceRep.",
+    "verification_status": "verified",
+    "verification_notes": "Live TIMEP page confirms author, 26 November 2021 date, historical origins, 2021 anti-coup role, decentralized neighborhood organization, and shutdown context.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "case_ids": [
+      "sudan-resistance-committees"
+    ],
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "civil_resistance",
+        "connectivity_monitoring"
+      ]
+    },
+    "authority": {
+      "source_class": "think_tank",
+      "organization_id": "timep",
+      "independence_group": "timep",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "id": "case-india-hrw-2026",
+    "title": "India: Excessive Force Used Against Student Protesters",
+    "url": "https://www.hrw.org/news/2026/07/23/india-excessive-force-used-against-student-protesters",
+    "publisher": "Human Rights Watch",
+    "authors": [],
+    "published_date": "2026-07-23",
+    "year": 2026,
+    "resource_type": "article",
+    "access": "open",
+    "geographies": [
+      "India",
+      "New Delhi"
+    ],
+    "cases": [
+      "India student and youth protests, July 2026"
+    ],
+    "themes": [
+      "student protest",
+      "medical entrance examinations",
+      "unemployment",
+      "police force",
+      "mobile-internet suspension"
+    ],
+    "summary": "Very recent HRW report on the 20 July 2026 New Delhi protest, use of batons and tear gas, and reported mobile-internet suspension.",
+    "relevance": "Watchlist-only case: it has a single detailed corroborating source in this pass and no settled assessment is warranted.",
+    "verification_status": "needs_review",
+    "verification_notes": "Live HRW page confirms title, 23 July 2026 date, its interview/video methodology, and competing police/protester accounts. This is too recent for a mature case conclusion.",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "taxonomy": {
+      "primary_topic": "case_research",
+      "topics": [
+        "case_research",
+        "legal_rights",
+        "connectivity_monitoring"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "human-rights-watch",
+      "independence_group": "human-rights-watch",
+      "material_role": "case_reporting"
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 1966,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "civil and political rights",
+      "peaceful assembly",
+      "expression",
+      "privacy",
+      "detention",
+      "effective remedy"
+    ],
+    "verification_status": "partially_verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-iccpr-1966",
+    "title": "International Covenant on Civil and Political Rights",
+    "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-civil-and-political-rights",
+    "publisher": "United Nations",
+    "resource_type": "treaty",
+    "summary": "Binding multilateral treaty establishing the central global protections for expression, peaceful assembly, association, privacy, liberty, due process, equality, and effective remedy.",
+    "relevance": "Provides the baseline legal instrument against which the atlas distinguishes protected conduct, permissible restrictions, detention safeguards, and remedies.",
+    "verification_notes": "Official OHCHR instrument page and treaty metadata were located, but the canonical page returned an automated-access restriction during this check.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies"
+      ]
+    },
+    "authority": {
+      "source_class": "international_organization",
+      "organization_id": "united-nations",
+      "independence_group": "united-nations",
+      "material_role": "primary_law"
+    },
+    "identifiers": {
+      "official_document_id": "A/RES/2200(XXI)"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "binding_treaty",
+      "instruments": [
+        "ICCPR Articles 2, 9, 14, 17, 19, 21, 22 and 26"
+      ],
+      "applies_to": [
+        "States parties to the ICCPR"
+      ],
+      "rights": [
+        "freedom_of_expression",
+        "peaceful_assembly",
+        "freedom_of_association",
+        "privacy",
+        "liberty_and_security",
+        "due_process",
+        "non_discrimination",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "non_discrimination",
+        "due_process"
+      ],
+      "remedies": [
+        "Effective remedy under Article 2(3)",
+        "Judicial review of detention under Article 9"
+      ],
+      "caveats": [
+        "Treaty obligations depend on ratification, reservations, jurisdiction, domestic implementation, and any applicable individual-complaint mechanism.",
+        "The legality tests differ by article; this profile does not imply that every listed right uses the identical Article 19 or Article 21 restriction formula."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": "2011-09-12",
+    "year": 2011,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "freedom of expression",
+      "online expression",
+      "information access",
+      "political speech",
+      "censorship"
+    ],
+    "verification_status": "partially_verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-un-hrc-gc34-expression-2011",
+    "title": "General comment No. 34: Article 19: Freedoms of opinion and expression",
+    "url": "https://docs.un.org/en/CCPR/C/GC/34",
+    "publisher": "United Nations Human Rights Committee",
+    "resource_type": "legal_standard",
+    "summary": "Treaty-body interpretation of ICCPR Article 19, including protection for electronic and internet-based modes of expression and the strict requirements governing restrictions.",
+    "relevance": "Anchors analysis of protest speech, online communication, media access, and censorship without treating access to a particular private platform as an absolute right.",
+    "verification_notes": "Official UN document symbol, title, date, and text were verified through UN/OHCHR records; the canonical document URL returned an automated 403.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "digital_rights",
+        "platform_governance"
+      ]
+    },
+    "authority": {
+      "source_class": "treaty_body",
+      "organization_id": "un-human-rights-committee",
+      "independence_group": "un-human-rights-committee",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "CCPR/C/GC/34"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "authoritative_interpretation",
+      "instruments": [
+        "ICCPR Article 19",
+        "CCPR/C/GC/34"
+      ],
+      "applies_to": [
+        "States parties to the ICCPR"
+      ],
+      "rights": [
+        "freedom_of_expression",
+        "access_to_information",
+        "peaceful_assembly",
+        "freedom_of_association"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality"
+      ],
+      "remedies": [
+        "Domestic implementation and effective remedies under the ICCPR"
+      ],
+      "caveats": [
+        "The General Comment interprets treaty obligations but is not a case-specific judgment or a standalone right to any named platform."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": "2014-12-16",
+    "year": 2014,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "arbitrary detention",
+      "arrest",
+      "judicial review",
+      "protest policing",
+      "compensation"
+    ],
+    "verification_status": "partially_verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-un-hrc-gc35-liberty-2014",
+    "title": "General comment No. 35: Article 9 (Liberty and security of person)",
+    "url": "https://docs.un.org/en/CCPR/C/GC/35",
+    "publisher": "United Nations Human Rights Committee",
+    "resource_type": "legal_standard",
+    "summary": "Treaty-body interpretation of the prohibition on arbitrary deprivation of liberty and the procedural protections required after arrest or detention.",
+    "relevance": "Allows protest-detention records to distinguish legal basis, arbitrariness, necessity, judicial control, and available review.",
+    "verification_notes": "Official title, year, and UN document symbol were verified; the canonical UN document endpoint was inaccessible to the automated fetch.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies"
+      ]
+    },
+    "authority": {
+      "source_class": "treaty_body",
+      "organization_id": "un-human-rights-committee",
+      "independence_group": "un-human-rights-committee",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "CCPR/C/GC/35"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "authoritative_interpretation",
+      "instruments": [
+        "ICCPR Article 9",
+        "CCPR/C/GC/35"
+      ],
+      "applies_to": [
+        "States parties to the ICCPR"
+      ],
+      "rights": [
+        "liberty_and_security",
+        "due_process",
+        "effective_remedy",
+        "non_discrimination"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "necessity",
+        "proportionality",
+        "due_process",
+        "non_discrimination"
+      ],
+      "remedies": [
+        "Prompt judicial control",
+        "Enforceable review",
+        "Compensation for unlawful arrest or detention"
+      ],
+      "caveats": [
+        "The standard does not determine whether any specific arrest was arbitrary; that requires jurisdiction-specific facts and law."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": "2018-10-30",
+    "year": 2018,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "right to life",
+      "lethal force",
+      "policing",
+      "investigation",
+      "accountability"
+    ],
+    "verification_status": "partially_verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-un-hrc-gc36-life-use-force-2018",
+    "title": "General comment No. 36 (2018) on article 6 of the International Covenant on Civil and Political Rights, on the right to life",
+    "url": "https://docs.un.org/en/CCPR/C/GC/36",
+    "publisher": "United Nations Human Rights Committee",
+    "resource_type": "legal_standard",
+    "summary": "Treaty-body interpretation of the right to life, including the exceptional and strictly necessary character of potentially lethal law-enforcement force.",
+    "relevance": "Grounds use-of-force analysis in a right-to-life standard instead of undifferentiated crowd-control language.",
+    "verification_notes": "Official document symbol, title, and date were verified through UN records; the canonical UN page blocked automated retrieval.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "treaty_body",
+      "organization_id": "un-human-rights-committee",
+      "independence_group": "un-human-rights-committee",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "CCPR/C/GC/36"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "authoritative_interpretation",
+      "instruments": [
+        "ICCPR Article 6",
+        "CCPR/C/GC/36"
+      ],
+      "applies_to": [
+        "States parties to the ICCPR"
+      ],
+      "rights": [
+        "right_to_life",
+        "effective_remedy",
+        "non_discrimination"
+      ],
+      "restriction_tests": [
+        "necessity",
+        "proportionality",
+        "accountability"
+      ],
+      "remedies": [
+        "Prompt, effective, independent, and impartial investigation",
+        "Reparation for violations"
+      ],
+      "caveats": [
+        "The standard concerns State obligations and does not itself establish the facts or attribution of a protest-related death."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 2022,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "internet shutdowns",
+      "throttling",
+      "platform blocking",
+      "human rights",
+      "redress"
+    ],
+    "verification_status": "partially_verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-ohchr-internet-shutdowns-2022",
+    "title": "Internet shutdowns: trends, causes, legal implications and impacts on a range of human rights",
+    "url": "https://docs.un.org/en/A/HRC/50/55",
+    "publisher": "Office of the United Nations High Commissioner for Human Rights",
+    "resource_type": "report",
+    "summary": "OHCHR report examining shutdown forms, impacts, legal implications, business responsibilities, and safeguards including authorization, notice, oversight, and redress.",
+    "relevance": "The strongest cross-cutting legal source for separating technical evidence of disruption from the distinct legal assessment of intentional restrictions.",
+    "verification_notes": "Official OHCHR library metadata verifies title, year, and document symbol A/HRC/50/55; the canonical UN document page returned an automated 403.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "digital_rights",
+        "connectivity_monitoring",
+        "legal_remedies"
+      ]
+    },
+    "authority": {
+      "source_class": "international_organization",
+      "organization_id": "ohchr",
+      "independence_group": "ohchr",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "A/HRC/50/55"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "institutional_analysis",
+      "instruments": [
+        "A/HRC/50/55",
+        "ICCPR Articles 17, 19, 21 and 22"
+      ],
+      "applies_to": [
+        "States under applicable international human rights law",
+        "Business enterprises have a separate responsibility to respect human rights"
+      ],
+      "rights": [
+        "freedom_of_expression",
+        "access_to_information",
+        "peaceful_assembly",
+        "freedom_of_association",
+        "privacy",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "least_intrusive_means",
+        "prior_authorization",
+        "independent_oversight",
+        "accountability"
+      ],
+      "remedies": [
+        "Meaningful notice",
+        "Independent review",
+        "Effective redress"
+      ],
+      "caveats": [
+        "The report is nonbinding analysis and does not make every detected outage attributable to a State or legally identical.",
+        "Business responsibilities discussed in the report are not the same as direct State-party treaty obligations."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 2018,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "privacy",
+      "surveillance",
+      "metadata",
+      "data-intensive systems",
+      "oversight",
+      "remedies"
+    ],
+    "verification_status": "partially_verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-ohchr-digital-privacy-2018",
+    "title": "The right to privacy in the digital age",
+    "url": "https://docs.un.org/en/A/HRC/39/29",
+    "publisher": "Office of the United Nations High Commissioner for Human Rights",
+    "resource_type": "report",
+    "summary": "OHCHR analysis of privacy in data-intensive environments, addressing surveillance safeguards, oversight, transparency, corporate responsibilities, and remedy.",
+    "relevance": "Supports precise treatment of online monitoring and chilling effects without presuming that every collection of data is unlawful.",
+    "verification_notes": "Official document metadata and symbol A/HRC/39/29 were verified; direct canonical retrieval was blocked for the automated check.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "digital_rights",
+        "surveillance_forensics",
+        "legal_remedies"
+      ]
+    },
+    "authority": {
+      "source_class": "international_organization",
+      "organization_id": "ohchr",
+      "independence_group": "ohchr",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "A/HRC/39/29"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "institutional_analysis",
+      "instruments": [
+        "A/HRC/39/29",
+        "ICCPR Article 17"
+      ],
+      "applies_to": [
+        "States under applicable international human rights law",
+        "Business enterprises have a separate responsibility to respect human rights"
+      ],
+      "rights": [
+        "privacy",
+        "freedom_of_expression",
+        "freedom_of_association",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "prior_authorization",
+        "independent_oversight",
+        "accountability"
+      ],
+      "remedies": [
+        "Independent oversight",
+        "Transparency",
+        "Effective remedies"
+      ],
+      "caveats": [
+        "The report predates some newer surveillance systems and is not a forensic finding about any vendor, product, or deployment.",
+        "Business responsibilities discussed in the report are not the same as direct State-party treaty obligations."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 1990,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "use of force",
+      "firearms",
+      "warnings",
+      "medical aid",
+      "reporting",
+      "accountability"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-ohchr-basic-force-firearms-1990",
+    "title": "Basic Principles on the Use of Force and Firearms by Law Enforcement Officials",
+    "url": "https://www.ohchr.org/sites/default/files/Documents/ProfessionalInterest/firearms.pdf",
+    "publisher": "United Nations",
+    "resource_type": "legal_standard",
+    "summary": "International principles governing necessity, restraint, proportionality, medical assistance, reporting, and review when law-enforcement officials use force or firearms.",
+    "relevance": "Creates a more exact vocabulary for assessing reported force than labels such as violent, excessive, or non-lethal standing alone.",
+    "verification_notes": "Official OHCHR-hosted PDF, title, issuing body, and 1990 adoption context were verified.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "international_organization",
+      "organization_id": "united-nations",
+      "independence_group": "united-nations",
+      "material_role": "legal_interpretation"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "non_binding_guidance",
+      "instruments": [
+        "Basic Principles on the Use of Force and Firearms by Law Enforcement Officials"
+      ],
+      "applies_to": [
+        "Law-enforcement officials",
+        "States designing law-enforcement rules and oversight"
+      ],
+      "rights": [
+        "right_to_life",
+        "freedom_from_torture",
+        "peaceful_assembly",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "necessity",
+        "proportionality",
+        "accountability"
+      ],
+      "remedies": [
+        "Reporting and administrative review",
+        "Investigation of arbitrary or abusive force"
+      ],
+      "caveats": [
+        "The principles are influential standards rather than self-executing treaty text and require case-specific factual analysis."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 2020,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "less-lethal weapons",
+      "tear gas",
+      "kinetic-impact projectiles",
+      "weapon testing",
+      "precaution",
+      "accountability"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-ohchr-less-lethal-weapons-2020",
+    "title": "United Nations Human Rights Guidance on Less-Lethal Weapons in Law Enforcement",
+    "url": "https://www.ohchr.org/Documents/HRBodies/CCPR/LLW_Guidance.pdf",
+    "publisher": "Office of the United Nations High Commissioner for Human Rights",
+    "resource_type": "legal_standard",
+    "summary": "Weapon- and scenario-specific human-rights guidance covering design, testing, training, deployment, force decisions, medical response, reporting, and accountability.",
+    "relevance": "Adds technical precision and preserves the critical distinction between less-lethal and harmless.",
+    "verification_notes": "Official OHCHR PDF and 2020 publication metadata were verified.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "safety_ethics",
+        "legal_remedies"
+      ]
+    },
+    "authority": {
+      "source_class": "international_organization",
+      "organization_id": "ohchr",
+      "independence_group": "ohchr",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "HR/PUB/20/1"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "non_binding_guidance",
+      "instruments": [
+        "United Nations Human Rights Guidance on Less-Lethal Weapons in Law Enforcement"
+      ],
+      "applies_to": [
+        "States",
+        "Law-enforcement agencies",
+        "Manufacturers",
+        "Oversight bodies"
+      ],
+      "rights": [
+        "right_to_life",
+        "freedom_from_torture",
+        "peaceful_assembly",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "necessity",
+        "proportionality",
+        "accountability"
+      ],
+      "remedies": [
+        "Reporting",
+        "Independent investigation",
+        "Accountability for unlawful weapon use"
+      ],
+      "caveats": [
+        "Less-lethal weapons can kill or cause serious injury; the guidance is not a factual finding about a specific deployment."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 2024,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "peaceful protests",
+      "law enforcement",
+      "digital technologies",
+      "de-escalation",
+      "monitoring",
+      "oversight"
+    ],
+    "verification_status": "partially_verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-un-model-protocol-peaceful-protests-2024",
+    "title": "Model Protocol for Law Enforcement Officials to Promote and Protect Human Rights in the Context of Peaceful Protests",
+    "url": "https://docs.un.org/en/A/HRC/55/60",
+    "publisher": "United Nations Special Rapporteur on the rights to freedom of peaceful assembly and of association",
+    "resource_type": "legal_standard",
+    "summary": "Practical UN model protocol organizing rights-respecting law-enforcement duties before, during, and after peaceful protests, including digital-technology and accountability considerations.",
+    "relevance": "Bridges abstract assembly standards with concrete policing, monitoring, documentation, and review practices.",
+    "verification_notes": "Official document symbol A/HRC/55/60, title, mandate, and 2024 date were verified; the canonical UN endpoint returned an automated 403.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies",
+        "surveillance_forensics",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "international_organization",
+      "organization_id": "un-special-rapporteur-assembly-association",
+      "independence_group": "un-special-rapporteur-assembly-association",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "A/HRC/55/60"
+    },
+    "legal_profile": {
+      "system": "universal",
+      "authority_level": "non_binding_guidance",
+      "instruments": [
+        "A/HRC/55/60",
+        "ICCPR Article 21"
+      ],
+      "applies_to": [
+        "Law-enforcement officials",
+        "States regulating and policing assemblies"
+      ],
+      "rights": [
+        "peaceful_assembly",
+        "freedom_of_expression",
+        "privacy",
+        "right_to_life",
+        "liberty_and_security",
+        "effective_remedy"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "non_discrimination",
+        "accountability"
+      ],
+      "remedies": [
+        "Post-event review",
+        "Independent complaints and investigation",
+        "Effective remedies"
+      ],
+      "caveats": [
+        "The model protocol is practical guidance and its procedures are not automatically binding domestic rules."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 2017,
+    "access": "open",
+    "geographies": [
+      "Africa"
+    ],
+    "cases": [],
+    "themes": [
+      "assembly policing",
+      "online assemblies",
+      "police intelligence",
+      "use of force",
+      "detention",
+      "independent observers"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-achpr-assembly-policing-2017",
+    "title": "Guidelines for the Policing of Assemblies by Law Enforcement Officials in Africa",
+    "url": "https://achpr.au.int/sites/default/files/files/2023-05/guidelinesonpolicingassembliesengfreporara.pdf",
+    "publisher": "African Commission on Human and Peoples’ Rights",
+    "resource_type": "legal_standard",
+    "summary": "Regional guidelines addressing facilitation and policing of assemblies, information-gathering, force, detention, journalists and monitors, documentation, complaints, and oversight.",
+    "relevance": "Provides unusually specific African regional guidance on both physical policing and information practices connected to assemblies.",
+    "verification_notes": "Official African Commission PDF, title, adoption year, and scope were verified.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies",
+        "surveillance_forensics",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "regional_human_rights_body",
+      "organization_id": "african-commission-human-peoples-rights",
+      "independence_group": "african-commission-human-peoples-rights",
+      "material_role": "legal_interpretation"
+    },
+    "legal_profile": {
+      "system": "african",
+      "authority_level": "non_binding_guidance",
+      "instruments": [
+        "African Charter Articles 9, 10 and 11",
+        "Guidelines for the Policing of Assemblies in Africa"
+      ],
+      "applies_to": [
+        "States parties to the African Charter on Human and Peoples’ Rights",
+        "Law-enforcement officials within those States’ jurisdiction"
+      ],
+      "rights": [
+        "peaceful_assembly",
+        "freedom_of_expression",
+        "freedom_of_association",
+        "privacy",
+        "right_to_life",
+        "liberty_and_security",
+        "effective_remedy",
+        "non_discrimination"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "non_discrimination",
+        "accountability"
+      ],
+      "remedies": [
+        "Independent complaints",
+        "Investigation powers",
+        "Effective remedy"
+      ],
+      "caveats": [
+        "The Commission frames the document as guidance and good practice, not treaty text or a judgment on a specific event."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 2017,
+    "access": "open",
+    "geographies": [
+      "Americas"
+    ],
+    "cases": [],
+    "themes": [
+      "internet access",
+      "net neutrality",
+      "blocking",
+      "filtering",
+      "privacy",
+      "data protection",
+      "online expression"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-iachr-free-open-inclusive-internet-2017",
+    "title": "Standards for a Free, Open, and Inclusive Internet",
+    "url": "https://www.oas.org/en/iachr/expression/docs/publications/INTERNET_2016_ENG.pdf",
+    "publisher": "Inter-American Commission on Human Rights, Office of the Special Rapporteur for Freedom of Expression",
+    "resource_type": "report",
+    "summary": "Inter-American standards report connecting online expression and access with privacy, network neutrality, blocking and filtering safeguards, and State and intermediary responsibilities.",
+    "relevance": "Adds regional legal context for interpreting platform interference and online monitoring in cases from the Americas.",
+    "verification_notes": "Official OAS/IACHR PDF, title, issuing office, and publication context were verified.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "digital_rights",
+        "platform_governance"
+      ]
+    },
+    "authority": {
+      "source_class": "regional_human_rights_body",
+      "organization_id": "iachr-special-rapporteur-expression",
+      "independence_group": "iachr",
+      "material_role": "legal_interpretation"
+    },
+    "legal_profile": {
+      "system": "inter_american",
+      "authority_level": "non_binding_guidance",
+      "instruments": [
+        "American Convention on Human Rights Article 13",
+        "Standards for a Free, Open, and Inclusive Internet"
+      ],
+      "applies_to": [
+        "OAS Member States through applicable inter-American instruments and commitments",
+        "States parties to the American Convention under Article 13",
+        "Internet intermediaries as responsibility-bearing actors, not treaty parties"
+      ],
+      "rights": [
+        "freedom_of_expression",
+        "access_to_information",
+        "privacy",
+        "freedom_of_association"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality"
+      ],
+      "remedies": [
+        "Judicial and administrative safeguards consistent with Inter-American standards"
+      ],
+      "caveats": [
+        "The report is Commission and Special Rapporteur guidance, not an Inter-American Court judgment.",
+        "The legal force of a cited standard varies by instrument, ratification, State obligation, and the separate responsibility of a private intermediary."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": 2019,
+    "access": "open",
+    "geographies": [
+      "OSCE region",
+      "Council of Europe"
+    ],
+    "cases": [],
+    "themes": [
+      "spontaneous assemblies",
+      "notification",
+      "policing",
+      "protest monitoring",
+      "privacy",
+      "remedies"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "law-osce-venice-peaceful-assembly-2019",
+    "title": "Joint Guidelines on Freedom of Peaceful Assembly (3rd Edition)",
+    "url": "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL%282019%29012-e",
+    "publisher": "OSCE Office for Democratic Institutions and Human Rights and Council of Europe Venice Commission",
+    "resource_type": "legal_standard",
+    "summary": "Comparative regional guidance on the presumption in favor of assembly, notification, restrictions, policing, monitoring, accountability, and effective remedies.",
+    "relevance": "Supports structured comparison of notification rules, disruptive but peaceful protest, observation, and review across European and OSCE settings.",
+    "verification_notes": "Official Venice Commission document URL, document number CDL(2019)012, title, and 2019 edition were verified.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "regional_human_rights_body",
+      "organization_id": "osce-odihr-venice-commission",
+      "independence_group": "osce-odihr-venice-commission",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "CDL(2019)012"
+    },
+    "legal_profile": {
+      "system": "cross_regional",
+      "authority_level": "non_binding_guidance",
+      "instruments": [
+        "European Convention on Human Rights Article 11",
+        "OSCE commitments",
+        "CDL(2019)012"
+      ],
+      "applies_to": [
+        "OSCE participating States",
+        "Council of Europe comparative legal practice"
+      ],
+      "rights": [
+        "peaceful_assembly",
+        "freedom_of_expression",
+        "freedom_of_association",
+        "privacy",
+        "effective_remedy",
+        "non_discrimination"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "non_discrimination",
+        "accountability"
+      ],
+      "remedies": [
+        "Prompt administrative and judicial review",
+        "Accountability for unlawful restrictions"
+      ],
+      "caveats": [
+        "The guidelines are not ECtHR case law and do not determine binding obligations outside the relevant treaty and membership context.",
+        "OSCE participating States include States outside geographic Europe; Council of Europe and OSCE commitments must be distinguished."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": "2019-01-24",
+    "year": 2019,
+    "access": "open",
+    "geographies": [
+      "United Kingdom",
+      "Council of Europe"
+    ],
+    "cases": [],
+    "themes": [
+      "protest surveillance",
+      "police databases",
+      "political opinion",
+      "data retention",
+      "privacy safeguards"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "case-echr-catt-uk-2019",
+    "title": "Case of Catt v. the United Kingdom",
+    "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+CATT+v.+THE+UNITED+KINGDOM.pdf&id=001-189424&library=ECHR&logEvent=False",
+    "publisher": "European Court of Human Rights",
+    "resource_type": "case_law",
+    "summary": "ECtHR judgment finding that continuing retention of data about a peaceful protester was disproportionate in the absence of adequate safeguards and review.",
+    "relevance": "The atlas's most direct judicial authority on long-term police retention of protest-related personal data.",
+    "verification_notes": "Official HUDOC judgment PDF, application number, judgment date, holding, and Article 8 analysis were verified.",
+    "taxonomy": {
+      "primary_topic": "legal_rights",
+      "topics": [
+        "legal_rights",
+        "legal_remedies",
+        "surveillance_forensics",
+        "digital_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "court",
+      "organization_id": "european-court-human-rights",
+      "independence_group": "european-court-human-rights",
+      "material_role": "legal_interpretation"
+    },
+    "identifiers": {
+      "official_document_id": "ECHR-43514/15"
+    },
+    "legal_profile": {
+      "system": "european",
+      "authority_level": "binding_case_law",
+      "instruments": [
+        "European Convention on Human Rights Article 8",
+        "Application no. 43514/15"
+      ],
+      "applies_to": [
+        "United Kingdom as respondent State under European Convention Article 46"
+      ],
+      "rights": [
+        "privacy"
+      ],
+      "restriction_tests": [
+        "prescribed_by_law",
+        "legitimate_aim",
+        "necessity",
+        "proportionality",
+        "due_process",
+        "accountability"
+      ],
+      "remedies": [
+        "Judicial finding of violation",
+        "Review and safeguards for data retention"
+      ],
+      "caveats": [
+        "The judgment did not categorically prohibit all police collection; its Article 8 holding turned on continued retention, proportionality, effective procedural safeguards, review, and the specific record.",
+        "The judgment is binding on the respondent State; it is persuasive interpretive authority elsewhere in the Convention system, while expression and assembly were contextual rather than separate holdings."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "internet censorship",
+      "website blocking",
+      "messaging-app blocking",
+      "network measurement",
+      "outage signals"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "monitor-ooni-explorer",
+    "title": "OONI Explorer",
+    "url": "https://explorer.ooni.org/",
+    "publisher": "Open Observatory of Network Interference",
+    "resource_type": "monitor",
+    "summary": "Searchable global explorer of opt-in OONI Probe measurements across web connectivity, messaging applications, circumvention tools, performance, and related outage views.",
+    "relevance": "Adds measurement-level access while making the crucial distinction between an anomaly, confirmed blocking, a wider outage, and attribution.",
+    "verification_notes": "Live OONI Explorer interface, methodology labels, measurement caveats, and third-party outage integrations were verified.",
+    "taxonomy": {
+      "primary_topic": "connectivity_monitoring",
+      "topics": [
+        "connectivity_monitoring",
+        "digital_repression",
+        "digital_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "network_measurement_project",
+      "organization_id": "ooni",
+      "independence_group": "ooni",
+      "material_role": "monitoring"
+    },
+    "technical_profile": {
+      "system_type": "network_measurement",
+      "methods": [
+        "Web Connectivity",
+        "Instant-messaging tests",
+        "Circumvention-tool tests",
+        "Performance tests"
+      ],
+      "technical_layers": [
+        "dns",
+        "tcp_ip",
+        "tls",
+        "http",
+        "application_layer"
+      ],
+      "collection_modes": [
+        "volunteer_measurement",
+        "active_measurement"
+      ],
+      "signals": [
+        "DNS, TCP, TLS, and HTTP anomalies",
+        "Known block-page fingerprints",
+        "Application reachability"
+      ],
+      "cadence": "continuous",
+      "geographic_resolution": "Measurement, country, and network/ASN where volunteer coverage exists",
+      "temporal_resolution": "Per test timestamp with selectable aggregation windows",
+      "data_access": [
+        "open_data",
+        "public_dashboard",
+        "public_api",
+        "download"
+      ],
+      "validation_requirements": [
+        "Inspect raw measurements, repeated patterns, networks, control comparisons, and contextual or independent technical evidence."
+      ],
+      "limitations": [
+        "Volunteer and test-list coverage is uneven; an anomaly without a block-page fingerprint can be a false positive; measurements do not prove intent or actor."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster"
+      ],
+      "display_note": "Use aggregate measurement patterns and avoid exposing sparse probe activity or inferring a participant's identity, motive, or precise location."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "internet outages",
+      "BGP",
+      "active probing",
+      "network telescope",
+      "connectivity disruption"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "monitor-ioda-resource-hub",
+    "title": "IODA User Resource Hub",
+    "url": "https://ioda.inetintel.cc.gatech.edu/resources?tab=glossary",
+    "publisher": "Georgia Tech Internet Intelligence Lab",
+    "resource_type": "monitor",
+    "summary": "Method and glossary hub for IODA's multi-signal monitoring of macroscopic Internet connectivity using routing, probing, background-radiation, and selected product-traffic signals.",
+    "relevance": "Provides an explicit technical basis for outage alerts while warning that connectivity loss alone cannot determine cause or intent.",
+    "verification_notes": "Live IODA resource material and About page verified the project, institutional home, signals, resolutions, and open-monitoring purpose.",
+    "taxonomy": {
+      "primary_topic": "connectivity_monitoring",
+      "topics": [
+        "connectivity_monitoring",
+        "digital_repression"
+      ]
+    },
+    "authority": {
+      "source_class": "network_measurement_project",
+      "organization_id": "ioda-georgia-tech",
+      "independence_group": "ioda-georgia-tech",
+      "material_role": "monitoring"
+    },
+    "technical_profile": {
+      "system_type": "outage_monitor",
+      "methods": [
+        "BGP visibility",
+        "Active probing",
+        "Internet background radiation",
+        "Historical-baseline alerting"
+      ],
+      "technical_layers": [
+        "routing_bgp",
+        "active_probing",
+        "internet_background_radiation",
+        "network_traffic"
+      ],
+      "collection_modes": [
+        "active_measurement",
+        "passive_observation",
+        "mixed"
+      ],
+      "signals": [
+        "Visible route prefixes",
+        "Responsive routed /24 networks",
+        "Unique background-radiation source addresses",
+        "Abnormal connectivity drops"
+      ],
+      "cadence": "continuous",
+      "geographic_resolution": "Country, region, and network/ASN",
+      "temporal_resolution": "Signals from minute-level to approximately ten-minute collection intervals",
+      "data_access": [
+        "open_data",
+        "public_dashboard",
+        "public_api"
+      ],
+      "validation_requirements": [
+        "Seek concordance across IODA signals and compare local reporting, provider notices, orders, OONI, and other monitors."
+      ],
+      "limitations": [
+        "Coverage differs by network; routing and traffic drops cannot distinguish censorship from infrastructure failure, disaster, maintenance, or attack and do not attribute intent."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "censorship measurement",
+      "DNS",
+      "TCP",
+      "HTTP",
+      "HTTPS",
+      "remote measurement"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "monitor-censored-planet-observatory",
+    "title": "Censored Planet Observatory Documentation",
+    "url": "https://docs.censoredplanet.org/",
+    "publisher": "Censored Planet, University of Michigan",
+    "resource_type": "monitor",
+    "summary": "Documentation for a longitudinal remote-measurement observatory using protocol-specific techniques to study interference across many countries and networks.",
+    "relevance": "Adds scalable remote measurement and unusually explicit warnings that raw anomalies are not themselves findings of censorship.",
+    "verification_notes": "Live official documentation verified the observatory, protocol families, versioned datasets, public archives, and stated limitations.",
+    "taxonomy": {
+      "primary_topic": "connectivity_monitoring",
+      "topics": [
+        "connectivity_monitoring",
+        "digital_repression"
+      ]
+    },
+    "authority": {
+      "source_class": "network_measurement_project",
+      "organization_id": "censored-planet",
+      "independence_group": "censored-planet",
+      "material_role": "monitoring"
+    },
+    "technical_profile": {
+      "system_type": "censorship_observatory",
+      "methods": [
+        "Augur",
+        "Satellite",
+        "Hyperquack",
+        "Protocol-specific remote measurement"
+      ],
+      "technical_layers": [
+        "dns",
+        "tcp_ip",
+        "http",
+        "tls",
+        "application_layer"
+      ],
+      "collection_modes": [
+        "remote_measurement",
+        "active_measurement"
+      ],
+      "signals": [
+        "Protocol responses and reachability",
+        "Control comparisons",
+        "Health checks",
+        "Block-page or interference indicators"
+      ],
+      "cadence": "periodic",
+      "geographic_resolution": "Country and infrastructural vantage point/network",
+      "temporal_resolution": "Versioned scans, generally weekly with event-focused measurement",
+      "data_access": [
+        "open_data",
+        "public_dashboard",
+        "download"
+      ],
+      "validation_requirements": [
+        "Inspect raw results and methodology version, then compare controls, OONI, local evidence, and other network signals."
+      ],
+      "limitations": [
+        "Remote infrastructure is not an end-user device; method versions affect comparability; network anomalies do not establish actor or intent."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster"
+      ],
+      "display_note": "Do not repurpose raw vantage-point details to identify operators, institutions, or other potentially vulnerable infrastructure."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "internet outages",
+      "traffic anomalies",
+      "network monitoring",
+      "autonomous systems",
+      "traffic trends"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "monitor-cloudflare-radar-outages",
+    "title": "Cloudflare Radar Outage Center",
+    "url": "https://radar.cloudflare.com/outage-center",
+    "publisher": "Cloudflare",
+    "resource_type": "monitor",
+    "summary": "Continuously updated view of country- and network-level traffic anomalies and curated outage events derived from Cloudflare-observed traffic.",
+    "relevance": "Adds a high-coverage operator signal while explicitly limiting claims to traffic visible on Cloudflare's network.",
+    "verification_notes": "Live Radar About and Outage Center pages verified data sources, event fields, CSV availability, UTC timestamps, and licensing notes.",
+    "taxonomy": {
+      "primary_topic": "connectivity_monitoring",
+      "topics": [
+        "connectivity_monitoring",
+        "digital_repression"
+      ]
+    },
+    "authority": {
+      "source_class": "technical_operator",
+      "organization_id": "cloudflare-radar",
+      "independence_group": "cloudflare",
+      "material_role": "monitoring"
+    },
+    "technical_profile": {
+      "system_type": "outage_monitor",
+      "methods": [
+        "Aggregate traffic analysis",
+        "Automated anomaly detection",
+        "Curated outage events"
+      ],
+      "technical_layers": [
+        "network_traffic"
+      ],
+      "collection_modes": [
+        "passive_observation",
+        "mixed"
+      ],
+      "signals": [
+        "Traffic-volume changes",
+        "Country or ASN anomaly intervals",
+        "Curated scope and cause labels"
+      ],
+      "cadence": "continuous",
+      "geographic_resolution": "Country, first-order region, city where supported, and ASN/network",
+      "temporal_resolution": "Event intervals and near-real-time traffic windows",
+      "data_access": [
+        "public_dashboard",
+        "public_api",
+        "download"
+      ],
+      "validation_requirements": [
+        "Compare IODA, OONI, local ISP notices, technical reporting, government orders, and the evidence supporting any cause label."
+      ],
+      "limitations": [
+        "Cloudflare-observed traffic is not the entire Internet; an anomaly is not proof of a full outage, intent, cause, or responsible actor.",
+        "Radar's BGP and DNS views are separate contextual products, not documented inputs to the Outage Center's traffic-anomaly detection."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": "2024-05-15",
+    "year": 2024,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "internet shutdowns",
+      "throttling",
+      "platform blocking",
+      "human-rights monitoring",
+      "attribution"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "monitor-access-now-stop-2024",
+    "title": "Shutdown Tracker Optimization Project (STOP)",
+    "url": "https://www.accessnow.org/guide/shutdown-tracker-optimization-project/",
+    "publisher": "Access Now and the #KeepItOn Coalition",
+    "resource_type": "monitor",
+    "summary": "Contextual shutdown methodology and tracker combining technical measurements, local partners, news reporting, government orders, and manual verification.",
+    "relevance": "Shows why technical detection, contextual classification, deliberate attribution, and human-rights impact must be recorded as separate analytical steps.",
+    "verification_notes": "Live official methodology page verified publication date, 30 March 2026 update, definitions, data fields, source classes, and acknowledged coverage limits.",
+    "taxonomy": {
+      "primary_topic": "connectivity_monitoring",
+      "topics": [
+        "connectivity_monitoring",
+        "digital_rights",
+        "digital_repression",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "access-now-keepiton",
+      "independence_group": "access-now-keepiton",
+      "material_role": "monitoring"
+    },
+    "technical_profile": {
+      "system_type": "outage_monitor",
+      "methods": [
+        "Multi-source incident documentation",
+        "Technical-signal review",
+        "Government-order review",
+        "Local contextual verification"
+      ],
+      "technical_layers": [
+        "network_traffic",
+        "routing_bgp",
+        "dns",
+        "application_layer",
+        "platform_content"
+      ],
+      "collection_modes": [
+        "contextual_reporting",
+        "mixed"
+      ],
+      "signals": [
+        "Full-network shutdown",
+        "Bandwidth throttling",
+        "Service or platform blocking",
+        "Geographic and network scope",
+        "Documented attribution and stated justification as contextual fields"
+      ],
+      "cadence": "event_driven",
+      "geographic_resolution": "Incident level from neighborhood to national scope",
+      "temporal_resolution": "Events lasting over one hour, with actual or estimated dates and later revisions",
+      "data_access": [
+        "public_dashboard",
+        "download"
+      ],
+      "validation_requirements": [
+        "Preserve underlying source links and distinguish technical observation, local report, government claim, and manually verified attribution."
+      ],
+      "limitations": [
+        "The tracker is non-exhaustive, platform blocks are underreported, classifications can change, and country totals can hide severity and coverage differences."
+      ]
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "network performance",
+      "throughput",
+      "latency",
+      "TCP",
+      "throttling analysis"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "methodology-mlab-ndt7",
+    "title": "ndt7 Protocol - NDT (Network Diagnostic Tool)",
+    "url": "https://www.measurementlab.net/tests/ndt/ndt7/",
+    "publisher": "Measurement Lab",
+    "resource_type": "methodology",
+    "summary": "Protocol and data-schema documentation for active client-to-server TCP measurements of throughput, latency, congestion state, and related transport metrics.",
+    "relevance": "Makes performance evidence more precise and prevents a throughput drop from being mislabeled as deliberate throttling without comparative analysis.",
+    "verification_notes": "Live M-Lab protocol and test pages verified ndt7's method, data collection start date, metrics, public-data posture, and privacy warnings.",
+    "taxonomy": {
+      "primary_topic": "connectivity_monitoring",
+      "topics": [
+        "connectivity_monitoring",
+        "digital_repression"
+      ]
+    },
+    "authority": {
+      "source_class": "network_measurement_project",
+      "organization_id": "measurement-lab",
+      "independence_group": "measurement-lab",
+      "material_role": "methodology"
+    },
+    "technical_profile": {
+      "system_type": "performance_measurement",
+      "methods": [
+        "Single-stream TCP performance test",
+        "TCP_INFO-derived metrics",
+        "Client-server active measurement"
+      ],
+      "technical_layers": [
+        "tcp_ip",
+        "active_probing"
+      ],
+      "collection_modes": [
+        "active_measurement",
+        "volunteer_measurement"
+      ],
+      "signals": [
+        "Upload and download throughput",
+        "Latency",
+        "TCP congestion and connection metrics"
+      ],
+      "cadence": "on_demand",
+      "geographic_resolution": "Individual test and released aggregate geography, subject to privacy and dataset fields",
+      "temporal_resolution": "Per-test UTC timestamp",
+      "data_access": [
+        "open_data",
+        "public_api",
+        "download"
+      ],
+      "validation_requirements": [
+        "Compare like paths and time periods and test congestion, routing, server, device, and access-network explanations."
+      ],
+      "limitations": [
+        "NDT cannot by itself distinguish deliberate throttling from congestion or other end-to-end performance conditions; public test data carries privacy implications."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster"
+      ],
+      "display_note": "Use aggregates and observe M-Lab's public-data policy; small-cell reporting can expose individual client activity."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "mobile forensics",
+      "spyware",
+      "indicators of compromise",
+      "surveillance",
+      "device artifacts"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "tool-mobile-verification-toolkit",
+    "title": "Mobile Verification Toolkit",
+    "url": "https://docs.mvt.re/en/latest/",
+    "publisher": "Amnesty International Security Lab and MVT Project Developers",
+    "resource_type": "tool",
+    "summary": "Open-source forensic toolkit and documentation for consensual analysis of Android and iOS artifacts for possible traces of compromise.",
+    "relevance": "Adds a bounded surveillance-forensics source that explicitly rejects both non-detection-as-safety and indicator-match-as-final-attribution.",
+    "verification_notes": "Current official MVT and Amnesty Security Lab documentation verified supported workflows, expert-use warnings, Android evidence limitations, and open-source status.",
+    "taxonomy": {
+      "primary_topic": "surveillance_forensics",
+      "topics": [
+        "surveillance_forensics",
+        "digital_repression",
+        "osint_evidence",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "tool_developer",
+      "organization_id": "amnesty-security-lab-mvt",
+      "independence_group": "amnesty-international",
+      "material_role": "tool_documentation"
+    },
+    "technical_profile": {
+      "system_type": "device_forensics",
+      "methods": [
+        "Artifact extraction review",
+        "Backup and log parsing",
+        "STIX indicator matching",
+        "Timeline analysis"
+      ],
+      "technical_layers": [
+        "device"
+      ],
+      "collection_modes": [
+        "manual_investigation"
+      ],
+      "signals": [
+        "Known indicators of compromise",
+        "Suspicious process or network artifacts",
+        "Device and application logs"
+      ],
+      "cadence": "on_demand",
+      "geographic_resolution": null,
+      "temporal_resolution": "Artifact and event timestamps where the operating system preserves them",
+      "data_access": [
+        "tool_output",
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Use qualified forensic review, current indicators, documented acquisition, and independent corroboration before concluding targeting or infection."
+      ],
+      "limitations": [
+        "Public indicators are incomplete and age; non-detection does not prove absence; an indicator match does not alone prove infection or attribute an actor; Android sources vary by device and version.",
+        "MVT analyses acquired artifacts; Android acquisition is recommended through AndroidQF, and direct ADB analysis was removed because its results were incomplete and inconsistent."
+      ]
+    },
+    "evidence_profile": {
+      "role": "verification",
+      "methods": [
+        "metadata_review",
+        "document_authentication",
+        "cross_source_corroboration"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved",
+        "hash_recorded"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "The tool produces forensic leads for expert interpretation; it does not issue a legal or attribution finding."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier",
+        "unredacted_sensitive_media"
+      ],
+      "display_note": "Device analysis must be consensual and professionally handled; outputs can expose highly sensitive personal and account data."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": "2025-02-28",
+    "year": 2025,
+    "access": "open",
+    "geographies": [
+      "Serbia"
+    ],
+    "cases": [
+      "Serbia student protests"
+    ],
+    "themes": [
+      "mobile forensics",
+      "Cellebrite",
+      "zero-day exploits",
+      "student activist",
+      "surveillance"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "case-serbia-amnesty-cellebrite-2025",
+    "title": "Cellebrite zero-day exploit used to target phone of Serbian student activist",
+    "url": "https://securitylab.amnesty.org/latest/2025/02/cellebrite-zero-day-exploit-used-to-target-phone-of-serbian-student-activist/",
+    "publisher": "Amnesty International Security Lab",
+    "resource_type": "article",
+    "case_ids": [
+      "serbia-2024-2025"
+    ],
+    "summary": "Technical case report describing forensic traces consistent with use of a Cellebrite exploit chain against the phone of a Serbian student activist while detained.",
+    "relevance": "Connects the Serbia case to a documented surveillance-forensics methodology while keeping the publisher's attribution, scope, and withheld exploit detail explicit.",
+    "verification_notes": "Live Amnesty Security Lab report verified title, date, case scope, forensic timeline, vendor response context, and the authors' disclosure limits.",
+    "taxonomy": {
+      "primary_topic": "surveillance_forensics",
+      "topics": [
+        "surveillance_forensics",
+        "osint_evidence",
+        "case_research",
+        "digital_repression",
+        "legal_rights"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "amnesty-security-lab",
+      "independence_group": "amnesty-international",
+      "material_role": "case_reporting"
+    },
+    "technical_profile": {
+      "system_type": "device_forensics",
+      "methods": [
+        "Android log analysis",
+        "USB event analysis",
+        "Exploit-trace comparison",
+        "Vendor and platform disclosure coordination"
+      ],
+      "technical_layers": [
+        "device"
+      ],
+      "collection_modes": [
+        "forensic_acquisition",
+        "manual_investigation"
+      ],
+      "signals": [
+        "USB peripheral-emulation traces",
+        "Root code-execution artifacts",
+        "Device unlock events",
+        "Attempted application installation"
+      ],
+      "cadence": "event_driven",
+      "geographic_resolution": "Single documented device and detention context",
+      "temporal_resolution": "Device-event timeline",
+      "data_access": [
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Treat findings as the publisher's forensic conclusions and compare disclosed artifacts, patches, vendor statements, and any independent review."
+      ],
+      "limitations": [
+        "Single-case scope does not establish prevalence; some exploit details were withheld pending patches; device traces cannot answer every legal-authorization question."
+      ]
+    },
+    "evidence_profile": {
+      "role": "investigation",
+      "methods": [
+        "metadata_review",
+        "document_authentication",
+        "cross_source_corroboration"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved",
+        "hash_recorded"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "do_no_harm_review"
+      ],
+      "claim_status": "publisher_observation",
+      "limitations": [
+        "The atlas records Amnesty's forensic finding and does not independently re-examine the device."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster"
+      ],
+      "display_note": "Do not publish raw device artifacts, identifying timelines, exploit details withheld for patching, or information that could expose the affected person."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": "2020-03-10",
+    "year": 2020,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "OSINT",
+      "digital archiving",
+      "evidence preservation",
+      "geolocation",
+      "chronolocation",
+      "chain of custody"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "methodology-mnemonic-methods-2020",
+    "title": "Methods",
+    "url": "https://mnemonic.org/en/about/methods/",
+    "publisher": "Mnemonic",
+    "resource_type": "methodology",
+    "summary": "Human-rights investigation methodology covering collection, immutable preservation, hashing, audit logs, tagging, source/content/technical analysis, and incident-level research.",
+    "relevance": "Adds a mature end-to-end model for turning unstable public content into reviewable evidence without confusing preservation with verification.",
+    "verification_notes": "Live Mnemonic methodology page verified title, date, public methods, Diwan and Elfehrest roles, principles, and acknowledged access limits.",
+    "taxonomy": {
+      "primary_topic": "osint_evidence",
+      "topics": [
+        "osint_evidence",
+        "media_verification",
+        "legal_remedies",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "mnemonic",
+      "independence_group": "mnemonic",
+      "material_role": "methodology"
+    },
+    "technical_profile": {
+      "system_type": "digital_archive",
+      "methods": [
+        "Automated and manual web preservation",
+        "Hashing",
+        "Immutable event logging",
+        "Tagging and incident clustering",
+        "Source/content/technical analysis"
+      ],
+      "technical_layers": [
+        "platform_content",
+        "media_metadata",
+        "visual_geospatial"
+      ],
+      "collection_modes": [
+        "manual_investigation",
+        "mixed"
+      ],
+      "signals": [
+        "Archived source metadata and media",
+        "Hashes",
+        "Audit trails",
+        "Source, content, location, time, and event analyses"
+      ],
+      "cadence": "event_driven",
+      "geographic_resolution": "Record, incident, event, and program archive",
+      "temporal_resolution": "Acquisition, upload, content, and incident times kept distinct where known",
+      "data_access": [
+        "controlled",
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Use multimodal verification, reproducible notes, competing hypotheses, and clear separation of source, content, and technical analysis."
+      ],
+      "limitations": [
+        "The public page does not expose all internal handbook procedures; archives face platform removal, collection gaps, and security-based access controls."
+      ]
+    },
+    "evidence_profile": {
+      "role": "archive",
+      "methods": [
+        "source_discovery",
+        "cross_source_corroboration",
+        "metadata_review",
+        "geolocation",
+        "chronolocation",
+        "visual_comparison",
+        "archive_capture",
+        "hash_verification",
+        "chain_of_custody"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved",
+        "hash_recorded",
+        "archived_copy",
+        "chain_of_custody_documented"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "Archival integrity and traceability support later analysis but do not by themselves prove the depicted event or responsibility."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier",
+        "unredacted_sensitive_media"
+      ],
+      "display_note": "Preservation can expose victims, witnesses, source accounts, and investigators; access control and data minimization are part of evidentiary quality."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "controlled capture",
+      "metadata",
+      "chain of custody",
+      "hashing",
+      "legal evidence"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "guide-eyewitness-metadata",
+    "title": "Using metadata to prove the reliability and validity of footage",
+    "url": "https://www.eyewitness.global/Using-metadata",
+    "publisher": "eyeWitness to Atrocities",
+    "resource_type": "guide",
+    "summary": "Explainer on controlled capture, multi-source metadata, hashing, encryption, secure transmission, and maintaining a reviewable custody record.",
+    "relevance": "Distinguishes file integrity and custody from the separate work of corroborating context, identity, and events outside the frame.",
+    "verification_notes": "Official eyeWitness pages verified the app and server workflow, metadata and chain-of-custody purpose, and limits of technology without legal and human review; no publication date was stated.",
+    "taxonomy": {
+      "primary_topic": "media_verification",
+      "topics": [
+        "media_verification",
+        "osint_evidence",
+        "legal_remedies",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "rights_organization",
+      "organization_id": "eyewitness-to-atrocities",
+      "independence_group": "eyewitness-to-atrocities",
+      "material_role": "methodology"
+    },
+    "technical_profile": {
+      "system_type": "evidence_capture",
+      "methods": [
+        "Controlled capture",
+        "Hashing",
+        "Metadata recording",
+        "Encrypted transmission",
+        "Secure server custody"
+      ],
+      "technical_layers": [
+        "device",
+        "media_metadata"
+      ],
+      "collection_modes": [
+        "controlled_capture"
+      ],
+      "signals": [
+        "Capture metadata",
+        "Device and GPS time",
+        "Location-related observations",
+        "Cryptographic hash",
+        "Custody events"
+      ],
+      "cadence": "on_demand",
+      "geographic_resolution": "Individual capture event; location metadata where available and intentionally retained",
+      "temporal_resolution": "Capture and custody-event timestamps",
+      "data_access": [
+        "controlled",
+        "tool_output",
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Compare metadata sources and hashes, corroborate location and time independently, and preserve the server-side custody record."
+      ],
+      "limitations": [
+        "Metadata can be missing or inconsistent; capture integrity does not prove every contextual claim or material outside the frame."
+      ]
+    },
+    "evidence_profile": {
+      "role": "capture",
+      "methods": [
+        "metadata_review",
+        "document_authentication",
+        "hash_verification",
+        "chain_of_custody",
+        "cross_source_corroboration"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved",
+        "hash_recorded",
+        "archived_copy",
+        "chain_of_custody_documented"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "A controlled capture workflow supports authenticity and custody but does not guarantee legal admissibility or contextual truth."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster",
+        "unredacted_sensitive_media"
+      ],
+      "display_note": "Original capture metadata can expose exact locations, devices, documenters, and witnesses; do not publish it merely because it aids verification."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "secure documentation",
+      "encrypted storage",
+      "offline collection",
+      "human-rights evidence",
+      "data transfer"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "tool-tella",
+    "title": "Tella",
+    "url": "https://tella-app.org/",
+    "publisher": "Horizontal",
+    "resource_type": "tool",
+    "summary": "Open-source, multilingual documentation application for capturing and protecting sensitive media and structured records in low-connectivity or repressive environments.",
+    "relevance": "Adds an evidence-collection tool while keeping encryption, hidden storage, offline transfer, verification, and legal admissibility as distinct claims.",
+    "verification_notes": "Live official page verified project ownership, encryption and hidden-storage claims, offline-first transfer, integrations, languages, open-source code, and published audits; no publication date was stated.",
+    "taxonomy": {
+      "primary_topic": "osint_evidence",
+      "topics": [
+        "osint_evidence",
+        "media_verification",
+        "secure_communications",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "tool_developer",
+      "organization_id": "horizontal-tella",
+      "independence_group": "horizontal-tella",
+      "material_role": "tool_documentation"
+    },
+    "technical_profile": {
+      "system_type": "evidence_capture",
+      "methods": [
+        "In-app media capture",
+        "Encrypted local storage",
+        "Offline-first forms and transfer",
+        "Server synchronization"
+      ],
+      "technical_layers": [
+        "device",
+        "media_metadata",
+        "application_layer"
+      ],
+      "collection_modes": [
+        "controlled_capture"
+      ],
+      "signals": [
+        "Captured media and audio",
+        "Structured form records",
+        "Locally encrypted evidence folders",
+        "Submission state"
+      ],
+      "cadence": "on_demand",
+      "geographic_resolution": "User-selected case or record; metadata behavior depends on configuration and version",
+      "temporal_resolution": "Capture and submission events where retained",
+      "data_access": [
+        "tool_output",
+        "controlled",
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Retain originals, record application version and configuration, and perform independent media and contextual verification."
+      ],
+      "limitations": [
+        "The landing page does not establish universal chain of custody, legal admissibility, metadata reliability, or safety under every threat model."
+      ]
+    },
+    "evidence_profile": {
+      "role": "capture",
+      "methods": [
+        "metadata_review",
+        "archive_capture",
+        "cross_source_corroboration"
+      ],
+      "artifact_handling": [
+        "context_recorded",
+        "original_preserved",
+        "archived_copy"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "Encrypted capture protects a workflow component; it does not independently authenticate every claim or preserve a legal chain of custody."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier",
+        "unredacted_sensitive_media"
+      ],
+      "display_note": "Hidden or encrypted content can still create physical and legal risk if a device is discovered; local threat modelling and data minimization remain necessary."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "content provenance",
+      "metadata",
+      "C2PA",
+      "digital signatures",
+      "media verification"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "tool-proofmode",
+    "title": "Proofmode",
+    "url": "https://proofmode.org/about",
+    "publisher": "Proofmode Reality Systems",
+    "resource_type": "tool",
+    "summary": "Open-source capture and verification ecosystem for inspecting and packaging media provenance, signatures, timestamps, and metadata.",
+    "relevance": "Adds provenance tooling while explicitly preventing the common mistake of equating a valid signature or metadata field with verified event context.",
+    "verification_notes": "Live official About page verified Capture and Verify workflow, metadata formats, source-code claims, privacy controls, and collaboration history; no publication date was stated.",
+    "taxonomy": {
+      "primary_topic": "media_verification",
+      "topics": [
+        "media_verification",
+        "osint_evidence",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "tool_developer",
+      "organization_id": "proofmode",
+      "independence_group": "proofmode",
+      "material_role": "tool_documentation"
+    },
+    "technical_profile": {
+      "system_type": "provenance_tool",
+      "methods": [
+        "Controlled capture",
+        "Digital signatures",
+        "Timestamping",
+        "Metadata inspection",
+        "C2PA verification"
+      ],
+      "technical_layers": [
+        "device",
+        "media_metadata"
+      ],
+      "collection_modes": [
+        "controlled_capture",
+        "manual_investigation"
+      ],
+      "signals": [
+        "C2PA, IPTC, and EXIF metadata",
+        "Digital signatures",
+        "Timestamps",
+        "Integrity and provenance claims"
+      ],
+      "cadence": "on_demand",
+      "geographic_resolution": "Individual file and any intentionally included location claims",
+      "temporal_resolution": "Capture, signature, and provenance-event timestamps",
+      "data_access": [
+        "tool_output",
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Verify signatures and provenance, then separately assess source, content, location, chronology, and context."
+      ],
+      "limitations": [
+        "Missing provenance proves nothing; valid provenance does not independently prove context, accuracy, location, or depicted events."
+      ]
+    },
+    "evidence_profile": {
+      "role": "verification",
+      "methods": [
+        "metadata_review",
+        "document_authentication",
+        "hash_verification",
+        "cross_source_corroboration"
+      ],
+      "artifact_handling": [
+        "original_preserved",
+        "hash_recorded",
+        "chain_of_custody_documented"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "Provenance is a trust signal, not a truth verdict; public derivatives may need metadata redaction while originals remain protected.",
+        "Chain-of-custody features apply when Proofmode Capture's protected bundle and procedural handling are used, not to arbitrary third-party files inspected in Verify."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster",
+        "unredacted_sensitive_media"
+      ],
+      "display_note": "Location, device, and identity metadata can help verification while endangering documenters and subjects; preserve it under access control."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "content provenance",
+      "content credentials",
+      "digital signatures",
+      "manifests",
+      "tamper evidence",
+      "trust signals"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "standard-c2pa-content-credentials-2-4",
+    "title": "Content Credentials: C2PA Technical Specification",
+    "url": "https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html",
+    "publisher": "Coalition for Content Provenance and Authenticity",
+    "resource_type": "technical_standard",
+    "summary": "Technical standard for cryptographically bound provenance manifests, assertions, signatures, hard and soft content bindings, and validation of Content Credentials.",
+    "relevance": "Provides the technical layer behind several provenance tools while explicitly stating that validated provenance is not a value judgment about truth.",
+    "verification_notes": "Live official version 2.4 specification and C2PA guiding principles were checked; the specification page did not provide a publication date suitable for the record.",
+    "taxonomy": {
+      "primary_topic": "media_verification",
+      "topics": [
+        "media_verification",
+        "osint_evidence",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "technical_operator",
+      "organization_id": "c2pa",
+      "independence_group": "c2pa",
+      "material_role": "methodology"
+    },
+    "identifiers": {
+      "official_document_id": "C2PA-2.4"
+    },
+    "technical_profile": {
+      "system_type": "provenance_tool",
+      "methods": [
+        "Signed provenance manifests",
+        "Cryptographic content binding",
+        "Assertion and credential validation",
+        "Trust-list evaluation"
+      ],
+      "technical_layers": [
+        "media_metadata"
+      ],
+      "collection_modes": [
+        "not_applicable"
+      ],
+      "signals": [
+        "Well-formed manifests",
+        "Claim signatures",
+        "Hard and soft bindings",
+        "Signer and assertion trust signals"
+      ],
+      "cadence": "static",
+      "geographic_resolution": null,
+      "temporal_resolution": "Provenance-event timestamps when included",
+      "data_access": [
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Validate the manifest and binding, assess signer trust and assertion meaning, and corroborate the underlying content and context independently."
+      ],
+      "limitations": [
+        "A valid manifest establishes association and tamper evidence for assertions; it does not determine whether an assertion or depicted event is true, complete, or harmless."
+      ]
+    },
+    "evidence_profile": {
+      "role": "methodology",
+      "methods": [
+        "metadata_review",
+        "document_authentication",
+        "hash_verification"
+      ],
+      "artifact_handling": [
+        "original_preserved",
+        "hash_recorded"
+      ],
+      "privacy_practices": [
+        "consent_considered",
+        "identity_minimization",
+        "location_minimization",
+        "do_no_harm_review"
+      ],
+      "claim_status": "normative_standard",
+      "limitations": [
+        "Content Credentials can be absent, removed, incomplete, or signed by an untrusted actor and do not replace contextual verification."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster"
+      ],
+      "display_note": "Provenance assertions may expose creator, device, workflow, or location information; implementations should minimize data and model misuse."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "OSINT",
+      "geolocation",
+      "chronolocation",
+      "archiving",
+      "image verification",
+      "tool discovery"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "website-bellingcat-osint-toolkit",
+    "title": "Bellingcat's Online Investigation Toolkit",
+    "url": "https://bellingcat.gitbook.io/toolkit",
+    "publisher": "Bellingcat",
+    "resource_type": "website",
+    "summary": "Continuously maintained directory and review layer for mapping, satellite, image, video, web, social, archiving, and data-analysis tools.",
+    "relevance": "Helps investigators find candidate methods while making clear that directory inclusion is not validation and each third-party tool has separate limits and terms.",
+    "verification_notes": "Live official toolkit verified categories, community-maintenance model, staff review, downloadable index, work-in-progress status, and tool-specific limitation notes.",
+    "taxonomy": {
+      "primary_topic": "osint_evidence",
+      "topics": [
+        "osint_evidence",
+        "media_verification",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "media",
+      "organization_id": "bellingcat",
+      "independence_group": "bellingcat",
+      "material_role": "tool_documentation"
+    },
+    "technical_profile": {
+      "system_type": "osint_directory",
+      "methods": [
+        "Tool discovery",
+        "Tool review",
+        "Method-specific guidance",
+        "Limitations and ethics annotation"
+      ],
+      "technical_layers": [
+        "platform_content",
+        "media_metadata",
+        "visual_geospatial"
+      ],
+      "collection_modes": [
+        "manual_investigation"
+      ],
+      "signals": [
+        "Tool capabilities",
+        "Requirements",
+        "Cost and access",
+        "Known limitations",
+        "Ethical considerations"
+      ],
+      "cadence": "continuous",
+      "geographic_resolution": null,
+      "temporal_resolution": "Entries have individual update state where available",
+      "data_access": [
+        "public_dashboard",
+        "download",
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Use the directory to generate a method choice, then validate the selected tool, inputs, outputs, terms, and result independently."
+      ],
+      "limitations": [
+        "Third-party tools change or disappear; coverage is incomplete; inclusion does not validate a tool or its output."
+      ]
+    },
+    "evidence_profile": {
+      "role": "methodology",
+      "methods": [
+        "source_discovery",
+        "metadata_review",
+        "geolocation",
+        "chronolocation",
+        "visual_comparison",
+        "satellite_imagery",
+        "archive_capture"
+      ],
+      "artifact_handling": [],
+      "privacy_practices": [
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "Tool-assisted observations remain hypotheses until reproduced, corroborated, and documented with confidence and rejected alternatives."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "participant_roster",
+        "device_or_account_identifier"
+      ],
+      "display_note": "Do not use people-search or geolocation tools to expose protesters, witnesses, or live positions; public availability does not remove privacy and legal duties."
+    }
+  },
+  {
+    "schema_version": 3,
+    "authors": [],
+    "published_date": null,
+    "year": null,
+    "access": "open",
+    "geographies": [
+      "Global"
+    ],
+    "cases": [],
+    "themes": [
+      "IP geolocation",
+      "OSINT",
+      "false attribution",
+      "personal data",
+      "method limitations"
+    ],
+    "verification_status": "verified",
+    "last_checked": "2026-07-29",
+    "language": "English",
+    "id": "guide-bellingcat-ip-geolocation-limits",
+    "title": "Geo Data Tool",
+    "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/geo-data-tool",
+    "publisher": "Bellingcat Online Investigation Toolkit",
+    "resource_type": "guide",
+    "summary": "Tool review centered on a crucial limitation: IP geolocation normally indicates an approximate network point or server, not a person's precise physical location.",
+    "relevance": "Adds an explicit anti-overclaiming record for IP-based inference, including VPN, proxy, NAT, CDN, dynamic-allocation, and database-error risks.",
+    "verification_notes": "Live Bellingcat toolkit entry verified the described method, limitations, privacy considerations, and warnings about stale or overconfident attribution.",
+    "taxonomy": {
+      "primary_topic": "osint_evidence",
+      "topics": [
+        "osint_evidence",
+        "digital_rights",
+        "safety_ethics"
+      ]
+    },
+    "authority": {
+      "source_class": "media",
+      "organization_id": "bellingcat",
+      "independence_group": "bellingcat",
+      "material_role": "methodology"
+    },
+    "technical_profile": {
+      "system_type": "osint_directory",
+      "methods": [
+        "IP and domain lookup",
+        "Reverse DNS",
+        "Third-party geolocation database comparison"
+      ],
+      "technical_layers": [
+        "dns",
+        "routing_bgp"
+      ],
+      "collection_modes": [
+        "manual_investigation"
+      ],
+      "signals": [
+        "Approximate network or server location",
+        "ASN and organization",
+        "Reverse-DNS hostname",
+        "Database coordinates"
+      ],
+      "cadence": "on_demand",
+      "geographic_resolution": "Approximate and provider-dependent; often network or administrative registration rather than device location",
+      "temporal_resolution": "Lookup time must be recorded because allocation and ownership change",
+      "data_access": [
+        "public_dashboard",
+        "documentation_only"
+      ],
+      "validation_requirements": [
+        "Timestamp the lookup and compare ownership history, routing, hostnames, independent databases, VPN/CDN context, and the relationship between address and subject."
+      ],
+      "limitations": [
+        "VPNs, proxies, NAT, CDNs, dynamic allocation, registration location, and database error make person-level or precise-location conclusions unsafe."
+      ]
+    },
+    "evidence_profile": {
+      "role": "methodology",
+      "methods": [
+        "source_discovery",
+        "cross_source_corroboration",
+        "geolocation"
+      ],
+      "artifact_handling": [],
+      "privacy_practices": [
+        "identity_minimization",
+        "location_minimization",
+        "redaction_considered",
+        "do_no_harm_review"
+      ],
+      "claim_status": "not_assessed",
+      "limitations": [
+        "An IP lookup is a lead, not identity or precise-location proof; rejected explanations and lookup time should be retained."
+      ]
+    },
+    "safety_profile": {
+      "sensitivity": "context_limited",
+      "exclusions": [
+        "personal_identifiers",
+        "live_location",
+        "device_or_account_identifier",
+        "participant_roster"
+      ],
+      "display_note": "IP addresses can be personal data; publication can create misidentification, harassment, or blacklisting when ownership or context changes."
+    }
+  }
+]

@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "last_checked": "2026-07-30",
+  "scope_note": "A bounded, rights-cleared visual archive of defining scenes from recent youth-led protest movements. Selection reflects documentary value and sourceability, not a claim that every photograph is universally iconic.",
+  "records": [
+    {
+      "id": "bangladesh-bangla-blockade-2024",
+      "featured": true,
+      "title": "Bangla Blockade",
+      "display_tag": "Direct protest record",
+      "image": {
+        "src": "/visual-archive/bangladesh-bangla-blockade-2024.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "A dense crowd of student protesters in Bangladesh, many wearing red-and-green headbands and holding handwritten signs.",
+        "caption": "Student demonstrators during the quota-reform movement in Bangladesh on 11 July 2024.",
+        "photographer": "Rayhan9d / Rayhan Ahmed",
+        "photographer_url": null,
+        "origin_title": "3.Bangladesh quota reform movement 2024",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:3.Bangladesh_quota_reform_movement_2024.jpg",
+        "license_code": "CC-BY-SA-4.0",
+        "license_name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Rayhan9d / Rayhan Ahmed, “3.Bangladesh quota reform movement 2024,” CC BY-SA 4.0, via Wikimedia Commons.",
+        "rights_note": "Reuse and adaptation are permitted with creator attribution, a license link, a change notice, and ShareAlike terms for adaptations.",
+        "original_date": "2024-07-11",
+        "downloaded_date": "2026-07-30",
+        "sha256": "50f3a5c67158ce13bad4e24e727765fef8d12070aedbceb3f8116d35a62a0e4a",
+        "transformation_note": "Wikimedia delivery copy resized to 1,920 pixels wide; no crop or content alteration."
+      },
+      "location": "Dhaka, Bangladesh",
+      "location_note": "City-level context; this archive does not assert a more precise site.",
+      "protest_date": "2024-07-11",
+      "related_case_id": "bangladesh-2024",
+      "related_case_label": "Bangladesh quota-reform protests",
+      "what_this_shows": "A student-led quota-reform action during the Bangla Blockade phase, when demonstrators used coordinated road and rail blockades to press demands over public-service recruitment quotas.",
+      "why_it_matters": "The frame records a named movement tactic and a dense field of participant-made signs, rather than reducing the case to a generic crowd photograph.",
+      "context_sources": [
+        {
+          "title": "What is happening at the quota-reform protests in Bangladesh?",
+          "publisher": "Amnesty International",
+          "url": "https://www.amnesty.org/en/latest/news/2024/07/what-is-happening-at-the-quota-reform-protests-in-bangladesh/"
+        },
+        {
+          "title": "Quota reform protesters start road blockade in Dhaka amid warning by police",
+          "publisher": "United News of Bangladesh",
+          "url": "https://unb.com.bd/category/Bangladesh/quota-reform-protesters-start-road-blockade-in-dhaka-amid-warning-by-police/139174"
+        }
+      ],
+      "verification_note": "The Commons record supplies own-work attribution and a creation date; independent reporting aligns the date with the Bangla Blockade. The exact moment and every person shown were not independently identified.",
+      "manipulation_note": "No independent forensic manipulation audit was found. The local file hash verifies this archive copy, not the truth of every contextual claim.",
+      "safety_note": "Public crowd scene with identifiable faces. Do not use facial recognition, name participants, or infer affiliations from appearance.",
+      "last_checked": "2026-07-30"
+    },
+    {
+      "id": "kenya-finance-bill-period-products-2024",
+      "featured": false,
+      "title": "Period products at the Finance Bill protests",
+      "display_tag": "Direct protest record",
+      "image": {
+        "src": "/visual-archive/kenya-finance-bill-period-products-2024.jpg",
+        "width": 1920,
+        "height": 2560,
+        "alt": "Young women in a Nairobi protest crowd wearing large white-and-pink period-product costumes.",
+        "caption": "Young women draw attention to menstrual-product costs during the Reject Finance Bill protests in Nairobi on 20 June 2024.",
+        "photographer": "Egotieno",
+        "photographer_url": null,
+        "origin_title": "Young women protesting the increase of period products in the Reject Finance Bill 2024 Protests in Nairobi, Kenya, 2024",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:Young_women_protesting_the_increase_of_period_products_in_the_Reject_Finance_Bill_2024_Protests_in_Nairobi,_Kenya,_2024.jpg",
+        "license_code": "CC0-1.0",
+        "license_name": "CC0 1.0 Universal Public Domain Dedication",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "Egotieno, “Young women protesting the increase of period products…,” CC0 1.0, via Wikimedia Commons.",
+        "rights_note": "The creator dedicated the work to the public domain under CC0. Credit and source links are retained as an editorial provenance practice.",
+        "original_date": "2024-06-20",
+        "downloaded_date": "2026-07-30",
+        "sha256": "8a6f1e032e2a03eeea2b6115e3edf81b63f33284239fd8be0265401a82be6b3f",
+        "transformation_note": "Wikimedia delivery copy resized to 1,920 pixels wide; no crop or content alteration."
+      },
+      "location": "Nairobi, Kenya",
+      "location_note": "City and protest context follow the Commons title and metadata.",
+      "protest_date": "2024-06-20",
+      "related_case_id": "kenya-2024",
+      "related_case_label": "Kenya anti-Finance Bill protests",
+      "what_this_shows": "Participants using wearable visual symbolism to connect the Finance Bill debate to the everyday cost of menstrual products and gendered household expenses.",
+      "why_it_matters": "It preserves the movement’s inventive issue-framing: fiscal policy is made legible through a bodily, material cost rather than an abstract budget argument.",
+      "context_sources": [
+        {
+          "title": "Kenya: Security Forces Abducted, Killed Protesters",
+          "publisher": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2024/11/06/kenya-security-forces-abducted-killed-protesters"
+        },
+        {
+          "title": "Activists call for new protests in Kenya following deadly police crackdown",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2024/6/26/activists-call-for-new-protests-in-kenya-following-deadly-police-crackdown"
+        }
+      ],
+      "verification_note": "Commons records the image as the uploader’s own work, dated 20 June 2024 in Nairobi. Context sources corroborate the wider youth-led Finance Bill protest cycle, not the identities of those pictured.",
+      "manipulation_note": "No independent forensic manipulation audit was found. The archive preserves the Commons delivery file without editorial cropping.",
+      "safety_note": "Public protest scene with identifiable participants. Do not identify, tag, or profile people shown.",
+      "last_checked": "2026-07-30"
+    },
+    {
+      "id": "nepal-gen-z-street-2025",
+      "featured": false,
+      "title": "Flags in the street",
+      "display_tag": "Direct protest record",
+      "image": {
+        "src": "/visual-archive/nepal-gen-z-street-2025.jpg",
+        "width": 1920,
+        "height": 2880,
+        "alt": "A street crowd in Nepal holding national flags and framed images during the 2025 Gen Z protests.",
+        "caption": "Protesters carry Nepalese flags and framed national imagery during the September 2025 Gen Z mobilization.",
+        "photographer": "हिमाल सुवेदी (Himal Suvedi)",
+        "photographer_url": null,
+        "origin_title": "2025 Nepalese Gen Z movement protesters in street",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:2025_Nepalese_Gen_Z_movement_protesters_in_street.jpg",
+        "license_code": "CC-BY-SA-4.0",
+        "license_name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "हिमाल सुवेदी (Himal Suvedi), “2025 Nepalese Gen Z movement protesters in street,” CC BY-SA 4.0, via Wikimedia Commons.",
+        "rights_note": "Reuse and adaptation are permitted with creator attribution, a license link, a change notice, and ShareAlike terms for adaptations.",
+        "original_date": "2025-09-09",
+        "downloaded_date": "2026-07-30",
+        "sha256": "193acc79225de9e7173f3dafbe2d7e2cfa4357d9bcc2e7ef9e5af7edf2d06509",
+        "transformation_note": "Wikimedia delivery copy resized to 1,920 pixels wide; no crop or content alteration."
+      },
+      "location": "Nepal",
+      "location_note": "The file identifies the national movement and street setting; this archive does not assert a city.",
+      "protest_date": "2025-09-09",
+      "related_case_id": "nepal-2025",
+      "related_case_label": "Nepal Gen Z protests and interim transition",
+      "what_this_shows": "A street-level scene from the mobilization that formed around anger at corruption, political nepotism, and a sweeping social-media platform ban.",
+      "why_it_matters": "The national flags and framed imagery show how a digitally catalyzed protest also contested ownership of national symbols and public legitimacy.",
+      "context_sources": [
+        {
+          "title": "From Streets to Discord: How Nepal’s Gen Z Toppled a Government",
+          "publisher": "Carnegie Endowment for International Peace",
+          "url": "https://carnegieendowment.org/research/2025/09/nepal-gen-z-topple-government"
+        },
+        {
+          "title": "Nepal: Police Fire on ‘Gen Z’ Protest",
+          "publisher": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2025/09/09/nepal-police-fire-on-gen-z-protest"
+        }
+      ],
+      "verification_note": "Commons supplies own-work attribution and a 9 September 2025 creation date. The broader event chronology is corroborated; the archive does not claim this frame depicts violence reported at other sites.",
+      "manipulation_note": "No independent geolocation or forensic manipulation audit was located. The archive copy is hash-locked for integrity after download.",
+      "safety_note": "Several people are identifiable. Preserve the full-scene context and do not name, track, or infer the roles of individuals.",
+      "last_checked": "2026-07-30"
+    },
+    {
+      "id": "serbia-novi-sad-student-protest-2025",
+      "featured": false,
+      "title": "Fifteen minutes, one expanding movement",
+      "display_tag": "Direct protest record",
+      "image": {
+        "src": "/visual-archive/serbia-novi-sad-student-protest-2025.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A large student protest crowd in Novi Sad with banners and Serbian flags under a clear winter sky.",
+        "caption": "Students and supporters gather in Novi Sad on 1 February 2025 during the accountability movement that followed the railway-station canopy collapse.",
+        "photographer": "Nikola Dyordyevich",
+        "photographer_url": "https://nikola.dyordyevich.com",
+        "origin_title": "Studentski protest Novi Sad 2025-02-01 - 9",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:Studentski_protest_Novi_Sad_2025-02-01_-_9.jpg",
+        "license_code": "CC-BY-SA-4.0",
+        "license_name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Nikola Dyordyevich, “Studentski protest Novi Sad 2025-02-01 - 9,” CC BY-SA 4.0, via Wikimedia Commons.",
+        "rights_note": "Reuse and adaptation are permitted with attribution, license and change notices, and ShareAlike terms. For English-language websites, the author requests that the credited name link to the photographer’s site.",
+        "original_date": "2025-02-01",
+        "downloaded_date": "2026-07-30",
+        "sha256": "e988aee07397f9adb7261f8961aeb64c774c5c2fd4e07de9e668c9199cfde1e8",
+        "transformation_note": "Wikimedia delivery copy resized to 1,920 pixels wide; no crop or content alteration."
+      },
+      "location": "Novi Sad, Serbia",
+      "location_note": "Date and city follow the Commons file record.",
+      "protest_date": "2025-02-01",
+      "related_case_id": "serbia-2024-2025",
+      "related_case_label": "Serbia student protests",
+      "what_this_shows": "A major gathering within the student-led accountability movement that followed the deadly Novi Sad railway-station canopy collapse.",
+      "why_it_matters": "The composition makes visible the movement’s breadth: students, supporters, hand-made signs, and coordinated civic presence occupy the same public field.",
+      "context_sources": [
+        {
+          "title": "How Serbian Students Created the Largest Protest Movement in Decades",
+          "publisher": "Journal of Democracy",
+          "url": "https://www.journalofdemocracy.org/online-exclusive/how-serbian-students-created-the-largest-protest-movement-in-decades/"
+        },
+        {
+          "title": "Serbia: Authorities must end unlawful use of force against protesters",
+          "publisher": "Amnesty International and Civil Rights Defenders",
+          "url": "https://www.amnesty.org/en/latest/news/2025/07/serbia-authorities-must-end-unlawful-use-of-force-against-protesters-and-investigate-reports-of-police-violence/"
+        }
+      ],
+      "verification_note": "Commons records own-work authorship, the date, and Novi Sad context. Context sources establish the movement’s origins and later trajectory; they do not authenticate every object in the photograph.",
+      "manipulation_note": "No independent forensic manipulation audit was found. The local image is an uncropped Wikimedia delivery copy.",
+      "safety_note": "Wide public crowd scene with many visible faces. Do not isolate participants for identification or profiling.",
+      "last_checked": "2026-07-30"
+    },
+    {
+      "id": "morocco-genz212-rabat-2025",
+      "featured": false,
+      "title": "GenZ 212 at parliament",
+      "display_tag": "Direct protest record",
+      "image": {
+        "src": "/visual-archive/morocco-genz212-rabat-2025.jpg",
+        "width": 1238,
+        "height": 683,
+        "alt": "A nighttime crowd of mostly young protesters facing Morocco’s illuminated parliament building in Rabat.",
+        "caption": "GenZ 212 demonstrators gather outside Morocco’s parliament in Rabat on 4 October 2025.",
+        "photographer": "Mounir Neddi",
+        "photographer_url": null,
+        "origin_title": "GenZ 212 demonstrations in Rabat 01",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:GenZ_212_demonstrations_in_Rabat_01.jpg",
+        "license_code": "CC-BY-SA-4.0",
+        "license_name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Mounir Neddi, “GenZ 212 demonstrations in Rabat 01,” CC BY-SA 4.0, via Wikimedia Commons.",
+        "rights_note": "Reuse and adaptation are permitted with creator attribution, a license link, a change notice, and ShareAlike terms for adaptations.",
+        "original_date": "2025-10-04",
+        "downloaded_date": "2026-07-30",
+        "sha256": "998cbd73a13b837c3f12881ddf812c92baec8c13b0a939063a6fb177980f2887",
+        "transformation_note": "Local Wikimedia delivery copy at the source dimensions; no crop or content alteration."
+      },
+      "location": "Rabat, Morocco",
+      "location_note": "Commons identifies the gathering as taking place outside the parliament buildings.",
+      "protest_date": "2025-10-04",
+      "related_case_id": "morocco-2025",
+      "related_case_label": "Morocco GenZ 212 protests",
+      "what_this_shows": "A youth-led GenZ 212 gathering outside a national political institution during protests over health, education, employment, corruption, and public spending priorities.",
+      "why_it_matters": "The parliament façade gives the photograph institutional specificity: diffuse social grievances are visibly addressed to the state.",
+      "context_sources": [
+        {
+          "title": "Morocco: Halt use of excessive force following crackdown on youth protests",
+          "publisher": "Amnesty International",
+          "url": "https://www.amnesty.org/en/latest/news/2025/10/morocco-halt-use-of-excessive-force-following-crackdown-on-youth-protests/"
+        },
+        {
+          "title": "Morocco: Protests Met with Repression, Violence",
+          "publisher": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2025/10/15/morocco-protests-met-with-repression-violence"
+        }
+      ],
+      "verification_note": "Commons records own-work provenance, date, and coordinates consistent with parliament in Rabat. The archive has not independently authenticated each sign or participant.",
+      "manipulation_note": "No independent forensic manipulation audit was found. Source metadata and the archive hash are preserved.",
+      "safety_note": "Most faces are distant or turned away, but some participants may still be identifiable. Do not attempt identification.",
+      "last_checked": "2026-07-30"
+    },
+    {
+      "id": "indonesia-jakarta-student-protest-2025",
+      "featured": false,
+      "title": "Student blocs fill Jakarta",
+      "display_tag": "Direct protest record",
+      "image": {
+        "src": "/visual-archive/indonesia-jakarta-student-protest-2025.jpg",
+        "width": 1920,
+        "height": 2560,
+        "alt": "A vast crowd of student demonstrators in colored campus jackets fills a central Jakarta roadway beneath the city skyline.",
+        "caption": "Large student blocs fill a central Jakarta roadway during the August 2025 protests.",
+        "photographer": "Efraimleonard",
+        "photographer_url": null,
+        "origin_title": "Students protest in Jakarta",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:Students_protest_in_Jakarta.jpg",
+        "license_code": "CC0-1.0",
+        "license_name": "CC0 1.0 Universal Public Domain Dedication",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "Efraimleonard, “Students protest in Jakarta,” CC0 1.0, via Wikimedia Commons.",
+        "rights_note": "The creator dedicated the work to the public domain under CC0. Credit and source links are retained as an editorial provenance practice.",
+        "original_date": "2025-08-29",
+        "downloaded_date": "2026-07-30",
+        "sha256": "2619191bc5f912609ff4f1f5049b6022466f73eaab1f7a50663cdb1dbb24312b",
+        "transformation_note": "Wikimedia delivery copy resized to 1,920 pixels wide; no crop or content alteration."
+      },
+      "location": "Jakarta, Indonesia",
+      "location_note": "City and date follow the Commons file record.",
+      "protest_date": "2025-08-29",
+      "related_case_id": "indonesia-2025",
+      "related_case_label": "Indonesia student-led protests",
+      "what_this_shows": "Large, visually distinct student contingents occupying a central urban corridor during protests over parliamentary allowances, austerity, wages, and political reform.",
+      "why_it_matters": "The elevated view records scale and coalition structure: campus identities remain visible inside a much larger, mixed protest formation.",
+      "context_sources": [
+        {
+          "title": "Indonesia: Activists face criminal charges for peaceful protests",
+          "publisher": "Amnesty International",
+          "url": "https://www.amnesty.org/en/documents/asa21/0391/2025/en/"
+        },
+        {
+          "title": "Indonesia: End Crackdown on Protesters, Arbitrary Detention",
+          "publisher": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2025/09/03/indonesia-end-crackdown-on-protesters-arbitrary-detention"
+        }
+      ],
+      "verification_note": "Commons records own-work provenance, Jakarta, and a 29 August 2025 creation date. Human-rights reporting corroborates major student participation in the protest cycle.",
+      "manipulation_note": "No independent forensic manipulation audit was found. The locally served copy is uncropped and hash-verified after download.",
+      "safety_note": "The elevated perspective reduces individual prominence, but some faces remain visible. Do not magnify for identification.",
+      "last_checked": "2026-07-30"
+    },
+    {
+      "id": "sri-lanka-aragalaya-2022",
+      "featured": false,
+      "title": "Aragalaya at the Secretariat",
+      "display_tag": "Direct protest record",
+      "image": {
+        "src": "/visual-archive/sri-lanka-aragalaya-2022.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "A large crowd carrying Sri Lankan flags gathers near the Presidential Secretariat in Colombo.",
+        "caption": "Demonstrators gather near the Presidential Secretariat in Colombo during the Aragalaya protest cycle on 13 April 2022.",
+        "photographer": "AntanO",
+        "photographer_url": null,
+        "origin_title": "Anti-government protest in Sri Lanka 2022",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:Anti-government_protest_in_Sri_Lanka_2022.jpg",
+        "license_code": "CC-BY-SA-4.0",
+        "license_name": "Creative Commons Attribution-ShareAlike 4.0 International",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "AntanO, “Anti-government protest in Sri Lanka 2022,” CC BY-SA 4.0, via Wikimedia Commons.",
+        "rights_note": "Reuse and adaptation are permitted with creator attribution, a license link, a change notice, and ShareAlike terms for adaptations.",
+        "original_date": "2022-04-13",
+        "downloaded_date": "2026-07-30",
+        "sha256": "fe2b25f3b6947d7b98175ce1e381384960f19956ead8d94bdd39409709b17cdc",
+        "transformation_note": "Wikimedia delivery copy resized to 1,920 pixels wide; no crop or content alteration."
+      },
+      "location": "Colombo, Sri Lanka",
+      "location_note": "The source record and visible site place the gathering near the Presidential Secretariat.",
+      "protest_date": "2022-04-13",
+      "related_case_id": "sri-lanka-2022-onward",
+      "related_case_label": "Sri Lanka Aragalaya",
+      "what_this_shows": "A mass assembly during the Aragalaya movement amid economic crisis, shortages, and demands for political accountability and systemic change.",
+      "why_it_matters": "The state building and densely repeated national flags capture a core visual argument of Aragalaya: public sovereignty confronting executive power.",
+      "context_sources": [
+        {
+          "title": "A Brief Analysis of the Aragalaya",
+          "publisher": "Centre for Policy Alternatives, Social Indicator",
+          "url": "https://www.cpalanka.org/a-brief-analysis-of-the-aragalaya/"
+        },
+        {
+          "title": "The Aragalaya Protest Movement and the Struggle for Political Change in Sri Lanka",
+          "publisher": "Carnegie Endowment for International Peace",
+          "url": "https://carnegieendowment.org/research/2025/08/sri-lanka-aragalaya-protest-movement-oust-wickremesinghe-rajapaksa"
+        }
+      ],
+      "verification_note": "Commons supplies own-work provenance, creation date, and location metadata. Independent analysis corroborates the movement and site context; no claim is made about each person pictured.",
+      "manipulation_note": "No independent forensic manipulation audit was located. The local copy preserves the full frame delivered by Wikimedia.",
+      "safety_note": "Public assembly with identifiable people. Avoid participant identification, face matching, or decontextualized crops.",
+      "last_checked": "2026-07-30"
+    },
+    {
+      "id": "iran-woman-life-freedom-berlin-2022",
+      "featured": false,
+      "title": "Woman, Life, Freedom travels",
+      "display_tag": "International solidarity",
+      "image": {
+        "src": "/visual-archive/iran-woman-life-freedom-berlin-2022.jpg",
+        "width": 1920,
+        "height": 1277,
+        "alt": "Participants at a Berlin solidarity demonstration hold a large Persian-language Woman, Life, Freedom banner.",
+        "caption": "Participants in Berlin carry a “Woman, Life, Freedom” banner at a solidarity protest on 22 October 2022. This photograph was made in Germany, not Iran.",
+        "photographer": "Ilias Bartolini",
+        "photographer_url": null,
+        "origin_title": "Woman Life Freedom (52447823494)",
+        "origin_url": "https://commons.wikimedia.org/wiki/File:Woman_Life_Freedom_(52447823494).jpg",
+        "license_code": "CC-BY-SA-2.0",
+        "license_name": "Creative Commons Attribution-ShareAlike 2.0 Generic",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "Ilias Bartolini, “Woman Life Freedom (52447823494),” CC BY-SA 2.0, via Wikimedia Commons.",
+        "rights_note": "Reuse and adaptation are permitted with creator attribution, a license link, a change notice, and ShareAlike terms for adaptations.",
+        "original_date": "2022-10-22",
+        "downloaded_date": "2026-07-30",
+        "sha256": "16b489cdbd9e10c92fbd32ffdb2346f8735dde0362a13694d8035bedbddc9408",
+        "transformation_note": "Wikimedia delivery copy resized to 1,920 pixels wide; no crop or content alteration."
+      },
+      "location": "Berlin, Germany",
+      "location_note": "Transnational solidarity record. It must not be presented as a photograph made inside Iran.",
+      "protest_date": "2022-10-22",
+      "related_case_id": "iran-2022-2026",
+      "related_case_label": "Iran’s Woman, Life, Freedom movement",
+      "what_this_shows": "International solidarity with the Woman, Life, Freedom movement after protests began in Iran following the death in custody of Jina Mahsa Amini.",
+      "why_it_matters": "The banner shows the slogan’s transnational circulation. The image documents solidarity abroad, not the conditions, geography, or risks of protesting inside Iran.",
+      "context_sources": [
+        {
+          "title": "Iran: Digital freedom and protest in the UN’s Fact-Finding Mission report",
+          "publisher": "ARTICLE 19",
+          "url": "https://www.article19.org/resources/iran-digital-freedom-protest-un-fact-finding-mission-report/"
+        },
+        {
+          "title": "Update of the Independent International Fact-Finding Mission on the Islamic Republic of Iran",
+          "publisher": "United Nations Human Rights Office",
+          "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/ffmi-iran/FFM-Iran-Update-13-September-2024.pdf"
+        }
+      ],
+      "verification_note": "Commons links to the creator’s Flickr-origin record and identifies the 22 October 2022 Berlin demonstration. Context sources document the movement in Iran, while the location label prevents geographic conflation.",
+      "manipulation_note": "The source record was reviewed through Wikimedia’s Flickr-review process, but no independent forensic audit was found. The archive copy is hash-verified after download.",
+      "safety_note": "Identifiable participants appear in a public solidarity protest. Do not identify or infer nationality, migration status, or ties to activists inside Iran.",
+      "last_checked": "2026-07-30"
+    }
+  ]
+}
