@@ -24,7 +24,27 @@ const worker = path.join(root, "worker", "index.js");
 const hosting = path.join(root, ".openai", "hosting.json");
 
 const PLACEHOLDER_ORIGIN = "https://example.invalid";
-const siteUrl = (process.env.SITE_URL ?? PLACEHOLDER_ORIGIN).replace(/\/+$/, "");
+
+/**
+ * SITE_URL wins. Failing that, use the host the platform already knows: on
+ * Vercel a production build knows its own domain and a preview build knows its
+ * deployment URL, which avoids the chicken-and-egg of needing the URL before
+ * the first deploy. Canonical tags on a preview then point at the preview
+ * itself rather than at production, which is what you want for a build that
+ * should not be indexed.
+ */
+function resolveSiteUrl() {
+  if (process.env.SITE_URL) return process.env.SITE_URL;
+  if (process.env.VERCEL_ENV === "production" && process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return PLACEHOLDER_ORIGIN;
+}
+
+const siteUrl = resolveSiteUrl().replace(/\/+$/, "");
+/** Preview deployments must never be indexed in place of production. */
+const isIndexable = !process.env.VERCEL_ENV || process.env.VERCEL_ENV === "production";
 
 for (const file of [index, worker, hosting]) {
   if (!existsSync(file)) throw new Error("Missing Sites build input: " + file);
@@ -58,7 +78,7 @@ function headFor(route) {
     `<meta name="twitter:card" content="summary" />`,
     `<meta name="twitter:title" content="${title}" />`,
     `<meta name="twitter:description" content="${description}" />`,
-    route.inSitemap ? "" : `<meta name="robots" content="noindex" />`,
+    route.inSitemap && isIndexable ? "" : `<meta name="robots" content="noindex" />`,
   ]
     .filter(Boolean)
     .join("\n    ");
@@ -75,11 +95,25 @@ function renderRoute(route) {
 }
 
 for (const route of routes) {
-  const target =
-    route.path === "/" ? index : path.join(client, `${route.path.replace(/^\//, "")}.html`);
+  const html = renderRoute(route);
 
-  mkdirSync(path.dirname(target), { recursive: true });
-  writeFileSync(target, renderRoute(route), "utf8");
+  if (route.path === "/") {
+    writeFileSync(index, html, "utf8");
+    continue;
+  }
+
+  const name = route.path.replace(/^\//, "");
+
+  // Emit both shapes. `<name>.html` is what clean-URL rewriting expects;
+  // `<name>/index.html` is what directory-index resolution expects. /visual-archive
+  // is also a real asset directory, so relying on either one alone leaves the
+  // route's resolution up to host-specific precedence rules.
+  writeFileSync(path.join(client, `${name}.html`), html, "utf8");
+
+  if (name !== "404") {
+    mkdirSync(path.join(client, name), { recursive: true });
+    writeFileSync(path.join(client, name, "index.html"), html, "utf8");
+  }
 }
 
 const today = new Date().toISOString().slice(0, 10);
@@ -107,16 +141,19 @@ writeFileSync(
 
 writeFileSync(
   path.join(client, "robots.txt"),
-  [
-    "User-agent: *",
-    "Allow: /",
-    "",
-    "# Resized derivatives are regenerable; index the pages instead.",
-    "Disallow: /visual-archive/derived/",
-    "",
-    `Sitemap: ${siteUrl}/sitemap.xml`,
-    "",
-  ].join("\n"),
+  (isIndexable
+    ? [
+        "User-agent: *",
+        "Allow: /",
+        "",
+        "# Resized derivatives are regenerable; index the pages instead.",
+        "Disallow: /visual-archive/derived/",
+        "",
+        `Sitemap: ${siteUrl}/sitemap.xml`,
+        "",
+      ]
+    : ["# Preview deployment — not for indexing.", "User-agent: *", "Disallow: /", ""]
+  ).join("\n"),
   "utf8",
 );
 
