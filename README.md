@@ -41,15 +41,31 @@ pnpm check:links    # request every canonical and context URL, report rot
 
 ## Deploying
 
+Live at **https://gen-z-protest-atlas.vercel.app**.
+
 Set `SITE_URL` so canonical tags and `sitemap.xml` carry the real origin:
 
 ```bash
 SITE_URL=https://your-domain.example pnpm build
 ```
 
-The build warns if it is unset. Output is `dist/client` (static assets, one
-prerendered HTML shell per route, `robots.txt`, `sitemap.xml`),
-`dist/server/index.js` (the asset worker), and `dist/.openai/hosting.json`.
+On Vercel this is inferred automatically — production builds use the project's
+production domain, preview builds use their own deployment URL and ship
+`noindex` plus a disallow-all `robots.txt` so a preview cannot compete with
+production in search. Elsewhere the build warns if `SITE_URL` is unset.
+
+Output is `dist/client` (static assets, one prerendered HTML shell per route,
+`robots.txt`, `sitemap.xml`), `dist/server/index.js` (the asset worker), and
+`dist/.openai/hosting.json`.
+
+Two hosting paths are supported and must stay in step:
+
+- **Vercel** — `vercel.json` sets clean URLs, the security headers, a CSP, and
+  immutable caching. Vercel serves `404.html` for unmatched paths, preserving
+  the real 404 status.
+- **OpenAI Sites** — `worker/index.js` does the same job for the ASSETS binding.
+
+If you change 404 handling or security headers, change both.
 
 ## How the data is organised
 

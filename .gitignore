@@ -8,3 +8,7 @@ qa/
 # public/visual-archive/ are tracked: they are the files the SHA-256 digests in
 # src/data/visual_archive.json attest to.
 public/visual-archive/derived/
+
+# Vercel link state and the OIDC token it downloads. Never commit these.
+.vercel
+.env*
