@@ -1,6 +1,10 @@
-.pnpm-store/
 node_modules/
 dist/
 playwright-report/
 test-results/
 qa/
+
+# Regenerable responsive derivatives. The archival originals in
+# public/visual-archive/ are tracked: they are the files the SHA-256 digests in
+# src/data/visual_archive.json attest to.
+public/visual-archive/derived/

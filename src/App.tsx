@@ -1,4 +1,4 @@
-import { Fragment, useState, type FormEvent } from "react";
+import { Fragment, useMemo, useState, type FormEvent } from "react";
 import {
   ArrowRight,
   ArrowSquareOut,
@@ -25,20 +25,28 @@ import {
 import {
   accessLevels,
   atlasCases,
+  corpusIsStale,
+  corpusLastChecked,
   filterCases,
   filterSources,
   getSourceById,
   getSourceTopic,
   humanizeValue,
   initialFilters,
+  languageBreakdown,
+  relatedCasesFor,
   resourceTypes,
   sourceRecords,
+  STALE_AFTER_DAYS,
   topicOptions,
   verificationStatuses,
   type AtlasFilters,
   type SourceRecord,
   type VerificationStatus,
 } from "./atlasData";
+
+/** Rows shown before the reader asks for the full list. */
+const PREVIEW_ROWS = 6;
 
 const navigation = [
   { label: "Overview", target: "overview", topic: "", icon: House },
@@ -77,9 +85,11 @@ const navigation = [
   },
 ] as const;
 
-const latestCheck = sourceRecords
-  .map((record) => record.last_checked)
-  .sort((a, b) => b.localeCompare(a))[0];
+const yearOptions = [
+  ...new Set(sourceRecords.flatMap((record) => (record.year ? [record.year] : []))),
+]
+  .sort((a, b) => b - a)
+  .map((year) => ({ label: year.toString(), value: year.toString() }));
 
 const requestedCaseId = new URLSearchParams(window.location.search).get("case");
 const linkedCaseId =
@@ -181,6 +191,7 @@ function FilterSelect({
 }
 
 export function App() {
+  const stale = useMemo(() => corpusIsStale(), []);
   const [query, setQuery] = useState("");
   const [filters, setFilters] = useState<AtlasFilters>(linkedInitialFilters);
   const [activeSection, setActiveSection] = useState(linkedCaseId ? "Case atlas" : "Overview");
@@ -189,17 +200,17 @@ export function App() {
   const [showAllCases, setShowAllCases] = useState(false);
   const [showAllSources, setShowAllSources] = useState(false);
 
-  const visibleCases = filterCases(atlasCases, filters, query);
-  const visibleSources = filterSources(sourceRecords, filters, query);
+  const visibleCases = useMemo(() => filterCases(atlasCases, filters, query), [filters, query]);
+  const visibleSources = useMemo(
+    () => filterSources(sourceRecords, filters, query),
+    [filters, query],
+  );
   const filtering = query.trim().length > 0 || Object.values(filters).some(Boolean);
-  const displayedCases = showAllCases || filtering ? visibleCases : visibleCases.slice(0, 6);
-  const displayedSources = showAllSources || filtering ? visibleSources : visibleSources.slice(0, 6);
+  const displayedCases = showAllCases ? visibleCases : visibleCases.slice(0, PREVIEW_ROWS);
+  const displayedSources = showAllSources ? visibleSources : visibleSources.slice(0, PREVIEW_ROWS);
   const resultSummary = `${visibleCases.length} ${
     visibleCases.length === 1 ? "case" : "cases"
   } · ${visibleSources.length} ${visibleSources.length === 1 ? "source" : "sources"}`;
-  const years = [...new Set(sourceRecords.flatMap((record) => (record.year ? [record.year] : [])))]
-    .sort((a, b) => b - a)
-    .map((year) => ({ label: year.toString(), value: year.toString() }));
 
   function updateFilter(key: keyof AtlasFilters, value: string) {
     setFilters({ ...filters, [key]: value });
@@ -229,13 +240,14 @@ export function App() {
     }, 0);
   }
 
+  /**
+   * Expands or collapses a list without touching the search or filters — this
+   * previously reset both, silently discarding the query the reader had just
+   * typed.
+   */
   function toggleList(section: "cases" | "sources") {
-    const currentlyExpanded = section === "cases" ? showAllCases : showAllSources;
-    const nextExpanded = filtering ? true : !currentlyExpanded;
-    setQuery("");
-    setFilters(initialFilters);
-    if (section === "cases") setShowAllCases(nextExpanded);
-    if (section === "sources") setShowAllSources(nextExpanded);
+    if (section === "cases") setShowAllCases((expanded) => !expanded);
+    if (section === "sources") setShowAllSources((expanded) => !expanded);
     document.getElementById(section)?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -245,7 +257,10 @@ export function App() {
         <a
           className="wordmark"
           href="#overview"
-          onClick={() => focusSection("Overview", "overview", "")}
+          onClick={(event) => {
+            event.preventDefault();
+            focusSection("Overview", "overview", "");
+          }}
         >
           <span>meowmeow</span>
           <Cat aria-hidden="true" className="wordmark-cat" size={22} weight="fill" />
@@ -255,7 +270,11 @@ export function App() {
           <span className="header-product-label">Gen Z Protest Atlas</span>{" "}
           A verified global research index of youth-led protest and digital resistance.
         </p>
-        <time dateTime={latestCheck}>Checked <strong>{formatDate(latestCheck)}</strong></time>
+        <time className={stale ? "header-check header-check--stale" : "header-check"} dateTime={corpusLastChecked}>
+          {stale && <WarningCircle aria-hidden="true" size={14} weight="fill" />}
+          Checked <strong>{formatDate(corpusLastChecked)}</strong>
+          {stale && <span className="sr-only"> — recheck overdue</span>}
+        </time>
       </header>
 
       <div className="atlas-layout">
@@ -315,9 +334,7 @@ export function App() {
                 <FunnelSimple aria-hidden="true" size={16} weight="bold" />
                 Refine the atlas
               </span>
-              <span aria-live="polite" className="filter-result-count">
-                {resultSummary}
-              </span>
+              <span className="filter-result-count">{resultSummary}</span>
             </div>
             <div className="filter-grid" aria-label="Atlas filters">
               <FilterSelect
@@ -348,7 +365,7 @@ export function App() {
                 label="Year"
                 allLabel="All years"
                 value={filters.year}
-                options={years}
+                options={yearOptions}
                 onChange={(value) => updateFilter("year", value)}
               />
               <FilterSelect
@@ -391,6 +408,27 @@ export function App() {
               <span className="inline-developing">Needs review</span> and{" "}
               <span className="inline-developing">Watchlist</span> entries remain provisional.
             </p>
+            <p className="caveat">
+              Source languages: {languageBreakdown.map(([language, count]) => `${language} (${count})`).join(", ")}.
+              {languageBreakdown.length === 1 && (
+                <>
+                  {" "}
+                  <span className="inline-developing">
+                    Every record is in {languageBreakdown[0]?.[0]}
+                  </span>
+                  , so local-language reporting, court filings, and civil-society material are
+                  absent from cases outside the anglophone record. Read the coverage as partial.
+                </>
+              )}
+            </p>
+            {stale && (
+              <p className="caveat caveat--stale">
+                <WarningCircle aria-hidden="true" size={16} weight="fill" />
+                Links and metadata were last checked on {formatDate(corpusLastChecked)}, more than{" "}
+                {STALE_AFTER_DAYS} days ago. Verify any source against its publisher before citing
+                it.
+              </p>
+            )}
           </section>
 
           <section className="data-section" id="cases" tabIndex={-1} aria-labelledby="cases-heading">
@@ -400,7 +438,7 @@ export function App() {
                 Current cases
               </h2>
               <button type="button" onClick={() => toggleList("cases")}>
-                {showAllCases && !filtering ? "Show fewer cases" : "View all cases"}{" "}
+                {showAllCases ? "Show fewer cases" : "View all cases"}{" "}
                 <ArrowRight aria-hidden="true" size={16} />
               </button>
             </div>
@@ -423,6 +461,7 @@ export function App() {
                         <tr>
                           <td data-label="Case">
                             <button
+                              aria-controls={`case-detail-${record.id}`}
                               aria-expanded={expanded}
                               className="row-toggle"
                               onClick={() => setExpandedCaseId(expanded ? null : record.id)}
@@ -440,7 +479,7 @@ export function App() {
                           <td data-label="Sources">{record.sourceIds.length}</td>
                         </tr>
                         {expanded && (
-                          <tr className="detail-row">
+                          <tr className="detail-row" id={`case-detail-${record.id}`}>
                             <td colSpan={5}>
                               <div className="detail-panel">
                                 <div>
@@ -489,7 +528,7 @@ export function App() {
                 Key sources
               </h2>
               <button type="button" onClick={() => toggleList("sources")}>
-                {showAllSources && !filtering ? "Show fewer sources" : "View all sources"}{" "}
+                {showAllSources ? "Show fewer sources" : "View all sources"}{" "}
                 <ArrowRight aria-hidden="true" size={16} />
               </button>
             </div>
@@ -513,6 +552,7 @@ export function App() {
                         <tr>
                           <td data-label="Title">
                             <button
+                              aria-controls={`source-detail-${record.id}`}
                               aria-expanded={expanded}
                               className="row-toggle"
                               onClick={() => setExpandedSourceId(expanded ? null : record.id)}
@@ -531,7 +571,7 @@ export function App() {
                           </td>
                         </tr>
                         {expanded && (
-                          <tr className="detail-row">
+                          <tr className="detail-row" id={`source-detail-${record.id}`}>
                             <td colSpan={6}>
                               <div className="detail-panel source-detail">
                                 <div>
@@ -569,6 +609,36 @@ export function App() {
                                         value={record.identifiers?.official_document_id}
                                       />
                                       <ProfileItem label="DOI" value={record.identifiers?.doi} />
+                                      {record.identifiers?.archived_url && (
+                                        <div>
+                                          <dt>Archived copy</dt>
+                                          <dd>
+                                            <a
+                                              href={record.identifiers.archived_url}
+                                              rel="noreferrer"
+                                              target="_blank"
+                                            >
+                                              Snapshot
+                                              <ArrowSquareOut aria-hidden="true" size={12} />
+                                            </a>
+                                          </dd>
+                                        </div>
+                                      )}
+                                      {relatedCasesFor(record).length > 0 && (
+                                        <div>
+                                          <dt>Related cases</dt>
+                                          <dd>
+                                            {relatedCasesFor(record).map((related, index) => (
+                                              <Fragment key={related.id}>
+                                                {index > 0 && ", "}
+                                                <a href={`/?case=${related.id}#cases`}>
+                                                  {related.name}
+                                                </a>
+                                              </Fragment>
+                                            ))}
+                                          </dd>
+                                        </div>
+                                      )}
                                     </dl>
                                   </section>
 

@@ -1,66 +1,52 @@
 import { describe, expect, test } from "vitest";
 import {
   atlasCases,
+  corpusIsStale,
+  corpusLastChecked,
   filterCases,
   filterSources,
   initialFilters,
-  sourceRecordSchema,
+  languageBreakdown,
+  relatedCasesFor,
   sourceRecords,
-  validateAtlasData,
 } from "./atlasData";
+import { humanizeValue } from "./vocabulary";
 
 describe("atlas research data", () => {
-  test("parses the v3 corpus and preserves evidence-status boundaries", () => {
+  test("preserves evidence-status boundaries across the corpus", () => {
     expect(sourceRecords.length).toBeGreaterThanOrEqual(60);
     expect(sourceRecords.every((record) => record.schema_version === 3)).toBe(true);
     expect(atlasCases.filter((record) => record.status === "Corroborated")).toHaveLength(9);
-    expect(
-      atlasCases.filter((record) => record.status === "Corroboration limited"),
-    ).toHaveLength(1);
+    expect(atlasCases.filter((record) => record.status === "Corroboration limited")).toHaveLength(1);
     expect(atlasCases.filter((record) => record.status === "Watchlist")).toHaveLength(1);
-    expect(sourceRecords.filter((record) => record.verification_status === "verified").length)
-      .toBeGreaterThanOrEqual(40);
+    expect(
+      sourceRecords.filter((record) => record.verification_status === "verified").length,
+    ).toBeGreaterThanOrEqual(40);
     expect(
       sourceRecords.filter((record) => record.verification_status === "needs_review"),
     ).toHaveLength(1);
-    expect(sourceRecords.filter((record) => record.legal_profile).length)
-      .toBeGreaterThanOrEqual(15);
-    expect(sourceRecords.filter((record) => record.technical_profile).length)
-      .toBeGreaterThanOrEqual(19);
-    expect(sourceRecords.filter((record) => record.evidence_profile).length)
-      .toBeGreaterThanOrEqual(12);
-    expect(sourceRecords.filter((record) => record.safety_profile).length)
-      .toBeGreaterThanOrEqual(18);
-    expect(
-      sourceRecords.filter((record) =>
-        ["verified", "partially_verified", "needs_review", "unavailable"].includes(
-          record.verification_status,
-        ),
-      ),
-    ).toHaveLength(sourceRecords.length);
   });
 
-  test("has unique provenance identifiers and resolved case evidence", () => {
-    expect(validateAtlasData()).toEqual({
-      duplicateIds: [],
-      duplicateUrls: [],
-      duplicateTitles: [],
-      duplicateDocumentIds: [],
-      missingCaseSourceIds: [],
-      unknownCaseIds: [],
-      limitedIndependenceCaseIds: ["morocco-2025"],
-    });
+  test("discloses limited publisher independence on the case it affects", () => {
+    const morocco = atlasCases.find((record) => record.id === "morocco-2025");
+
+    expect(morocco?.status).toBe("Corroboration limited");
+    expect(morocco?.evidenceNote).toMatch(/share one independence group/);
   });
 
   test("searches across case prose and structured research profiles", () => {
-    const caseMatches = filterCases(atlasCases, initialFilters, "Finance Bill");
-    const sourceMatches = filterSources(sourceRecords, initialFilters, "false positive");
-    const legalMatches = filterSources(sourceRecords, initialFilters, "least intrusive means");
-
-    expect(caseMatches.map((record) => record.geography)).toEqual(["Kenya"]);
-    expect(sourceMatches.some((record) => record.id === "monitor-ooni-explorer")).toBe(true);
     expect(
-      legalMatches.some((record) => record.id === "legal-ohchr-general-comment-37-2020"),
+      filterCases(atlasCases, initialFilters, "Finance Bill").map((record) => record.geography),
+    ).toEqual(["Kenya"]);
+    expect(
+      filterSources(sourceRecords, initialFilters, "false positive").some(
+        (record) => record.id === "monitor-ooni-explorer",
+      ),
+    ).toBe(true);
+    expect(
+      filterSources(sourceRecords, initialFilters, "least intrusive means").some(
+        (record) => record.id === "legal-ohchr-general-comment-37-2020",
+      ),
     ).toBe(true);
   });
 
@@ -75,50 +61,68 @@ describe("atlas research data", () => {
   });
 
   test("connects a selected case to only its cited source records", () => {
-    const selectedCase = atlasCases.find((record) => record.id === "bangladesh-2024");
-    expect(selectedCase).toBeDefined();
-
+    const selected = atlasCases.find((record) => record.id === "bangladesh-2024");
     const matches = filterSources(
       sourceRecords,
       { ...initialFilters, caseId: "bangladesh-2024" },
       "",
     );
 
+    expect(selected).toBeDefined();
     expect(matches.map((record) => record.id).sort()).toEqual(
-      [...(selectedCase?.sourceIds ?? [])].sort(),
+      [...(selected?.sourceIds ?? [])].sort(),
     );
   });
 
-  test("rejects invalid cross-field and unknown-key records", () => {
-    const monitor = sourceRecords.find((record) => record.id === "monitor-ooni-explorer");
-    const legal = sourceRecords.find(
-      (record) => record.id === "legal-ohchr-general-comment-37-2020",
+  test("search ignores case and surrounding whitespace", () => {
+    const lower = filterSources(sourceRecords, initialFilters, "ooni");
+
+    expect(lower.length).toBeGreaterThan(0);
+    expect(filterSources(sourceRecords, initialFilters, "  OONI  ").length).toBe(lower.length);
+  });
+
+  test("resolves case_ids to named atlas cases", () => {
+    const tagged = sourceRecords.find((record) => (record.case_ids ?? []).length > 0);
+    expect(tagged).toBeDefined();
+    if (!tagged) return;
+
+    const related = relatedCasesFor(tagged);
+    expect(related).toHaveLength(tagged.case_ids?.length ?? 0);
+    expect(related.every((entry) => entry.name.length > 0)).toBe(true);
+  });
+
+  test("reports staleness against the batch check date", () => {
+    expect(corpusLastChecked).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+
+    const dayAfter = new Date(`${corpusLastChecked}T00:00:00Z`);
+    dayAfter.setUTCDate(dayAfter.getUTCDate() + 1);
+    expect(corpusIsStale(dayAfter)).toBe(false);
+
+    const longAfter = new Date(`${corpusLastChecked}T00:00:00Z`);
+    longAfter.setUTCDate(longAfter.getUTCDate() + 400);
+    expect(corpusIsStale(longAfter)).toBe(true);
+  });
+
+  test("exposes the language distribution behind the coverage caveat", () => {
+    expect(languageBreakdown.length).toBeGreaterThan(0);
+    expect(languageBreakdown.reduce((total, [, count]) => total + count, 0)).toBe(
+      sourceRecords.length,
     );
-    const dated = sourceRecords.find((record) => record.published_date !== null);
+  });
+});
 
-    expect(monitor).toBeDefined();
-    expect(legal).toBeDefined();
-    expect(dated).toBeDefined();
+describe("display casing", () => {
+  test("preserves organisational acronyms instead of title-casing them", () => {
+    expect(humanizeValue("ohchr")).toBe("OHCHR");
+    expect(humanizeValue("ooni")).toBe("OONI");
+    expect(humanizeValue("c2pa")).toBe("C2PA");
+    expect(humanizeValue("un-human-rights-committee")).toBe("UN Human Rights Committee");
+    expect(humanizeValue("access-now-keepiton")).toBe("Access Now KeepItOn");
+    expect(humanizeValue("journal-of-democracy")).toBe("Journal of Democracy");
+  });
 
-    if (!monitor || !legal || !dated) return;
-
-    const { technical_profile: _technicalProfile, ...monitorWithoutMethod } = monitor;
-    const { legal_profile: _legalProfile, ...legalWithoutAuthority } = legal;
-
-    expect(sourceRecordSchema.safeParse(monitorWithoutMethod).success).toBe(false);
-    expect(sourceRecordSchema.safeParse(legalWithoutAuthority).success).toBe(false);
-    expect(
-      sourceRecordSchema.safeParse({
-        ...dated,
-        published_date: "2026-02-30",
-        year: 2026,
-      }).success,
-    ).toBe(false);
-    expect(
-      sourceRecordSchema.safeParse({
-        ...dated,
-        unexpected_field: "not allowed",
-      }).success,
-    ).toBe(false);
+  test("still title-cases ordinary controlled values", () => {
+    expect(humanizeValue("peaceful_assembly")).toBe("Peaceful Assembly");
+    expect(humanizeValue("needs_review")).toBe("Needs Review");
   });
 });
