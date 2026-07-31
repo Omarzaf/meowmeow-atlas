@@ -1,4 +1,8 @@
-# Gen Z Protest Atlas
+
+<img width="1556" height="899" alt="image" src="https://github.com/user-attachments/assets/c3bf65c1-8a45-4f56-a460-414277fb5bf4" />
+
+
+# MeowMeow Atlas
 
 A source-first research atlas of Gen Z and youth-led protest movements in the
 2020s: cases, international rights standards, connectivity monitoring, digital
