@@ -26,7 +26,7 @@ const limit = limitFlag === -1 ? Infinity : Number(args[limitFlag + 1]);
 const REQUEST_TIMEOUT_MS = 15_000;
 const CONCURRENCY = 6;
 const USER_AGENT =
-  "gen-z-protest-atlas-link-check/1.0 (+research index maintenance; contact via repository)";
+  "meowmeow-atlas-link-check/1.0 (+research index maintenance; contact via repository)";
 
 const sources = JSON.parse(
   readFileSync(path.join(root, "src", "data", "verified_sources.json"), "utf8"),

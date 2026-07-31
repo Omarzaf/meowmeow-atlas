@@ -4,7 +4,6 @@ import {
   ArrowRight,
   ArrowSquareOut,
   Camera,
-  Cat,
   CheckCircle,
   GlobeHemisphereWest,
   House,
@@ -25,6 +24,7 @@ import {
   type VisualArchiveRecord,
 } from "./visualArchiveData";
 import { withBase } from "./routing";
+import { WalkingCat } from "./WalkingCat";
 
 function formatDate(value: string | null): string {
   if (!value) return "Date not asserted";
@@ -227,8 +227,8 @@ export function VisualArchivePage() {
     <div className="atlas-shell visual-archive-shell">
       <header className="site-header">
         <a className="wordmark" href={withBase("/")}>
-          <span>meowmeow</span>
-          <Cat aria-hidden="true" className="wordmark-cat" size={22} weight="fill" />
+          <span>MeowMeow</span>
+          <span className="wordmark-cat"><WalkingCat /></span>
         </a>
         <span className="header-rule" aria-hidden="true" />
         <p>
@@ -242,8 +242,8 @@ export function VisualArchivePage() {
 
       <div className="atlas-layout visual-archive-layout">
         <aside className="taxonomy visual-taxonomy">
-          <p className="taxonomy-heading">Explore meowmeow</p>
-          <nav aria-label="Explore meowmeow">
+          <p className="taxonomy-heading">Explore MeowMeow</p>
+          <nav aria-label="Explore MeowMeow">
             <a className="taxonomy-link" href={withBase("/")}>
               <House aria-hidden="true" size={19} />
               <span>Research atlas</span>

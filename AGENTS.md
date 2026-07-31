@@ -12,10 +12,20 @@ title, deep-red accent, left taxonomy rail, wide search, compact filters, and
 unboxed table-like content — the shipped UI is the reference implementation of
 that target, so match it when the mock is unavailable.
 
-The current product identity is exact lowercase `meowmeow` in the wordmark,
+The current product identity is exact camel-caps `MeowMeow` in the wordmark,
 display heading, and browser title; retain “Gen Z Protest Atlas” as the
-descriptive label. Keep the Georgia/Helvetica editorial typography and use
-text-labeled Phosphor icons to make navigation and filtering easier to scan.
+descriptive label. This supersedes the earlier all-lowercase `meowmeow` rule,
+which the owner overturned on 31 July 2026 — do not revert it. The descriptive
+label stays because a cat name alone tells a researcher nothing about the
+contents, and it carries the search and citation weight in every page title.
+
+The wordmark mark is the walking cat in `src/WalkingCat.tsx`, not a Phosphor
+glyph: an inline SVG silhouette whose diagonal leg pairs are counter-phased on
+a 1.05s cycle. Its motion is guarded by `prefers-reduced-motion`, which settles
+the legs mid-stride rather than snapping them to rest, so the reduced-motion
+state is still a deliberate walking pose. Keep the Georgia/Helvetica editorial
+typography and use text-labeled Phosphor icons elsewhere to make navigation and
+filtering easier to scan.
 
 Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts/prepare-sites-build.mjs`, and `tests/sites-worker.test.mjs` intact so the same local prototype can be handed to Sites. Use pnpm for all project commands. Before a Sites handoff, run `pnpm build` and `pnpm test:sites`; the build must leave `dist/client/index.html`, `dist/client/visual-archive.html`, `dist/client/404.html`, `dist/client/sitemap.xml`, `dist/client/robots.txt`, `dist/server/index.js`, and `dist/.openai/hosting.json`.
 

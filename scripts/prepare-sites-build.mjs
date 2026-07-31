@@ -67,7 +67,7 @@ function headFor(route) {
     `<meta name="description" content="${description}" />`,
     `<link rel="canonical" href="${canonical}" />`,
     `<meta property="og:type" content="website" />`,
-    `<meta property="og:site_name" content="meowmeow — Gen Z Protest Atlas" />`,
+    `<meta property="og:site_name" content="MeowMeow — Gen Z Protest Atlas" />`,
     `<meta property="og:title" content="${title}" />`,
     `<meta property="og:description" content="${description}" />`,
     `<meta property="og:url" content="${canonical}" />`,

@@ -11,7 +11,7 @@ test.beforeEach(async ({ page }) => {
   page.on("pageerror", (error) => errors.push(error.message));
 
   await page.goto("/visual-archive");
-  await expect(page).toHaveTitle("Visual archive — meowmeow");
+  await expect(page).toHaveTitle("Visual archive — MeowMeow");
 });
 
 test.afterEach(async ({ page }) => {
@@ -66,7 +66,7 @@ test("labels international solidarity separately and opens the related atlas cas
     name: /Open related case: Bangladesh quota-reform protests/,
   });
   await relatedCase.click();
-  await expect(page).toHaveTitle("meowmeow — Gen Z Protest Atlas");
+  await expect(page).toHaveTitle("MeowMeow — Gen Z Protest Atlas");
   await expect(page.getByRole("combobox", { name: "Case", exact: true })).toHaveValue(
     "bangladesh-2024",
   );
@@ -76,7 +76,7 @@ test("labels international solidarity separately and opens the related atlas cas
 test("keeps archive navigation and content usable on mobile", async ({ page, isMobile }) => {
   test.skip(!isMobile, "Mobile-only responsive assertion");
 
-  const navigation = page.getByRole("navigation", { name: "Explore meowmeow" });
+  const navigation = page.getByRole("navigation", { name: "Explore MeowMeow" });
   await expect(navigation).toBeVisible();
   await expect(
     navigation.getByRole("link", { name: "Visual archive", exact: true }),
