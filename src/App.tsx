@@ -5,7 +5,6 @@ import {
   Binoculars,
   Books,
   Brain,
-  Cat,
   CaretDown,
   Compass,
   FlagBanner,
@@ -49,6 +48,7 @@ import {
   type VerificationStatus,
 } from "./atlasData";
 import { withBase } from "./routing";
+import { WalkingCat } from "./WalkingCat";
 
 const unverifiedCount = sourceRecords.filter(
   (record) => record.verification_status !== "verified",
@@ -275,8 +275,8 @@ export function App() {
             focusSection("Overview", "overview", "");
           }}
         >
-          <span>meowmeow</span>
-          <Cat aria-hidden="true" className="wordmark-cat" size={22} weight="fill" />
+          <span>MeowMeow</span>
+          <span className="wordmark-cat"><WalkingCat /></span>
         </a>
         <span className="header-rule" aria-hidden="true" />
         <p>
@@ -303,7 +303,7 @@ export function App() {
       <div className="atlas-layout">
         <aside className="taxonomy">
           <p className="taxonomy-heading">Explore the atlas</p>
-          <nav aria-label="Explore meowmeow">
+          <nav aria-label="Explore MeowMeow">
             {navigation.map((item) => {
               const active = activeSection === item.label;
               const Icon = item.icon;
@@ -330,7 +330,7 @@ export function App() {
 
         <main className="atlas-content">
           <section className="hero" aria-labelledby="atlas-title">
-            <h1 id="atlas-title">meowmeow</h1>
+            <h1 id="atlas-title">MeowMeow</h1>
 
             <form className="search-form" onSubmit={handleSearch} role="search">
               <label className="search-input" htmlFor="atlas-search">

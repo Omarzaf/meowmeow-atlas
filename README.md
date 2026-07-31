@@ -2,11 +2,12 @@
 <img width="1556" height="899" alt="image" src="https://github.com/user-attachments/assets/c3bf65c1-8a45-4f56-a460-414277fb5bf4" />
 
 
-# MeowMeow Atlas
+# MeowMeow
 
-A source-first research atlas of Gen Z and youth-led protest movements in the
-2020s: cases, international rights standards, connectivity monitoring, digital
-forensics, OSINT evidence methods, and a rights-cleared photographic archive.
+**Gen Z Protest Atlas** — a source-first research atlas of Gen Z and youth-led
+protest movements in the 2020s: cases, international rights standards,
+connectivity monitoring, digital forensics, OSINT evidence methods, and a
+rights-cleared photographic archive.
 
 The organising claim is that "verified" is not one confidence label. Metadata
 verification, claim status, legal authority, technical observation, attribution,
@@ -108,7 +109,7 @@ Commons images are not relicensed by the surrounding application.
 
 Attribution for the dataset:
 
-> Gen Z Protest Atlas (meowmeow), by Omar Zafar, CC BY 4.0.
+> Gen Z Protest Atlas (MeowMeow), by Omar Zafar, CC BY 4.0.
 
 Reusing a case summary while dropping its verification status, corroboration
 note, or stated limitations misrepresents the research, even where the license

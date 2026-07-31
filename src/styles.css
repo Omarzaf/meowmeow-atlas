@@ -22,7 +22,38 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 .site-header { min-height: 62px; display: flex; align-items: center; gap: 18px; border-bottom: 1px solid #c5bfb4; font-size: 14px; letter-spacing: .005em; }
 .wordmark { display: inline-flex; align-items: center; gap: 5px; color: inherit; font-family: Georgia, "Times New Roman", serif; font-size: 21px; font-weight: 700; letter-spacing: -.035em; text-decoration: none; white-space: nowrap; }
-.wordmark-cat { flex: 0 0 auto; color: #27221f; filter: drop-shadow(1px 1px 0 rgba(135, 16, 13, .22)); transform: translateY(1px); }
+.wordmark-cat { flex: 0 0 auto; width: 34px; height: 21px; color: #27221f; filter: drop-shadow(1px 1px 0 rgba(135, 16, 13, .22)); transform: translateY(1px); }
+
+/* Walking cat wordmark. Fills and strokes inherit so the mark recolours with
+   whatever text colour it sits beside. */
+.walking-cat { display: block; width: 100%; height: 100%; overflow: visible; fill: currentColor; }
+.walking-cat__tail { stroke: currentColor; transform-origin: 48px 22px; animation: cat-tail 1.05s ease-in-out infinite; }
+.walking-cat__leg { transform-box: fill-box; transform-origin: 50% 8%; }
+
+/* Diagonal pairs move together, which is what a real walk looks like; the
+   0.525s offset is exactly half the cycle, so the two pairs stay opposed. */
+.walking-cat__leg--fore-near, .walking-cat__leg--hind-far { animation: cat-step 1.05s ease-in-out infinite; }
+.walking-cat__leg--fore-far, .walking-cat__leg--hind-near { animation: cat-step 1.05s ease-in-out -.525s infinite; }
+
+@keyframes cat-step {
+  0%, 100% { transform: rotate(15deg); }
+  50%      { transform: rotate(-15deg); }
+}
+
+@keyframes cat-tail {
+  0%, 100% { transform: rotate(-7deg); }
+  50%      { transform: rotate(9deg); }
+}
+
+/* Settle mid-stride rather than snapping to a rest pose, so the static mark is
+   still deliberately a cat in motion. */
+@media (prefers-reduced-motion: reduce) {
+  .walking-cat__tail,
+  .walking-cat__leg { animation: none; }
+  .walking-cat__leg--fore-near, .walking-cat__leg--hind-far { transform: rotate(11deg); }
+  .walking-cat__leg--fore-far, .walking-cat__leg--hind-near { transform: rotate(-11deg); }
+  .walking-cat__tail { transform: rotate(4deg); }
+}
 .header-rule { width: 1px; height: 24px; background: #999188; }
 .site-header p { margin: 0; flex: 1; }
 .header-product-label { margin-right: .45em; color: #87100d; font-weight: 700; }

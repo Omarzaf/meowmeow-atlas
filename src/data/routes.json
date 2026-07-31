@@ -1,7 +1,7 @@
 [
   {
     "path": "/",
-    "title": "meowmeow — Gen Z Protest Atlas",
+    "title": "MeowMeow — Gen Z Protest Atlas",
     "description": "A source-backed global research index of Gen Z-led protest movements, international rights standards, digital repression, connectivity monitoring, and OSINT evidence methods.",
     "inSitemap": true,
     "changefreq": "weekly",
@@ -9,7 +9,7 @@
   },
   {
     "path": "/visual-archive",
-    "title": "Visual archive — meowmeow",
+    "title": "Visual archive — MeowMeow",
     "description": "Rights-cleared protest photographs served locally, each with creator credit, license terms, two independent context sources, an image-integrity note, and a participant-safety boundary.",
     "inSitemap": true,
     "changefreq": "monthly",
@@ -17,7 +17,7 @@
   },
   {
     "path": "/404",
-    "title": "Page not found — meowmeow",
+    "title": "Page not found — MeowMeow",
     "description": "This address does not match a page in the Gen Z Protest Atlas.",
     "inSitemap": false,
     "changefreq": "yearly",

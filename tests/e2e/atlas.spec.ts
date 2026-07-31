@@ -12,10 +12,10 @@ test.beforeEach(async ({ page }) => {
   page.on("pageerror", (error) => errors.push(error.message));
 
   await page.goto("/");
-  await expect(page).toHaveTitle("meowmeow — Gen Z Protest Atlas");
-  await expect(page.getByRole("heading", { level: 1, name: "meowmeow" })).toBeVisible();
+  await expect(page).toHaveTitle("MeowMeow — Gen Z Protest Atlas");
+  await expect(page.getByRole("heading", { level: 1, name: "MeowMeow" })).toBeVisible();
   await expect(page.getByText("Gen Z Protest Atlas", { exact: true })).toBeVisible();
-  await expect(page.getByRole("link", { name: "meowmeow" }).locator("svg")).toHaveCount(1);
+  await expect(page.getByRole("link", { name: "MeowMeow" }).locator("svg")).toHaveCount(1);
 });
 
 test.afterEach(async ({ page }) => {
@@ -55,7 +55,7 @@ test("searches the corpus and exposes the supporting case evidence", async ({ pa
 });
 
 test("provides labelled icon navigation and live result feedback", async ({ page }) => {
-  const navigation = page.getByRole("navigation", { name: "Explore meowmeow" });
+  const navigation = page.getByRole("navigation", { name: "Explore MeowMeow" });
   await expect(navigation).toBeVisible();
   expect(await navigation.locator("svg").count()).toBe(10);
   await expect(

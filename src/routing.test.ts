@@ -40,23 +40,23 @@ describe("routing at an origin root", () => {
 });
 
 describe("routing under a project-site subdirectory", () => {
-  const base = "/gen-z-protest-atlas/";
+  const base = "/meowmeow-atlas/";
 
   test("resolves the site root to the app root", () => {
-    expect(stripWithBase("/gen-z-protest-atlas", base)).toBe("/");
-    expect(stripWithBase("/gen-z-protest-atlas/", base)).toBe("/");
+    expect(stripWithBase("/meowmeow-atlas", base)).toBe("/");
+    expect(stripWithBase("/meowmeow-atlas/", base)).toBe("/");
   });
 
   test("resolves a nested route, extensionless or as its .html shell", () => {
-    expect(stripWithBase("/gen-z-protest-atlas/visual-archive", base)).toBe("/visual-archive");
-    expect(stripWithBase("/gen-z-protest-atlas/visual-archive.html", base)).toBe(
+    expect(stripWithBase("/meowmeow-atlas/visual-archive", base)).toBe("/visual-archive");
+    expect(stripWithBase("/meowmeow-atlas/visual-archive.html", base)).toBe(
       "/visual-archive",
     );
   });
 
   test("does not mistake a lookalike prefix for the base", () => {
-    expect(stripWithBase("/gen-z-protest-atlas-other/page", base)).toBe(
-      "/gen-z-protest-atlas-other/page",
+    expect(stripWithBase("/meowmeow-atlas-other/page", base)).toBe(
+      "/meowmeow-atlas-other/page",
     );
   });
 });
