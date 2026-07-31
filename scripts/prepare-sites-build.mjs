@@ -24,7 +24,23 @@ const worker = path.join(root, "worker", "index.js");
 const hosting = path.join(root, ".openai", "hosting.json");
 
 const PLACEHOLDER_ORIGIN = "https://example.invalid";
-const siteUrl = (process.env.SITE_URL ?? PLACEHOLDER_ORIGIN).replace(/\/+$/, "");
+
+/**
+ * Vercel does not know the site's own address at build time unless it is told,
+ * so an unset SITE_URL would ship `example.invalid` canonicals to production.
+ * `VERCEL_PROJECT_PRODUCTION_URL` is the project's stable production domain on
+ * every deployment, including previews — which is what canonicals should point
+ * at, since a preview must not advertise itself as the canonical copy.
+ */
+function resolveSiteUrl() {
+  if (process.env.SITE_URL) return process.env.SITE_URL;
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+  return PLACEHOLDER_ORIGIN;
+}
+
+const siteUrl = resolveSiteUrl().replace(/\/+$/, "");
 
 for (const file of [index, worker, hosting]) {
   if (!existsSync(file)) throw new Error("Missing Sites build input: " + file);
