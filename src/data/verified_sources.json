@@ -14,7 +14,7 @@
     "resource_type": "article",
     "access": "partial",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [
       "Bangladesh",
@@ -130,7 +130,7 @@
     "resource_type": "book",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -174,7 +174,7 @@
     "resource_type": "book",
     "access": "partial",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -218,7 +218,7 @@
     "resource_type": "article",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -260,7 +260,7 @@
     "resource_type": "guide",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -301,7 +301,7 @@
     "resource_type": "report",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [
       "Kenya",
@@ -354,7 +354,7 @@
     "resource_type": "report",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -397,7 +397,7 @@
     "resource_type": "guide",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -450,7 +450,7 @@
     "resource_type": "guide",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -527,7 +527,7 @@
     "resource_type": "legal_standard",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -641,7 +641,7 @@
     "resource_type": "legal_standard",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -721,7 +721,7 @@
     "resource_type": "tool",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -802,7 +802,7 @@
     "resource_type": "tool",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -886,7 +886,7 @@
     "resource_type": "tool",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [],
     "themes": [
@@ -970,7 +970,7 @@
     "resource_type": "monitor",
     "access": "open",
     "geographies": [
-      "global"
+      "Global"
     ],
     "cases": [
       "Bangladesh",

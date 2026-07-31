@@ -9,6 +9,7 @@ import {
   languageBreakdown,
   relatedCasesFor,
   sourceRecords,
+  UNDATED_YEAR,
 } from "./atlasData";
 import { humanizeValue } from "./vocabulary";
 
@@ -124,5 +125,49 @@ describe("display casing", () => {
   test("still title-cases ordinary controlled values", () => {
     expect(humanizeValue("peaceful_assembly")).toBe("Peaceful Assembly");
     expect(humanizeValue("needs_review")).toBe("Needs Review");
+  });
+});
+
+describe("geography, publisher-class and undated filtering", () => {
+  test("narrows sources by geography without rolling up broader terms", () => {
+    const kenya = filterSources(sourceRecords, { ...initialFilters, geography: "Kenya" }, "");
+
+    expect(kenya.length).toBeGreaterThan(0);
+    expect(kenya.every((record) => record.geographies.includes("Kenya"))).toBe(true);
+    // Flat vocabulary: a country must not sweep in "Global" material.
+    expect(kenya.some((record) => record.geographies.includes("Global"))).toBe(false);
+  });
+
+  test("narrows sources by publisher class", () => {
+    const courts = filterSources(sourceRecords, { ...initialFilters, sourceClass: "court" }, "");
+
+    expect(courts.length).toBeGreaterThan(0);
+    expect(courts.every((record) => record.authority.source_class === "court")).toBe(true);
+  });
+
+  test("keeps undated records reachable instead of dropping them", () => {
+    const undatedRecords = sourceRecords.filter((record) => record.year === null);
+    expect(undatedRecords.length).toBeGreaterThan(0);
+
+    const undated = filterSources(
+      sourceRecords,
+      { ...initialFilters, year: UNDATED_YEAR },
+      "",
+    );
+    expect(undated.map((record) => record.id).sort()).toEqual(
+      undatedRecords.map((record) => record.id).sort(),
+    );
+
+    // A real year still excludes them rather than absorbing them.
+    const dated = filterSources(sourceRecords, { ...initialFilters, year: "2025" }, "");
+    expect(dated.length).toBeGreaterThan(0);
+    expect(dated.every((record) => record.year === 2025)).toBe(true);
+  });
+
+  test("uses one canonical casing for every geography facet term", () => {
+    const geographies = new Set(sourceRecords.flatMap((record) => record.geographies));
+
+    expect(geographies.has("Global")).toBe(true);
+    expect(geographies.has("global")).toBe(false);
   });
 });

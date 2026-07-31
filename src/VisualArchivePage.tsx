@@ -24,6 +24,7 @@ import {
   visualArchiveRecords,
   type VisualArchiveRecord,
 } from "./visualArchiveData";
+import { withBase } from "./routing";
 
 function formatDate(value: string | null): string {
   if (!value) return "Date not asserted";
@@ -45,11 +46,12 @@ function formatDate(value: string | null): string {
 function derivativeSrcSet(record: VisualArchiveRecord, extension: "webp" | "jpg"): string {
   const widths = (imageWidths as number[]).filter((width) => width < record.image.width);
   const candidates = widths.map(
-    (width) => `/visual-archive/derived/${record.id}-${width}.${extension} ${width}w`,
+    (width) =>
+      `${withBase(`/visual-archive/derived/${record.id}-${width}.${extension}`)} ${width}w`,
   );
 
   if (extension === "jpg") {
-    candidates.push(`${record.image.src} ${record.image.width}w`);
+    candidates.push(`${withBase(record.image.src)} ${record.image.width}w`);
   }
 
   return candidates.join(", ");
@@ -90,7 +92,7 @@ function ArchiveImage({
         loading={featured ? "eager" : "lazy"}
         onError={() => setFailed(true)}
         sizes={sizes}
-        src={record.image.src}
+        src={withBase(record.image.src)}
         srcSet={derivativeSrcSet(record, "jpg")}
         width={record.image.width}
       />
@@ -209,7 +211,7 @@ function ArchiveCard({ record }: { record: VisualArchiveRecord }) {
           </div>
         </div>
 
-        <a className="archive-case-link" href={`/?case=${record.related_case_id}#cases`}>
+        <a className="archive-case-link" href={`${withBase("/")}?case=${record.related_case_id}#cases`}>
           Open related case: {record.related_case_label}
           <ArrowRight aria-hidden="true" size={15} weight="bold" />
         </a>
@@ -224,7 +226,7 @@ export function VisualArchivePage() {
   return (
     <div className="atlas-shell visual-archive-shell">
       <header className="site-header">
-        <a className="wordmark" href="/">
+        <a className="wordmark" href={withBase("/")}>
           <span>meowmeow</span>
           <Cat aria-hidden="true" className="wordmark-cat" size={22} weight="fill" />
         </a>
@@ -242,14 +244,14 @@ export function VisualArchivePage() {
         <aside className="taxonomy visual-taxonomy">
           <p className="taxonomy-heading">Explore meowmeow</p>
           <nav aria-label="Explore meowmeow">
-            <a className="taxonomy-link" href="/">
+            <a className="taxonomy-link" href={withBase("/")}>
               <House aria-hidden="true" size={19} />
               <span>Research atlas</span>
             </a>
             <a
               aria-current="page"
               className="taxonomy-link taxonomy-link--active"
-              href="/visual-archive"
+              href={withBase("/visual-archive")}
             >
               <ImageSquare aria-hidden="true" size={19} weight="fill" />
               <span>Visual archive</span>
@@ -326,7 +328,7 @@ export function VisualArchivePage() {
 
               <a
                 className="archive-case-link"
-                href={`/?case=${featuredVisualRecord.related_case_id}#cases`}
+                href={`${withBase("/")}?case=${featuredVisualRecord.related_case_id}#cases`}
               >
                 Open related case: {featuredVisualRecord.related_case_label}
                 <ArrowRight aria-hidden="true" size={15} weight="bold" />
@@ -405,7 +407,7 @@ export function VisualArchivePage() {
               </article>
             </div>
 
-            <a className="archive-back-link" href="/">
+            <a className="archive-back-link" href={withBase("/")}>
               <ArrowLeft aria-hidden="true" size={15} weight="bold" />
               Return to the research atlas
             </a>

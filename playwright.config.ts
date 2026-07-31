@@ -1,5 +1,14 @@
 import { defineConfig, devices } from "@playwright/test";
 
+/**
+ * `reuseExistingServer` attaches to whatever already holds this port, including
+ * a dev server from another checkout of this project — which silently tests the
+ * wrong tree. Override when running checkouts in parallel:
+ * `ATLAS_E2E_PORT=4187 pnpm test:e2e`.
+ */
+const port = Number(process.env.ATLAS_E2E_PORT ?? 4178);
+const origin = `http://127.0.0.1:${port}`;
+
 export default defineConfig({
   testDir: "./tests/e2e",
   fullyParallel: true,
@@ -7,14 +16,14 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
-    baseURL: "http://127.0.0.1:4178",
+    baseURL: origin,
     screenshot: "only-on-failure",
     trace: "on-first-retry",
   },
   webServer: {
-    command: "pnpm dev --host 127.0.0.1 --port 4178 --strictPort",
+    command: `pnpm dev --host 127.0.0.1 --port ${port} --strictPort`,
     reuseExistingServer: !process.env.CI,
-    url: "http://127.0.0.1:4178",
+    url: origin,
   },
   projects: [
     {
