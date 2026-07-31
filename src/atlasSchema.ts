@@ -314,6 +314,24 @@ function duplicateValues(values: string[]): string[] {
   return [...new Set(values.filter((value, index) => values.indexOf(value) !== index))];
 }
 
+/**
+ * Free-text facet terms that differ only by case. These are filter facets, so
+ * "Global" and "global" would split one facet into two and silently halve each
+ * result set — a hard failure, not a disclosure.
+ */
+function caseVariantTerms(values: string[]): string[] {
+  const byFold = new Map<string, Set<string>>();
+
+  for (const value of values) {
+    const fold = value.toLocaleLowerCase();
+    byFold.set(fold, (byFold.get(fold) ?? new Set<string>()).add(value));
+  }
+
+  return [...byFold.values()]
+    .filter((variants) => variants.size > 1)
+    .flatMap((variants) => [...variants].sort());
+}
+
 export type AtlasDataReport = {
   duplicateIds: string[];
   duplicateUrls: string[];
@@ -322,6 +340,9 @@ export type AtlasDataReport = {
   missingCaseSourceIds: string[];
   unknownCaseIds: string[];
   limitedIndependenceCaseIds: string[];
+  caseVariantGeographies: string[];
+  caseVariantCases: string[];
+  caseVariantThemes: string[];
 };
 
 /**
@@ -368,5 +389,10 @@ export function validateAtlasData(
     limitedIndependenceCaseIds: caseSummaries
       .filter((record) => independenceGroupsFor(record.source_ids).size < 2)
       .map((record) => record.case_id),
+    caseVariantGeographies: caseVariantTerms(
+      sourceRecords.flatMap((record) => record.geographies),
+    ),
+    caseVariantCases: caseVariantTerms(sourceRecords.flatMap((record) => record.cases)),
+    caseVariantThemes: caseVariantTerms(sourceRecords.flatMap((record) => record.themes)),
   };
 }

@@ -1,4 +1,5 @@
 import { ArrowLeft, Compass, ImageSquare, MagnifyingGlass } from "@phosphor-icons/react";
+import { withBase } from "./routing";
 
 /**
  * Served with a real 404 status by the worker. Citation URLs rot, so a mistyped
@@ -16,14 +17,14 @@ export function NotFoundPage() {
         </p>
 
         <nav aria-label="Atlas sections" className="notfound-links">
-          <a href="/">
+          <a href={withBase("/")}>
             <Compass aria-hidden="true" size={19} />
             <span>
               <strong>Research atlas</strong>
               Cases, sources, and verification notes
             </span>
           </a>
-          <a href="/visual-archive">
+          <a href={withBase("/visual-archive")}>
             <ImageSquare aria-hidden="true" size={19} />
             <span>
               <strong>Visual archive</strong>
@@ -38,7 +39,7 @@ export function NotFoundPage() {
           method, and case in the corpus.
         </p>
 
-        <a className="notfound-back" href="/">
+        <a className="notfound-back" href={withBase("/")}>
           <ArrowLeft aria-hidden="true" size={15} weight="bold" />
           Return to the atlas
         </a>

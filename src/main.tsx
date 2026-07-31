@@ -1,9 +1,10 @@
 import { StrictMode, type ReactNode } from "react";
 import { createRoot } from "react-dom/client";
 import routes from "./data/routes.json";
+import { stripBase, withBase } from "./routing";
 import "./styles.css";
 
-const normalizedPath = window.location.pathname.replace(/\/+$/, "") || "/";
+const normalizedPath = stripBase(window.location.pathname);
 const route = routes.find((entry) => entry.path === normalizedPath);
 
 /**
@@ -22,7 +23,10 @@ function applyRouteMetadata(): void {
 
   const canonical = document.querySelector('link[rel="canonical"]');
   if (canonical) {
-    canonical.setAttribute("href", new URL(active.path, window.location.origin).toString());
+    canonical.setAttribute(
+      "href",
+      new URL(withBase(active.path), window.location.origin).toString(),
+    );
   }
 }
 

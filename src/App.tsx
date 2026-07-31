@@ -29,6 +29,7 @@ import {
   corpusLastChecked,
   filterCases,
   filterSources,
+  geographyOptions,
   getSourceById,
   getSourceTopic,
   humanizeValue,
@@ -36,14 +37,22 @@ import {
   languageBreakdown,
   relatedCasesFor,
   resourceTypes,
+  sourceClassOptions,
   sourceRecords,
   STALE_AFTER_DAYS,
   topicOptions,
+  UNDATED_YEAR,
+  undatedSourceCount,
   verificationStatuses,
   type AtlasFilters,
   type SourceRecord,
   type VerificationStatus,
 } from "./atlasData";
+import { withBase } from "./routing";
+
+const unverifiedCount = sourceRecords.filter(
+  (record) => record.verification_status !== "verified",
+).length;
 
 /** Rows shown before the reader asks for the full list. */
 const PREVIEW_ROWS = 6;
@@ -86,10 +95,14 @@ const navigation = [
 ] as const;
 
 const yearOptions = [
-  ...new Set(sourceRecords.flatMap((record) => (record.year ? [record.year] : []))),
-]
-  .sort((a, b) => b - a)
-  .map((year) => ({ label: year.toString(), value: year.toString() }));
+  ...[...new Set(sourceRecords.flatMap((record) => (record.year ? [record.year] : [])))]
+    .sort((a, b) => b - a)
+    .map((year) => ({ label: year.toString(), value: year.toString() })),
+  // Without this, selecting any year silently hides every undated record.
+  ...(undatedSourceCount > 0
+    ? [{ label: `Undated (${undatedSourceCount})`, value: UNDATED_YEAR }]
+    : []),
+];
 
 const requestedCaseId = new URLSearchParams(window.location.search).get("case");
 const linkedCaseId =
@@ -277,6 +290,16 @@ export function App() {
         </time>
       </header>
 
+      <div className="review-banner" role="note">
+        <ShieldWarning aria-hidden="true" size={17} weight="fill" />
+        <p>
+          <strong>Unreviewed research preview.</strong> This corpus has not been assessed by
+          legal, regional, language, measurement or digital-forensics reviewers.{" "}
+          {unverifiedCount} of {sourceRecords.length} records are not fully verified.
+          Do not rely on it for legal, safety or operational decisions.
+        </p>
+      </div>
+
       <div className="atlas-layout">
         <aside className="taxonomy">
           <p className="taxonomy-heading">Explore the atlas</p>
@@ -298,7 +321,7 @@ export function App() {
                 </button>
               );
             })}
-            <a className="taxonomy-link taxonomy-link--route" href="/visual-archive">
+            <a className="taxonomy-link taxonomy-link--route" href={withBase("/visual-archive")}>
               <ImageSquare aria-hidden="true" size={19} />
               <span>Visual archive</span>
             </a>
@@ -362,6 +385,20 @@ export function App() {
                 onChange={(value) => updateFilter("resourceType", value)}
               />
               <FilterSelect
+                label="Geography"
+                allLabel="All geographies"
+                value={filters.geography}
+                options={geographyOptions}
+                onChange={(value) => updateFilter("geography", value)}
+              />
+              <FilterSelect
+                label="Publisher class"
+                allLabel="All classes"
+                value={filters.sourceClass}
+                options={sourceClassOptions}
+                onChange={(value) => updateFilter("sourceClass", value)}
+              />
+              <FilterSelect
                 label="Year"
                 allLabel="All years"
                 value={filters.year}
@@ -388,6 +425,18 @@ export function App() {
                 Clear filters
               </button>
             </div>
+            <p className="filter-limits">
+              <WarningCircle aria-hidden="true" size={15} weight="fill" />
+              <span>
+                Filter limits: geography is recorded at the scale each source claims, so
+                cities, countries, regions and legal-system areas sit in one list and do not
+                roll up &mdash; selecting <em>Africa</em> will not return the African country
+                records, and a country will not return <em>Global</em> material that also
+                covers it. Year filters the publication year, not the events described;{" "}
+                {undatedSourceCount} standing tools and guides carry no publication year and
+                appear only under <em>Undated</em>.
+              </span>
+            </p>
           </section>
 
           <section className="overview" id="overview" tabIndex={-1}>
@@ -631,7 +680,7 @@ export function App() {
                                             {relatedCasesFor(record).map((related, index) => (
                                               <Fragment key={related.id}>
                                                 {index > 0 && ", "}
-                                                <a href={`/?case=${related.id}#cases`}>
+                                                <a href={`${withBase("/")}?case=${related.id}#cases`}>
                                                   {related.name}
                                                 </a>
                                               </Fragment>

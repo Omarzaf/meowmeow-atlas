@@ -48,6 +48,8 @@ export type AtlasFilters = {
   caseId: string;
   topic: string;
   resourceType: string;
+  geography: string;
+  sourceClass: string;
   year: string;
   verification: string;
 };
@@ -56,9 +58,42 @@ export const initialFilters: AtlasFilters = {
   caseId: "",
   topic: "",
   resourceType: "",
+  geography: "",
+  sourceClass: "",
   year: "",
   verification: "",
 };
+
+/**
+ * Sentinel for the year filter. 17 records carry `year: null` — standing tools
+ * and guides with no fixed publication year — so a bare year selection would
+ * otherwise make them unreachable rather than merely unranked.
+ */
+export const UNDATED_YEAR = "undated";
+
+/**
+ * Geography terms are recorded at the scale each source itself claims, so this
+ * vocabulary deliberately mixes cities, countries, regions and legal-system
+ * areas ("New Delhi", "Kenya", "Africa", "Council of Europe", "Global"). It is
+ * not a geocoded hierarchy: selecting "Africa" does not roll up the African
+ * country records, and selecting "Kenya" does not pull in "Global" material
+ * that also covers Kenya.
+ */
+export const geographyOptions: Array<{ label: string; value: string }> = [
+  ...new Set(sourceRecords.flatMap((record) => record.geographies)),
+]
+  .sort((a, b) => a.localeCompare(b))
+  .map((value) => ({ label: value, value }));
+
+export const sourceClassOptions: Array<{ label: string; value: string }> = [
+  ...new Set(sourceRecords.map((record) => record.authority.source_class)),
+]
+  .sort((a, b) => a.localeCompare(b))
+  .map((value) => ({ label: humanizeValue(value), value }));
+
+export const undatedSourceCount = sourceRecords.filter(
+  (record) => record.year === null,
+).length;
 
 const sourceById = new Map(sourceRecords.map((source) => [source.id, source]));
 const summarizedSourceIds = new Set(caseSummaries.flatMap((record) => record.source_ids));
@@ -271,9 +306,22 @@ export function filterCases(
   return records.filter((record) => {
     if (needle && !(caseSearchText.get(record.id) ?? "").includes(needle)) return false;
     if (filters.caseId && record.id !== filters.caseId) return false;
-    if (filters.year && !record.period.includes(filters.year)) return false;
+    // A case period is never "undated", so that selection is answered by its
+    // cited sources rather than by the period string.
+    if (filters.year && filters.year !== UNDATED_YEAR && !record.period.includes(filters.year)) {
+      return false;
+    }
 
-    if (!filters.topic && !filters.resourceType && !filters.verification) return true;
+    if (
+      !filters.topic &&
+      !filters.resourceType &&
+      !filters.geography &&
+      !filters.sourceClass &&
+      !filters.verification &&
+      filters.year !== UNDATED_YEAR
+    ) {
+      return true;
+    }
 
     const sources = linkedSources(record);
     return (
@@ -281,6 +329,12 @@ export function filterCases(
         sources.some((source) => source.taxonomy.topics.includes(filters.topic as TopicCode))) &&
       (!filters.resourceType ||
         sources.some((source) => source.resource_type === filters.resourceType)) &&
+      (!filters.geography ||
+        record.geography === filters.geography ||
+        sources.some((source) => source.geographies.includes(filters.geography))) &&
+      (!filters.sourceClass ||
+        sources.some((source) => source.authority.source_class === filters.sourceClass)) &&
+      (filters.year !== UNDATED_YEAR || sources.some((source) => source.year === null)) &&
       (!filters.verification ||
         sources.some((source) => source.verification_status === filters.verification))
     );
@@ -303,7 +357,15 @@ export function filterSources(
     if (citedIds && !citedIds.has(record.id)) return false;
     if (filters.topic && !record.taxonomy.topics.includes(filters.topic as TopicCode)) return false;
     if (filters.resourceType && record.resource_type !== filters.resourceType) return false;
-    if (filters.year && record.year?.toString() !== filters.year) return false;
+    if (filters.geography && !record.geographies.includes(filters.geography)) return false;
+    if (filters.sourceClass && record.authority.source_class !== filters.sourceClass) return false;
+    if (filters.year) {
+      const matchesYear =
+        filters.year === UNDATED_YEAR
+          ? record.year === null
+          : record.year?.toString() === filters.year;
+      if (!matchesYear) return false;
+    }
     if (filters.verification && record.verification_status !== filters.verification) return false;
     return true;
   });

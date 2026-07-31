@@ -3,6 +3,9 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
+  // Root ("/") for origin-root deploys (Sites, Worker, custom domain).
+  // GitHub Pages project sites serve from a subdirectory: BASE_PATH=/repo-name/
+  base: process.env.BASE_PATH ?? "/",
   build: {
     outDir: "dist/client",
   },

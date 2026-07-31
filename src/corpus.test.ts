@@ -43,6 +43,10 @@ describe("corpus contract", () => {
     expect(report.duplicateDocumentIds).toEqual([]);
     expect(report.missingCaseSourceIds).toEqual([]);
     expect(report.unknownCaseIds).toEqual([]);
+    // Case-variant facet terms split one filter option into two.
+    expect(report.caseVariantGeographies).toEqual([]);
+    expect(report.caseVariantCases).toEqual([]);
+    expect(report.caseVariantThemes).toEqual([]);
     // Not a failure: disclosed in the UI as "Corroboration limited".
     expect(report.limitedIndependenceCaseIds).toEqual(["morocco-2025"]);
   });
