@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite MeowMeow: Gen Z Protest Atlas using the metadata below."
+title: "MeowMeow: Gen Z Protest Atlas"
+type: software
+authors:
+  - family-names: "Zafar"
+    given-names: "Omar"
+repository-code: "https://github.com/Omarzaf/meowmeow-atlas"
+url: "https://github.com/Omarzaf/meowmeow-atlas"
+abstract: "A source-first research atlas of Gen Z and youth-led protest movements in the 2020s, with case records, rights standards, connectivity monitoring, OSINT evidence methods, and a rights-cleared visual archive."
+keywords:
+  - "gen z"
+  - "protest movements"
+  - "open source intelligence"
+  - "digital rights"
+  - "research atlas"
