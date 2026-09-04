@@ -16,12 +16,13 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Enable corepack
-        run: corepack enable
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11.10.0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           # Matches "engines.node" in package.json.
           node-version: 22
