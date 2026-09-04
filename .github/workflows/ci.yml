@@ -22,7 +22,7 @@ jobs:
         with:
           version: 11.10.0
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           # Matches "engines.node" in package.json.
           node-version: 22
